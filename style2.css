@@ -1,0 +1,34 @@
+nav{
+  position:fixed;
+  left:0px;
+  top:100px;
+  bottom:3px;
+}
+#home{
+  border-collapse: collapse;
+  width:40px;
+  margin-right:auto;
+  height:500px;
+}
+th{
+  border:1px solid red;
+  text-align:center;
+  color:darkgoldenrod;
+}
+img{
+  height:30px;
+  text-align:center;
+}
+.header{
+  position:fixed;
+  top:90px
+}
+td{
+  text-align: center;
+  padding: 30px;
+}
+tbody{
+  position:fixed;
+  top:10px;
+  color:blue;
+}
