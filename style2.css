@@ -1,17 +1,20 @@
 nav{
   position:fixed;
   left:0px;
-  top:100px;
-  bottom:3px;
+  top:0px;
+  bottom:0px;
+  background-color: aqua;
 }
+
 #home{
   border-collapse: collapse;
   width:40px;
   margin-right:auto;
   height:500px;
+  background-color: aquamarine;
 }
 th{
-  border:1px solid red;
+  border:1px solid black;
   text-align:center;
   color:darkgoldenrod;
 }
@@ -20,15 +23,90 @@ img{
   text-align:center;
 }
 .header{
-  position:fixed;
-  top:90px
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
 }
 td{
   text-align: center;
-  padding: 30px;
+  padding: 20px;
 }
-tbody{
-  position:fixed;
-  top:10px;
-  color:blue;
+header{
+  position: fixed;
+  background-color: red;
+  left: 174px;
+  top: 0px;
+  right: 0px;
+  text-align: right;
+}
+ .horizontal_nav{
+  margin: 15px;
+ }
+
+.horizontal_nav a{
+  position: relative;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+ .horizontal_nav a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+    transform-origin: right;
+ }
+
+ .horizontal_nav a:hover::after{
+  transform: scale(1);
+ }
+
+ .horizontal_nav .button-login{
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: .5s;
+}
+
+.horizontal_nav .button-login:hover{
+  background: #fff;
+  color: #162938;
+}
+
+figure{
+  background-color: #162938;
+  background-color: #3498db; /* Màu nền ban đầu */
+  color: white; /* Màu chữ */
+  border: none; /* Bỏ viền */
+  padding: 10px; /* Kích thước nút */
+  font-size: 16px; /* Cỡ chữ */
+  border-radius: 5px; /* Bo tròn góc nút */
+  cursor: pointer; /* Con trỏ chuột dạng tay chỉ */
+  transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mượt */
+}
+
+figure:hover {
+  background-color: #2980b9; /* Màu nền khi hover */
+  box-shadow: 0 0 15px rgba(52, 152, 219, 0.8); /* Hiệu ứng sáng */
+  transform: scale(1.05); /* Tăng kích thước một chút */
 }
