@@ -1,7 +1,6 @@
 body{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
   min-height: 100vh;
   background: url(img/background2.gif) no-repeat;
   background-size: cover;
@@ -115,4 +114,33 @@ figure:hover {
   background-color: rgba(41, 128, 185, 0.5); /* Màu nền khi hover với độ trong suốt */
   box-shadow: 0 0 15px rgba(52, 152, 219, 0.8); /* Hiệu ứng sáng */
   transform: scale(1.05); /* Tăng kích thước một chút */
+}
+
+.mainbody {
+  margin-top: 100px; /* Add space for the horizontal nav height + margin */
+  margin-right: 20px; /* Add space for the vertical nav width */
+  width: 27.5%;
+  padding: 20px; /* Optional padding inside the main body */
+  min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+
+.frame {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background: linear-gradient(135deg, #fff, #5c7ecf);
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  color: #000; /* Text color remains unchanged */
+}
+
+.frame:hover {
+  background: linear-gradient(135deg, #ffffff, #4841ca); /* Hover background */
+}
+
+.frame h2, .frame p {
+  margin: 0;
 }
