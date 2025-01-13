@@ -4,15 +4,18 @@
     box-sizing: 'Poppins', sans-serif;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(img/background1.jpeg) no-repeat;
-    background-size: cover;
+    background-image: url('img/background1.jpeg'); /* Ensure the path is correct */
     background-position: center;
+    background-repeat: repeat-y; /* Repeat vertically */
+    background-size: auto; /* Prevents stretching of the image */
 }
+
+
 
 header{
     position: fixed;

@@ -2,8 +2,7 @@ body{
   display: flex;
   justify-content: right;
   min-height: 100vh;
-  background: url(img/background2.gif) no-repeat;
-  background-size: cover;
+  background: url(img/background2.gif);
   background-position: center;
 }
 
@@ -127,7 +126,7 @@ figure:hover {
 
 
 .frame {
-  width: 300px;
+  width: 90%;
   padding: 20px;
   margin: 20px;
   background: linear-gradient(135deg, #fff, #5c7ecf);
@@ -138,9 +137,102 @@ figure:hover {
 }
 
 .frame:hover {
-  background: linear-gradient(135deg, #ffffff, #4841ca); /* Hover background */
+  background: linear-gradient(135deg, #ffffff, #201b92); /* Hover background */
 }
 
 .frame h2, .frame p {
   margin: 0;
+}
+
+.formbody {
+  margin-top: 100px; /* Add space for the horizontal nav height + margin */
+  margin-right: 25%; /* Add space for the vertical nav width */
+  width: 40%;
+  padding: 20px; /* Optional padding inside the main body */
+  min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+form {
+  background: linear-gradient(135deg, #fff, #5c7ecf);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.input-box {
+  margin-bottom: 10px; /* Adjusted spacing between input groups */
+}
+
+.input-box label {
+  display: block; /* Default block for labels */
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 3px;
+}
+
+.input-box input[type="radio"] {
+  width: auto; /* Ensure radio buttons are inline */
+  margin-right: 5px; /* Space between the button and label text */
+}
+
+.radio-group {
+  display: flex; /* Flex layout for inline alignment */
+  gap: 15px; /* Space between male and female options */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.radio-group label {
+  display: inline-block; /* Ensure labels align with buttons */
+  font-size: 1rem;
+  color: #555;
+}
+
+.input-box label {
+  display: block;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 3px; /* Less space between label and input */
+  line-height: 1.2; /* Tighter spacing for multiline labels */
+}
+
+.input-box input,
+.input-box select {
+  width: 100%;
+  padding: 8px; /* Reduced padding for smaller input boxes */
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.input-box input:focus,
+.input-box select:focus {
+  border-color: #42a5f5;
+  box-shadow: 0 0 5px rgba(66, 165, 245, 0.5);
+}
+
+.btn {
+  display: inline-block;
+  width: 120px;
+  padding: 8px 10px; /* Reduced padding for smaller buttons */
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: #074b83;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin: 5px 5px 0; /* Reduced vertical margin */
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background: #03223d;
+  box-shadow: 0 4px 10px rgba(66, 165, 245, 0.4);
 }
