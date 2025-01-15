@@ -129,6 +129,8 @@ figure:hover {
   width: 90%;
   padding: 20px;
   margin: 20px;
+  align-items: center;
+  text-align: center;
   background: linear-gradient(135deg, #fff, #5c7ecf);
   border: 5px solid rgba(0, 0, 0, 0.1);
   border-radius: 15px;
@@ -142,6 +144,18 @@ figure:hover {
 
 .frame h2, .frame p {
   margin: 0;
+}
+
+.frame p {
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: bold;
+}
+
+.frame img {
+  width: 100%; /* Ensures the image fits the container width */
+  height: 175px; /* Maintains aspect ratio */
+  border-radius: 10px; /* Rounded corners for the image */
 }
 
 .formbody {
@@ -275,7 +289,7 @@ form {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   text-align: center;
-  opacity: 0.75;
+  opacity: 0.85;
 }
 
 .frame-detail h1 {
@@ -303,6 +317,30 @@ form {
   margin-top: 20px;
   color: #000;
 } 
+
+input[type="button"] {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #064f8a; /* Button background color */
+  color: #fff; /* Text color */
+  font-size: 30px; /* Font size */
+  font-weight: bold; /* Bold text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover transition */
+}
+
+input[type="button"]:hover {
+  background-color: #0a3c67; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+input[type="button"]:active {
+  background-color: #05192f; /* Even darker blue on click */
+  transform: translateY(0); /* Reset lift on click */
+}
 
 .exit {
   position: absolute;
