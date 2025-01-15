@@ -236,3 +236,24 @@ form {
   background: #03223d;
   box-shadow: 0 4px 10px rgba(66, 165, 245, 0.4);
 }
+
+.mainbody .description{
+  color: #ffffff;
+}
+
+.mainbody .description .title {
+  font-family: 'Poppins', sans-serif; /* Modern and elegant font */
+  font-size: 2.5rem; /* Large title size */
+  font-weight: bold; /* Emphasize the title */
+  color: #5c67dd; /* Vibrant green color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  text-align: center; /* Center-align the title */
+  margin: 20px 0; /* Add some space around the title */
+  letter-spacing: 1.5px; /* Slight spacing between letters */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.mainbody .description .title:hover {
+  color: #2929a3; /* Slightly darker green on hover */
+  transform: scale(1.1); /* Grows slightly on hover */
+}
