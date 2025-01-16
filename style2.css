@@ -127,6 +127,7 @@ figure:hover {
 
 .frame {
   width: 90%;
+  height: 240px;
   padding: 20px;
   margin: 20px;
   align-items: center;
