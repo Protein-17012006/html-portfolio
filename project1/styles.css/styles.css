@@ -2,19 +2,23 @@ body{
     display: flex;
     justify-content: right;
     min-height: 100vh;
-    background: url(../img/background2.gif);
+    background: url(./images/background1.gif);
     background-position: center;
   }
+
+a{
+  text-decoration: none;
+}
   
-  nav{
-    position:fixed;
-    left:0px;
-    top:0px;
-    bottom:0px;
-    background: url(../img/background3.gif) no-repeat;
-    background-size: cover;
-    border-right: 2px solid white; 
-  }
+nav{
+  position:fixed;
+  left:0px;
+  top:0px;
+  bottom:0px;
+  background: url(./images/background2.gif) no-repeat;
+  background-size: cover;
+  border-right: 2px solid white; 
+}
   
   .logo{
     width: 80%;
@@ -22,13 +26,7 @@ body{
   }
   
   .vertical_bar{
-    border-collapse: collapse;
-    width:40px;
-    margin-left:-12px;
-  }
-  th{
-    text-align:center;
-    color:darkgoldenrod;
+    margin-left:-34px;
   }
   img{
     height:30px;
@@ -37,7 +35,7 @@ body{
   
   header{
     position: fixed;
-    background: url(../img/background4.jpeg) no-repeat; 
+    background: url(./images/background3.jpeg) no-repeat; 
     background-size: cover;
     left: 174px;
     top: 0px;
@@ -124,6 +122,15 @@ body{
     box-sizing: border-box; /* Include padding in width/height calculations */
   }
   
+  .middle {
+    background-color: lightblue;
+    margin-top: 100px; /* Add space for the horizontal nav height + margin */
+    margin-right: 0; /* Add space for the vertical nav width */
+    width: 88%;
+    padding: 20px; /* Optional padding inside the main body */
+    min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
+    box-sizing: border-box; /* Include padding in width/height calculations */
+  }
   
   .frame {
     width: 90%;
