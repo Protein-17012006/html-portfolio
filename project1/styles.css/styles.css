@@ -240,7 +240,7 @@ h1, h2 {
 }
 
 .about-middle dl {
-  background: #1e1e1e; /* Dark Gray Box */
+  background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Dark Gray Box */
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
@@ -271,7 +271,7 @@ h1, h2 {
 }
 
 .about-middle th {
-  background: #42a5f5; /* Electric Blue Headers */
+  background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Electric Blue Headers */
   color: white;
 }
 
@@ -310,30 +310,7 @@ h1, h2 {
   color: white;
   margin-top: 30px;
   padding: 15px;
-  background: #1e1e1e;
+  background: linear-gradient(135deg, #3d3b3b, #5c7ecf);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-}
-
-.about-middle button, .button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #42a5f5; /* Electric Blue Button */
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.about-middle button:hover, .button:hover {
-  background-color: #1e88e5; /* Darker Blue */
-  transform: translateY(-2px);
-}
-
-.about-middle button:active, .button:active {
-  background-color: #1565c0; /* Even Darker on Click */
-  transform: translateY(0);
 }
