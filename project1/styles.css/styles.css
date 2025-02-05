@@ -314,3 +314,102 @@ h1, h2 {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+.frame {
+  width: 90%;
+  height: 240px;
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #fff, #5c7ecf);
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  color: #000; /* Text color remains unchanged */
+}
+.mainbody .description{
+  color: #ffffff;
+}
+
+.mainbody .description .title {
+  font-family: 'Poppins', sans-serif; /* Modern and elegant font */
+  font-size: 2.5rem; /* Large title size */
+  font-weight: bold; /* Emphasize the title */
+  color: #5c67dd; /* Vibrant green color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  text-align: center; /* Center-align the title */
+  margin: 20px 0; /* Add some space around the title */
+  letter-spacing: 1.5px; /* Slight spacing between letters */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.mainbody .description .title:hover {
+  color: #2929a3; /* Slightly darker green on hover */
+  transform: scale(1.1); /* Grows slightly on hover */
+}
+
+.mainbody-detail {
+  margin-top: 35px; /* Add space for the horizontal nav height + margin */
+  margin-right: 20px; /* Add space for the vertical nav width */
+  width: 86%;
+  padding: 20px; /* Optional padding inside the main body */
+  min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+.frame-detail {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #fff, #5c7ecf);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.frame-detail h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.frame-detail img {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.frame-detail p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #000;
+}
+
+.frame-detail h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #000;
+} 
+.group-this{
+  margin-bottom: 15px;
+}
+.group-this label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.group-this textarea {
+  width: 100%;
+  height: 100px;
+  padding: 8px;
+  box-sizing: border-box;
+  resize: vertical; /* Allows vertical resizing */
+}
