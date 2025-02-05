@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lan="en">
 	<head>
-		<title>Nothingness Selling Services</title>
+		<title>Apply</title>
 		<meta charset="UTF-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../style2.css">
+        <link rel="stylesheet" href="./styles.css/styles.css">
 	</head>
     <body> 
       <nav>
@@ -14,8 +14,8 @@
         <thead>
           <tr>
             <th>
-              <a href="base.html">
-                <figure><img src="../img/logo.png" alt="logo" class="logo">
+              <a href="index.html">
+                <figure><img src="./img/logo.png" alt="logo" class="logo">
                   <figcaption>Nothingness</figcaption>
                 </figure>
               </a>
@@ -23,8 +23,8 @@
           </tr>
           <tr>
             <th>
-              <a href="base.html">
-                <figure><img src="../img/homeicon.png" alt="Home"/>
+              <a href="index.html">
+                <figure><img src="./img/homeicon.png" alt="Home"/>
                   <figcaption>Home</figcaption>
                 </figure>
               </a>
@@ -32,27 +32,36 @@
           </tr>
           <tr>
             <th>
-              <a href="car.html">
-                <figure><img src="../img/caricon.png" alt="Car"/>
-                  <figcaption>Car</figcaption>
+              <a href="about.html">
+                <figure><img src="img/about.png" alt="Car"/>
+                  <figcaption>About</figcaption>
                 </figure>
               </a>
             </th>
           </tr>
           <tr>
             <th>
-              <a href="electronic.html">
-                <figure><img src="../img/electronicicon.png" alt="Electronic"/>
-                  <figcaption>Electronic</figcaption>
+              <a href="jobs.html">
+                <figure><img src="img/job.png" alt="Book"/>
+                  <figcaption>Jobs</figcaption>
                 </figure>
               </a>
             </th>
           </tr>
           <tr>
             <th>
-              <a href="books.html">
-                <figure><img src="../img/bookicon.png" alt="Book"/>
-                  <figcaption>Books</figcaption>
+              <a href="apply.html">
+                <figure><img src="img/apply.png" alt="Electronic"/>
+                  <figcaption>Apply</figcaption>
+                </figure>
+              </a>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <a href="enhancements.html">
+                <figure><img src="img/enhancements.png" alt="Electronic"/>
+                  <figcaption>Enhancements</figcaption>
                 </figure>
               </a>
             </th>
@@ -64,11 +73,12 @@
     <tbody>
       <header>
         <div class="horizontal_nav">
-          <a href="base.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="services.html">Services</a>
+          <a href="index.html">Home</a>
+          <a href="./job_description/CS/cs.html">Computer Science</a>
+          <a href="./job_description/Business/business.html">Business</a>
+          <a href="./job_description/Media/media.html">Media</a>
           <a href="mailto:105710430@student.swin.edu.au">Contact</a>
-          <button class="button-login" onclick="navigateTo('purchase.html')">Purchase</button>
+          <button class="button-login" onclick="window.location.href='./apply.html'">Apply</button>
         </div>
       </header>
       
@@ -95,15 +105,12 @@
                 <label for="date">Date of birth</label>
 				<input type="date" required id="date">
 			</div>
-            <fieldset>
-            <legend>Sex:</legend>
-            <div class="input-box">
+            <div class="input-box"> 
                 <input type="radio" id="male" name="sex" value="male" checked />
                 <label for="male">Male</label>
                 <input type="radio" id="female" name="sex" value="female" />
                 <label for="female">Female</label>
               </div>
-            </fieldset>
             <div class="input-box">
                 <label for="name">Street adress</label>
 				<input type="name" maxlength="40" required id="name">
@@ -151,7 +158,8 @@
               </fieldset>
               <label for="other skills">Other skills</label>
               <textarea id="story" name="skills" rows="4" cols="20"></textarea>
-			<button type="submit" class="btn">Register</button>
+            <br>
+			      <button type="submit" class="btn">Register</button>
             <button type="reset" class="btn">Reset</button>
         </form>
     </div>
