@@ -334,6 +334,25 @@ h1, h2 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
   color: #000; /* Text color remains unchanged */
 }
+.frame:hover {
+  background: linear-gradient(135deg, #ffffff, #201b92); /* Hover background */
+}
+
+.frame h2, .frame p {
+  margin: 0;
+}
+
+.frame p {
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: bold;
+}
+
+.frame img {
+  width: 100%; /* Ensures the image fits the container width */
+  height: 175px; /* Maintains aspect ratio */
+  border-radius: 10px; /* Rounded corners for the image */
+}
 .group-this{
   margin-bottom: 15px;
 }
@@ -359,4 +378,19 @@ h1, h2 {
   padding: 20px; /* Optional padding inside the main body */
   min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
   box-sizing: border-box; /* Include padding in width/height calculations */
+}
+.Example-photo {
+  display: flex;
+  justify-content: center; /* Centering the figure */
+  width: 30%; /* Customize the width */
+  height: 10%;
+  max-width: 600px; /* Width Limits */
+  border: 1px solid #ccc; 
+  padding: 1px; /* Distance around the photo */
+  margin-left:2px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shading */
+}
+.Example-photo img {
+  max-width: 120%; 
+  height: auto; 
 }
