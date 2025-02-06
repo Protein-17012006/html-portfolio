@@ -6,6 +6,10 @@ body{
     background-position: center;
   }
 
+h1, h2 {
+  color: #42a5f5; /* Bright Electric Blue for Headings */
+}
+
 a{
   text-decoration: none;
 }
@@ -32,7 +36,7 @@ img{
   height:30px;
   text-align:center;
 }
-  
+
 header{
   position: fixed;
   background: url(./images/background3.jpeg) no-repeat; 
@@ -124,13 +128,85 @@ figure:hover {
   
 /* middle in the homeoage*/
 .middle {
-  background-color: lightblue;
+  background-color: transparent;
+  color: white;
+  justify-items: center;
   margin-top: 100px; /* Add space for the horizontal nav height + margin */
   margin-right: 0; /* Add space for the vertical nav width */
   width: 88%;
   padding: 20px; /* Optional padding inside the main body */
   min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
   box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+.middle section{
+  background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Dark Gray Box */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
+.middle .search {
+  display: flex; /* Uses Flexbox to align and position elements */
+  justify-content: center; /* Centers the child elements horizontally */
+  align-items: center; /* Centers the child elements vertically */
+  margin: 20px auto; /* Adds 20px margin at the top and bottom, auto for centering horizontally */
+  padding: 10px; /* Adds 10px padding inside the container */
+  background: white; /* Sets the background color of the container to white */
+  border-radius: 30px; /* Rounds the corners with a 30px radius */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect with slight blur */
+  width: fit-content; /* The container’s width will adjust based on its content */
+}
+
+.middle .search label {
+  display: flex; /* Aligns label text and input in a row */
+  align-items: center; /* Aligns label text and input vertically */
+  gap: 10px; /* Adds 10px space between the label and input */
+}
+
+.middle .search input {
+  width: 250px; /* Sets the width of the input to 250px */
+  padding: 12px; /* Adds 12px padding inside the input field */
+  border: none; /* Removes any default border */
+  border-radius: 20px; /* Rounds the corners of the input with a radius of 20px */
+  outline: none; /* Removes the outline (default blue border on focus) */
+  font-size: 16px; /* Sets the font size to 16px */
+  background: #f4f4f4; /* Sets a light gray background color */
+}
+
+.middle .search button {
+
+  padding: 12px 18px; /* Adds 12px top/bottom and 18px left/right padding */
+  border: none; /* Removes any default border */
+  border-radius: 20px; /* Rounds the corners of the button */
+  background-color: #074b83; /* Sets the background color to green */
+  color: white; /* Sets the text color to white */
+  font-size: 16px; /* Sets the font size to 16px */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering */
+  transition: background 0.3s ease; /* Smooth transition effect on background color */
+}
+
+.middle .search button:hover {
+  background-color: #03223d; /* Slightly darker green when hovered */
+}
+
+.middle .search input:focus {
+  background: #e8f0fe; /* Changes the background to a light blue when the input is focused */
+}
+
+.middle h1{
+  font-size: 60px;
+  font-family: cursive;
+  color: #cbc326;
+}
+
+.middle section h2{
+  text-align: center;
+}
+
+.middle section a{
+  color: #908ae0;
 }
   
 .formbody {
@@ -226,8 +302,28 @@ form {
   box-shadow: 0 4px 10px rgba(66, 165, 245, 0.4);
 }
 
-h1, h2 {
-  color: #42a5f5; /* Bright Electric Blue for Headings */
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.group-this{
+  margin-bottom: 15px;
+}
+
+.group-this label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.group-this textarea {
+  width: 100%;
+  height: 100px;
+  padding: 8px;
+  box-sizing: border-box;
+  resize: vertical; /* Allows vertical resizing */
 }
 
 .about-middle {
@@ -316,11 +412,7 @@ h1, h2 {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
-.radio-group {
-  display: flex;
-  align-items: center;
-  gap: 10px; 
-}
+
 .frame {
   width: 90%;
   height: 240px;
@@ -333,21 +425,6 @@ h1, h2 {
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
   color: #000; /* Text color remains unchanged */
-}
-.group-this{
-  margin-bottom: 15px;
-}
-.group-this label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-.group-this textarea {
-  width: 100%;
-  height: 100px;
-  padding: 8px;
-  box-sizing: border-box;
-  resize: vertical; /* Allows vertical resizing */
 }
 
 .job-middle{
