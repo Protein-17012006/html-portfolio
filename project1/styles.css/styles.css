@@ -1,216 +1,215 @@
 body{
-    display: flex;
-    justify-content: right;
-    min-height: 100vh;
-    background: url(./images/background1.gif);
-    background-position: center;
-  }
+  display: flex;
+  justify-content: right;
+  min-height: 100vh;
+  background: url(./images/background1.gif);
+  background-position: center;
+}
 
 h1, h2 {
-  color: #42a5f5; /* Bright Electric Blue for Headings */
+color: #42a5f5; /* Bright Electric Blue for Headings */
 }
 
 a{
-  text-decoration: none;
+text-decoration: none;
 }
-  
+
 nav{
-  position:fixed;
-  left:0px;
-  top:0px;
-  bottom:0px;
-  background: url(./images/background2.gif) no-repeat;
-  background-size: cover;
-  border-right: 2px solid white; 
+position:fixed;
+left:0px;
+top:0px;
+bottom:0px;
+background: url(./images/background2.gif) no-repeat;
+background-size: cover;
+border-right: 2px solid white; 
 }
-  
+
 .logo{
-  width: 80%;
-  height: 80%;
+width: 80%;
+height: 80%;
 }
-  
+
 .vertical_bar{
-  margin-left:-34px;
+margin-left:-34px;
 }
 img{
-  height:30px;
-  text-align:center;
+height:30px;
+text-align:center;
 }
 
 header{
-  position: fixed;
-  background: url(./images/background3.jpeg) no-repeat; 
-  background-size: cover;
-  left: 174px;
-  top: 0px;
-  right: 0px;
-  text-align: right;
-  background-size: cover;
-  border-bottom: 2px solid white;
+position: fixed;
+background: url(./images/background3.jpeg) no-repeat; 
+background-size: cover;
+left: 174px;
+top: 0px;
+right: 0px;
+text-align: right;
+background-size: cover;
+border-bottom: 2px solid white;
 }
 .horizontal_nav{
-  margin: 15px;
-  height: 72px;
+margin: 15px;
+height: 72px;
 }
-  
+
 .horizontal_nav a{
-  position: relative;
-  font-size: 2.1em;
-  color: #fff;
-  font-weight: 500;
-  margin-left: 40px;
-  text-decoration: none;
+position: relative;
+font-size: 2.1em;
+color: #fff;
+font-weight: 500;
+margin-left: 40px;
+text-decoration: none;
 }
-  
+
 .horizontal_nav a::after{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 100%;
-  height: 3px;
-  background: #fff;
-  border-radius: 5px;
-  transform: scaleX(0);
-  transition: transform .5s;
-  transform-origin: right;
+content: '';
+position: absolute;
+left: 0;
+bottom: -6px;
+width: 100%;
+height: 3px;
+background: #fff;
+border-radius: 5px;
+transform: scaleX(0);
+transition: transform .5s;
+transform-origin: right;
 }
-  
+
 .horizontal_nav a:hover::after{
-  transform: scale(1);
+transform: scale(1);
 }
-  
+
 .horizontal_nav .button-login{
-  width: 130px;
-  height: 50px;
-  background: transparent;
-  border: 2px solid #fff;
-  outline: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1.1em;
-  color: #fff;
-  font-weight: 500;
-  margin-left: 40px;
-  transition: .5s;
+width: 130px;
+height: 50px;
+background: transparent;
+border: 2px solid #fff;
+outline: none;
+border-radius: 6px;
+cursor: pointer;
+font-size: 1.1em;
+color: #fff;
+font-weight: 500;
+margin-left: 40px;
+transition: .5s;
 }
-  
+
 .horizontal_nav .button-login:hover{
-  background: #fff;
-  color: #162938;
+background: #fff;
+color: #162938;
 }
-  
-figure {
-  background-color: transparent; /* Nền trong suốt */
-  color: white; /* Màu chữ */
-  border: none; /* Bỏ viền */
-  padding: 10px; /* Kích thước nút */
-  font-size: 16px; /* Cỡ chữ */
-  border-radius: 5px; /* Bo tròn góc nút */
-  cursor: pointer; /* Con trỏ chuột dạng tay chỉ */
-  transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mượt */
+
+nav figure {
+background-color: transparent; /* Nền trong suốt */
+color: white; /* Màu chữ */
+border: none; /* Bỏ viền */
+padding: 10px; /* Kích thước nút */
+font-size: 16px; /* Cỡ chữ */
+border-radius: 5px; /* Bo tròn góc nút */
+cursor: pointer; /* Con trỏ chuột dạng tay chỉ */
+transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mượt */
 }
-  
-figure:hover {
-  background-color: rgba(41, 128, 185, 0.5); /* Màu nền khi hover với độ trong suốt */
-  box-shadow: 0 0 15px rgba(52, 152, 219, 0.8); /* Hiệu ứng sáng */
-  transform: scale(1.05); /* Tăng kích thước một chút */
+
+nav figure:hover {
+background-color: rgba(41, 128, 185, 0.5); /* Màu nền khi hover với độ trong suốt */
+box-shadow: 0 0 15px rgba(52, 152, 219, 0.8); /* Hiệu ứng sáng */
+transform: scale(1.05); /* Tăng kích thước một chút */
 }
-  
+
 .mainbody {
-  margin-top: 100px; /* Add space for the horizontal nav height + margin */
-  margin-right: 20px; /* Add space for the vertical nav width */
-  width: 27.5%;
-  padding: 20px; /* Optional padding inside the main body */
-  min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
-  box-sizing: border-box; /* Include padding in width/height calculations */
+margin-top: 100px; /* Add space for the horizontal nav height + margin */
+margin-right: 20px; /* Add space for the vertical nav width */
+width: 27.5%;
+padding: 20px; /* Optional padding inside the main body */
+min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
+box-sizing: border-box; /* Include padding in width/height calculations */
 }
-  
+
 /* middle in the homeoage*/
 .middle {
-  background-color: transparent;
-  color: white;
-  justify-items: center;
-  margin-top: 100px; /* Add space for the horizontal nav height + margin */
-  margin-right: 0; /* Add space for the vertical nav width */
-  width: 88%;
-  padding: 20px; /* Optional padding inside the main body */
-  min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
-  box-sizing: border-box; /* Include padding in width/height calculations */
+background-color: transparent;
+color: white;
+justify-items: center;
+margin-top: 100px; /* Add space for the horizontal nav height + margin */
+margin-right: 0; /* Add space for the vertical nav width */
+width: 88%;
+padding: 20px; /* Optional padding inside the main body */
+min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
+box-sizing: border-box; /* Include padding in width/height calculations */
 }
 
 .middle section{
-  background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Dark Gray Box */
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-  width: 100%;
+background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Dark Gray Box */
+padding: 15px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+width: 81%;
 }
 
 .middle .search {
-  display: flex; /* Uses Flexbox to align and position elements */
-  justify-content: center; /* Centers the child elements horizontally */
-  align-items: center; /* Centers the child elements vertically */
-  margin: 20px auto; /* Adds 20px margin at the top and bottom, auto for centering horizontally */
-  padding: 10px; /* Adds 10px padding inside the container */
-  background: white; /* Sets the background color of the container to white */
-  border-radius: 30px; /* Rounds the corners with a 30px radius */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect with slight blur */
-  width: fit-content; /* The container’s width will adjust based on its content */
+display: flex; /* Uses Flexbox to align and position elements */
+justify-content: center; /* Centers the child elements horizontally */
+align-items: center; /* Centers the child elements vertically */
+margin: 20px auto; /* Adds 20px margin at the top and bottom, auto for centering horizontally */
+padding: 10px; /* Adds 10px padding inside the container */
+background: white; /* Sets the background color of the container to white */
+border-radius: 30px; /* Rounds the corners with a 30px radius */
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect with slight blur */
+width: fit-content; /* The container’s width will adjust based on its content */
 }
 
 .middle .search label {
-  display: flex; /* Aligns label text and input in a row */
-  align-items: center; /* Aligns label text and input vertically */
-  gap: 10px; /* Adds 10px space between the label and input */
+display: flex; /* Aligns label text and input in a row */
+align-items: center; /* Aligns label text and input vertically */
+gap: 10px; /* Adds 10px space between the label and input */
 }
 
 .middle .search input {
-  width: 250px; /* Sets the width of the input to 250px */
-  padding: 12px; /* Adds 12px padding inside the input field */
-  border: none; /* Removes any default border */
-  border-radius: 20px; /* Rounds the corners of the input with a radius of 20px */
-  outline: none; /* Removes the outline (default blue border on focus) */
-  font-size: 16px; /* Sets the font size to 16px */
-  background: #f4f4f4; /* Sets a light gray background color */
+width: 250px; /* Sets the width of the input to 250px */
+padding: 12px; /* Adds 12px padding inside the input field */
+border: none; /* Removes any default border */
+border-radius: 20px; /* Rounds the corners of the input with a radius of 20px */
+outline: none; /* Removes the outline (default blue border on focus) */
+font-size: 16px; /* Sets the font size to 16px */
+background: #f4f4f4; /* Sets a light gray background color */
 }
 
 .middle .search img{
-  max-height: 20px;
+max-height: 20px;
 }
 
 .middle .search button {
-
-  padding: 12px 18px; /* Adds 12px top/bottom and 18px left/right padding */
-  border: none; /* Removes any default border */
-  border-radius: 20px; /* Rounds the corners of the button */
-  background-color: #074b83; /* Sets the background color to green */
-  color: white; /* Sets the text color to white */
-  font-size: 16px; /* Sets the font size to 16px */
-  cursor: pointer; /* Changes the cursor to a pointer when hovering */
-  transition: background 0.3s ease; /* Smooth transition effect on background color */
+padding: 12px 18px; /* Adds 12px top/bottom and 18px left/right padding */
+border: none; /* Removes any default border */
+border-radius: 20px; /* Rounds the corners of the button */
+background-color: #074b83; /* Sets the background color to green */
+color: white; /* Sets the text color to white */
+font-size: 16px; /* Sets the font size to 16px */
+cursor: pointer; /* Changes the cursor to a pointer when hovering */
+transition: background 0.3s ease; /* Smooth transition effect on background color */
 }
 
 .middle .search button:hover {
-  background-color: #03223d; /* Slightly darker green when hovered */
+background-color: #03223d; /* Slightly darker green when hovered */
 }
 
 .middle .search input:focus {
-  background: #e8f0fe; /* Changes the background to a light blue when the input is focused */
+background: #e8f0fe; /* Changes the background to a light blue when the input is focused */
 }
 
 .middle h1{
-  font-size: 60px;
-  font-family: cursive;
-  color: #cbc326;
+font-size: 60px;
+font-family: cursive;
+color: #cbc326;
 }
 
 .middle section h2{
-  text-align: center;
+text-align: center;
 }
 
 .middle section a{
-  color: #908ae0;
+color: #908ae0;
 }
 
 /* Container styling */
@@ -225,346 +224,343 @@ figure:hover {
   margin: 0 auto;
 }
 
-/* Figure styling */
-.middle .steps figure {
-  height: 400px;
-  text-align: center; /* Centers image and caption */
-  background: #b4bdc6; /* Light background for contrast */
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 430px; /* Fixed width for equal-sized figures */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.middle .steps span{
+  color:#185891;
 }
 
-.middle .steps figure:hover {
-  transform: translateY(-5px); /* Slight lift effect on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+/* Figure styling */
+.middle .steps figure {
+height: 400px;
+width: 100%;
+text-align: center; /* Centers image and caption */
+background: #b4bdc6; /* Light background for contrast */
+padding: 15px;
+border-radius: 10px;
 }
 
 /* Image styling */
 .middle .steps figure img {
-  width: 100%; /* Makes sure images fit well */
-  height: 300px; /* Maintains aspect ratio */
-  border-radius: 8px;
+width: 100%; /* Makes sure images fit well */
+height: 300px; /* Maintains aspect ratio */
+border-radius: 8px;
 }
 
 /* Caption styling */
 .middle .steps figcaption {
-  margin-top: 10px;
-  font-size: 16px;
-  color: #333;
-  line-height: 1.5;
-  font-weight: 500;
+margin-top: 10px;
+font-size: 16px;
+color: #333;
+line-height: 1.5;
+font-weight: 500;
 }
 
 .middle footer{
-  height: 50px;
-  width: 105%;
-  text-align: center;
-  background-color: #2c353e;
+height: 50px;
+width: 105%;
+text-align: center;
+background-color: #2c353e;
 }
 
 .middle footer a{
-  color: #42a5f5;
+color: #42a5f5;
 }
-  
+
 .formbody {
-  margin-top: 100px; /* Add space for the horizontal nav height + margin */
-  margin-right: 25%; /* Add space for the vertical nav width */
-  width: 40%;
-  padding: 20px; /* Optional padding inside the main body */
-  min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
-  box-sizing: border-box; /* Include padding in width/height calculations */
+margin-top: 100px; /* Add space for the horizontal nav height + margin */
+margin-right: 25%; /* Add space for the vertical nav width */
+width: 40%;
+padding: 20px; /* Optional padding inside the main body */
+min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
+box-sizing: border-box; /* Include padding in width/height calculations */
 }
-  
+
 form {
-  background: linear-gradient(135deg, #fff, #5c7ecf);
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 600px;
+background: linear-gradient(135deg, #fff, #5c7ecf);
+padding: 20px;
+margin: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+width: 100%;
+max-width: 600px;
 }
-  
+
 .input-box {
-  margin-bottom: 10px; /* Adjusted spacing between input groups */
+margin-bottom: 10px; /* Adjusted spacing between input groups */
 }
-  
+
 .input-box label {
-  display: block; /* Default block for labels */
-  font-size: 1rem;
-  color: #333;
-  margin-bottom: 3px;
+display: block; /* Default block for labels */
+font-size: 1rem;
+color: #333;
+margin-bottom: 3px;
 }
-  
+
 .input-box input[type="radio"] {
-  width: auto; /* Ensure radio buttons are inline */
-  margin-right: 5px; /* Space between the button and label text */
-}
-  
-.radio-group {
-  display: flex; /* Flex layout for inline alignment */
-  gap: 15px; /* Space between male and female options */
-  align-items: center; /* Align items vertically in the center */
-}
-  
-.radio-group label {
-  display: inline-block; /* Ensure labels align with buttons */
-  font-size: 1rem;
-  color: #555;
-}
-  
-.input-box label {
-  display: block;
-  font-size: 1rem;
-  color: #333;
-  margin-bottom: 3px; /* Less space between label and input */
-  line-height: 1.2; /* Tighter spacing for multiline labels */
-}
-  
-.input-box input,
-.input-box select {
-  width: 100%;
-  padding: 8px; /* Reduced padding for smaller input boxes */
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  outline: none;
-  transition: border 0.3s ease;
-}
-  
-.input-box input:focus,
-.input-box select:focus {
-  border-color: #42a5f5;
-  box-shadow: 0 0 5px rgba(66, 165, 245, 0.5);
-}
-  
-.btn {
-  display: inline-block;
-  width: 120px;
-  padding: 8px 10px; /* Reduced padding for smaller buttons */
-  font-size: 1rem;
-  font-weight: bold;
-  color: #ffffff;
-  background: #074b83;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-  margin: 5px 5px 0; /* Reduced vertical margin */
-  transition: background 0.3s ease, box-shadow 0.3s ease;
-}
-  
-.btn:hover {
-  background: #03223d;
-  box-shadow: 0 4px 10px rgba(66, 165, 245, 0.4);
+width: auto; /* Ensure radio buttons are inline */
+margin-right: 5px; /* Space between the button and label text */
 }
 
 .radio-group {
-  display: flex;
-  align-items: center;
-  gap: 10px; 
+display: flex; /* Flex layout for inline alignment */
+gap: 15px; /* Space between male and female options */
+align-items: center; /* Align items vertically in the center */
+}
+
+.radio-group label {
+display: inline-block; /* Ensure labels align with buttons */
+font-size: 1rem;
+color: #555;
+}
+
+.input-box label {
+display: block;
+font-size: 1rem;
+color: #333;
+margin-bottom: 3px; /* Less space between label and input */
+line-height: 1.2; /* Tighter spacing for multiline labels */
+}
+
+.input-box input,
+.input-box select {
+width: 100%;
+padding: 8px; /* Reduced padding for smaller input boxes */
+font-size: 1rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+outline: none;
+transition: border 0.3s ease;
+}
+
+.input-box input:focus,
+.input-box select:focus {
+border-color: #42a5f5;
+box-shadow: 0 0 5px rgba(66, 165, 245, 0.5);
+}
+
+.btn {
+display: inline-block;
+width: 120px;
+padding: 8px 10px; /* Reduced padding for smaller buttons */
+font-size: 1rem;
+font-weight: bold;
+color: #ffffff;
+background: #074b83;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-align: center;
+margin: 5px 5px 0; /* Reduced vertical margin */
+transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+background: #03223d;
+box-shadow: 0 4px 10px rgba(66, 165, 245, 0.4);
+}
+
+.radio-group {
+display: flex;
+align-items: center;
+gap: 10px; 
 }
 
 .group-this{
-  margin-bottom: 15px;
+margin-bottom: 15px;
 }
 
 .group-this label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
 }
 
 .group-this textarea {
-  width: 100%;
-  height: 100px;
-  padding: 8px;
-  box-sizing: border-box;
-  resize: vertical; /* Allows vertical resizing */
+width: 100%;
+height: 100px;
+padding: 8px;
+box-sizing: border-box;
+resize: vertical; /* Allows vertical resizing */
 }
 
 .about-middle {
-  color: white;
-  background-color: transparent;
-  margin-top: 100px; /* Add space for the horizontal nav height + margin */
-  margin-right: 0; /* Add space for the vertical nav width */
-  width: 88%;
-  padding: 20px; /* Optional padding inside the main body */
-  min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
-  box-sizing: border-box; /* Include padding in width/height calculations */
+color: white;
+background-color: transparent;
+margin-top: 100px; /* Add space for the horizontal nav height + margin */
+margin-right: 0; /* Add space for the vertical nav width */
+width: 88%;
+padding: 20px; /* Optional padding inside the main body */
+min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
+box-sizing: border-box; /* Include padding in width/height calculations */
 }
 
 .about-middle dl {
-  background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Dark Gray Box */
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Dark Gray Box */
+padding: 15px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 .about-middle dt {
-  font-weight: bold;
-  color: #908ae0; /* Gold for Emphasis */
-  margin-top: 10px;
+font-weight: bold;
+color: #908ae0; /* Gold for Emphasis */
+margin-top: 10px;
 }
 
 .about-middle dd {
-  margin-left: 20px;
-  color: #cccccc; /* Light Gray for Better Readability */
+margin-left: 20px;
+color: #cccccc; /* Light Gray for Better Readability */
 }
 
 .about-middle table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-  background: #1e1e1e; /* Dark Gray Table Background */
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+background: #1e1e1e; /* Dark Gray Table Background */
 }
 
 .about-middle th, td {
-  border: 1px solid #333; /* Darker Borders */
-  padding: 10px;
-  text-align: left;
+border: 1px solid #333; /* Darker Borders */
+padding: 10px;
+text-align: left;
 }
 
 .about-middle th {
-  background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Electric Blue Headers */
-  color: white;
+background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Electric Blue Headers */
+color: white;
 }
 
 .about-middle td {
-  color: #f5f5f5; /* Light Text for Readability */
+color: #f5f5f5; /* Light Text for Readability */
 }
 
 .about-middle figure {
-  background: #1e1e1e;
-  padding: 10px;
-  border-radius: 8px;
-  text-align: center;
-  max-width: 300px;
+background: #1e1e1e;
+padding: 10px;
+border-radius: 8px;
+text-align: center;
+max-width: 300px;
 }
 
 .about-middle figcaption {
-  color: #aaa; /* Light Gray Caption */
-  font-size: 14px;
+color: #aaa; /* Light Gray Caption */
+font-size: 14px;
 }
 
 .about-middle .email{
-  color: white;
+color: white;
 }
 
 .about-middle .email a {
-  color: #42a5f5; /* Bright Blue Email Link */
-  font-weight: bold;
-  text-decoration: none;
+color: #42a5f5; /* Bright Blue Email Link */
+font-weight: bold;
+text-decoration: none;
 }
 
 .about-middle .email a:hover {
-  color: #1e88e5; /* Slightly Darker Blue on Hover */
+color: #1e88e5; /* Slightly Darker Blue on Hover */
 }
 
 .about-middle .profile {
-  color: white;
-  margin-top: 30px;
-  padding: 15px;
-  background: linear-gradient(135deg, #3d3b3b, #5c7ecf);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+color: white;
+margin-top: 30px;
+padding: 15px;
+background: linear-gradient(135deg, #3d3b3b, #5c7ecf);
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 .frame {
-  width: 90%;
-  height: 240px;
-  padding: 20px;
-  margin: 20px;
-  align-items: center;
-  text-align: center;
-  background: linear-gradient(135deg, #fff, #5c7ecf);
-  border: 5px solid rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);  
-  color: #000; /* Text color remains unchanged */
+width: 90%;
+height: 240px;
+padding: 20px;
+margin: 20px;
+align-items: center;
+text-align: center;
+background: linear-gradient(135deg, #fff, #5c7ecf);
+border: 5px solid rgba(0, 0, 0, 0.1);
+border-radius: 15px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);  
+color: #000; /* Text color remains unchanged */
 }
 .frame img {
-  width: 100%; /* Ensures the image fits the container width */
-  height: 175px; /* Maintains aspect ratio */
-  border-radius: 10px; /* Rounded corners for the image */
+width: 100%; /* Ensures the image fits the container width */
+height: 175px; /* Maintains aspect ratio */
+border-radius: 10px; /* Rounded corners for the image */
 }
 img{
-  height:30px;
-  text-align:center;
+height:30px;
+text-align:center;
 }
 .frame p{
-  font-size: 1.2rem;
-  color: #000000;
-  font-weight: bold;
+font-size: 1.2rem;
+color: #000000;
+font-weight: bold;
 }
 .frame h2, .frame p {
-  margin: 0;
+margin: 0;
 }
 .group-this{
-  margin-bottom: 15px;
+margin-bottom: 15px;
 }
 .group-this label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
 }
 .group-this textarea {
-  width: 100%;
-  height: 100px;
-  padding: 8px;
-  box-sizing: border-box;
-  resize: vertical; /* Allows vertical resizing */
+width: 100%;
+height: 100px;
+padding: 8px;
+box-sizing: border-box;
+resize: vertical; /* Allows vertical resizing */
 }
 
 .job-middle{
-  color: white;
-  background-color: transparent;
-  margin-top: 100px; /* Add space for the horizontal nav height + margin */
-  margin-right: 0; /* Add space for the vertical nav width */
-  width: 88%;
-  padding: 20px; /* Optional padding inside the main body */
-  min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
-  box-sizing: border-box; /* Include padding in width/height calculations */
+color: white;
+background-color: transparent;
+margin-top: 100px; /* Add space for the horizontal nav height + margin */
+margin-right: 0; /* Add space for the vertical nav width */
+width: 88%;
+padding: 20px; /* Optional padding inside the main body */
+min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
+box-sizing: border-box; /* Include padding in width/height calculations */
 }
 .Example-photo {
-  display: flex;
-  justify-content: center; /* Centering the figure */
-  width: 30%; /* Customize the width */
-  height: 10%;
-  max-width: 600px; /* Width Limits */
-  border: 1px solid #ccc; 
-  padding: 1px; /* Distance around the photo */
-  margin-left:2px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shading */
+display: flex;
+justify-content: center; /* Centering the figure */
+width: 30%; /* Customize the width */
+height: 10%;
+max-width: 600px; /* Width Limits */
+border: 1px solid #ccc; 
+padding: 1px; /* Distance around the photo */
+margin-left:2px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shading */
 }
 .Example-photo img {
-  max-width: 120%; 
-  height: auto; 
+max-width: 120%; 
+height: auto; 
 }
 .feedback-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
 }
 .feedback-table th, .report-table td {
-  border: 1px solid #000;
-  padding: 8px;
-  text-align: left;
+border: 1px solid #000;
+padding: 8px;
+text-align: left;
 }
 .feedback-table th {
-  background-color: #f2f2f2;
+background-color: #f2f2f2;
 }
 .form-feedback{
-  margin-top: 100px;
-  margin-right:0px;
-  width: 900px;
-  padding: 20px;
-  min-height: calc(100vh - 74px);
-  box-sizing: border-box;
+margin-top: 100px;
+margin-right:0px;
+width: 900px;
+padding: 20px;
+min-height: calc(100vh - 74px);
+box-sizing: border-box;
 }
 .form-note{
-  margin-top: 15px;
+margin-top: 15px;
 }  
