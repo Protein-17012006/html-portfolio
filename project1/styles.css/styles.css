@@ -483,8 +483,25 @@ form {
   background: linear-gradient(135deg, #fff, #5c7ecf);
   border: 5px solid rgba(0, 0, 0, 0.1);
   border-radius: 15px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);  
   color: #000; /* Text color remains unchanged */
+}
+.frame img {
+  width: 100%; /* Ensures the image fits the container width */
+  height: 175px; /* Maintains aspect ratio */
+  border-radius: 10px; /* Rounded corners for the image */
+}
+img{
+  height:30px;
+  text-align:center;
+}
+.frame p{
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: bold;
+}
+.frame h2, .frame p {
+  margin: 0;
 }
 .group-this{
   margin-bottom: 15px;
@@ -527,3 +544,27 @@ form {
   max-width: 120%; 
   height: auto; 
 }
+.feedback-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.feedback-table th, .report-table td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+.feedback-table th {
+  background-color: #f2f2f2;
+}
+.form-feedback{
+  margin-top: 100px;
+  margin-right:0px;
+  width: 900px;
+  padding: 20px;
+  min-height: calc(100vh - 74px);
+  box-sizing: border-box;
+}
+.form-note{
+  margin-top: 15px;
+}  
