@@ -89,27 +89,30 @@
     
     <div class="formbody">
 		<form action="#" method="post">
-		    <div class="input-box">
+		        <div class="input-box">
                 <label for="name">Job reference number</label>
 				<input type="name" maxlength="5" required id="name">
 			</div>
-            <div class="input-box">
+            <div class="input-box" >
                 <label for="name">First name</label>
-				<input type="text" maxlength="20" required id="name">
+				<input type="text" pattern="[A-Za-zÀ-ỹ\s]+" maxlength="20" required id="name">
 			</div>
-            <div class="input-box">
+            <div class="input-box" >
                 <label for="name">Last name</label>
-				<input type="name" maxlength="20" required id="name">
+				<input type="text" pattern="[A-Za-zÀ-ỹ\s]+"  maxlength="20" required id="name">
 			</div>
 			<div class="input-box">
                 <label for="date">Date of birth</label>
 				<input type="date" required id="date">
 			</div>
             <div class="radio-group"> 
+              <fieldset>
+                <legend>Gender</legend>
                 <input type="radio" id="male" name="sex" value="male" checked />
                 <label for="male">Male</label>
                 <input type="radio" id="female" name="sex" value="female" />
                 <label for="female">Female</label>
+              </fieldset>
             </div>
             <div class="input-box">
                 <label for="name">Street adress</label>
@@ -142,7 +145,7 @@
 			</div>
             <div class="input-box">
                 <label for="telephone">Phone number</label>
-				<input type="text" pattern="\d{8,12}|\d{2,3} \d{6,10}"  id="numberInput"  oninput="validateNumberInput(event)">
+				<input type="text" pattern="\d{8,12}|\d{2,3} \d{6,10}"  id="numberInput" maxlength="12" oninput="validateNumberInput(event)">
 			</div>
             <fieldset>
                 <legend>Skill list:</legend>
@@ -164,6 +167,4 @@
         </form>
     </div>
     </body>
-   
-       
     </html>
