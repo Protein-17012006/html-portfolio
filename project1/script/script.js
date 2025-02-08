@@ -3,11 +3,26 @@ function navigateTo(url) {
 }
 
 function search() {
-    var query = document.getElementById("favseason").value.toLowerCase();
+    var query = document.getElementById("search_list").value.toLowerCase();
     var links = {
-        "google": "https://www.google.com",
-        "youtube": "https://www.youtube.com",
-        "facebook": "https://www.facebook.com"
+        "cybersecurity analyst": "../job_description/CS/cs1.html",
+        "full stack developer": "../job_description/CS/cs2.html",
+        "front-end developer": "../job_description/CS/cs3.html",
+        "back-end developer": "../job_description/CS/cs4.html",
+        "data engineer": "../job_description/CS/cs5.html",
+        "automation engineer": "../job_description/CS/cs6.html",
+        "content creator": "../job_description/Media/cs1.html",
+        "social media manager": "../job_description/Media/cs2.html",
+        "media buyer": "../job_description/Media/cs3.html",
+        "public relations specialist": "../job_description/Media/cs4.html",
+        "video production specialist": "../job_description/Media/cs5.html",
+        "digital marketing specialist": "../job_description/Media/cs6.html",
+        "business development manager": "../job_description/Business/cs1.html",
+        "operations manager": "../job_description/Business/cs2.html",
+        "financial manager": "../job_description/Business/cs3.html",
+        "hr manager": "../job_description/Business/cs4.html",
+        "marketing manager": "../job_description/Business/cs5.html",
+        "project manager": "../job_description/Business/cs6.html",
     };
     
     if (links[query]) {
