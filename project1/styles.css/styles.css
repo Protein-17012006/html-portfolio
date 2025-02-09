@@ -411,6 +411,10 @@ margin-left: 20px;
 color: #cccccc; /* Light Gray for Better Readability */
 }
 
+.about-middle li{
+  color: #cccccc; /* Light Gray for Better Readability */
+}
+
 .about-middle table {
 width: 100%;
 border-collapse: collapse;
@@ -434,17 +438,25 @@ color: #f5f5f5; /* Light Text for Readability */
 }
 
 .about-middle figure {
-background: #1e1e1e;
-padding: 10px;
-border-radius: 8px;
-text-align: center;
-max-width: 300px;
+  width: 50%; /* Set figure width to 50% of its parent */
+  height: 300px;
+  margin: auto; /* Center the figure horizontally */
+  display: flex; /* Ensure the image aligns properly */
+  justify-content: center; /* Center the image inside */
+  align-items: center; /* Align the image vertically */
+  overflow: hidden; /* Hide any overflowing content */
 }
 
 .about-middle figcaption {
 color: #aaa; /* Light Gray Caption */
 font-size: 14px;
 }
+
+.example-photo img {
+  object-fit: cover; /* Ensures the image covers the container properly */
+  display: block; /* Removes unwanted space below the image */
+}
+
 
 .about-middle .email{
 color: white;
