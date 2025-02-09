@@ -440,9 +440,8 @@ color: #f5f5f5; /* Light Text for Readability */
 .about-middle figure {
   width: 50%; /* Set figure width to 50% of its parent */
   height: 300px;
-  margin: auto; /* Center the figure horizontally */
+
   display: flex; /* Ensure the image aligns properly */
-  justify-content: center; /* Center the image inside */
   align-items: center; /* Align the image vertically */
   overflow: hidden; /* Hide any overflowing content */
 }
@@ -488,12 +487,17 @@ padding: 20px;
 margin: 20px;
 align-items: center;
 text-align: center;
-background: linear-gradient(135deg, #fff, #5c7ecf);
+background: linear-gradient(135deg, #3d3b3b, #5c7ecf);
 border: 5px solid rgba(0, 0, 0, 0.1);
 border-radius: 15px;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);  
 color: #000; /* Text color remains unchanged */
 }
+
+.frame h2{
+  color:white;
+}
+
 .frame img {
 width: 100%; /* Ensures the image fits the container width */
 height: 175px; /* Maintains aspect ratio */
@@ -505,7 +509,7 @@ text-align:center;
 }
 .frame p{
 font-size: 1.2rem;
-color: #000000;
+color: #cccccc;
 font-weight: bold;
 }
 .frame h2, .frame p {
@@ -529,14 +533,25 @@ resize: vertical; /* Allows vertical resizing */
 
 .job-middle{
 color: white;
-background-color: transparent;
+background-color:transparent;
 margin-top: 100px; /* Add space for the horizontal nav height + margin */
-margin-right: 0; /* Add space for the vertical nav width */
-width: 88%;
+margin-right: 20%; /* Add space for the vertical nav width */
+width: 68%;
 padding: 20px; /* Optional padding inside the main body */
 min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
 box-sizing: border-box; /* Include padding in width/height calculations */
 }
+
+.job-middle aside{
+  position: fixed;
+  width: 19%;
+  top: 108px;
+  right: 0;
+  height: 100%;
+  padding: 10px;
+  background-color: red;
+}
+
 .Example-photo {
 display: flex;
 justify-content: center; /* Centering the figure */

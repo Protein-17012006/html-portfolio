@@ -23,7 +23,7 @@ function search() {
         "hr manager": "../project1/job_description/Business/cs4.html",
         "marketing manager": "../project1/job_description/Business/cs5.html",
         "project manager": "../project1/job_description/Business/cs6.html",
-    };
+    }; 
     
     if (links[query]) {
         window.location.href = links[query];
