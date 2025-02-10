@@ -481,17 +481,16 @@ box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 .frame {
-width: 90%;
-height: 240px;
-padding: 20px;
-margin: 20px;
-align-items: center;
-text-align: center;
-background: linear-gradient(135deg, #3d3b3b, #5c7ecf);
-border: 5px solid rgba(0, 0, 0, 0.1);
-border-radius: 15px;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);  
-color: #000; /* Text color remains unchanged */
+  width: 90%;
+  height: 240px;
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+  border: 2px solid rgba(255,255,255,.5);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,.5);
+  background: linear-gradient(135deg, #3d3b3b, #5c7ecf);
 }
 
 .frame h2{
