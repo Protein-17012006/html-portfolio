@@ -90,7 +90,7 @@
 
 
   <div class="formbody">
-    <form action="#" method="post">
+    <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
       <div class="input-box">
         <label for="name">Job reference number</label>
         <input type="name" maxlength="5" required id="name">
@@ -165,7 +165,7 @@
       <label for="other skills">Other skills</label>
       <textarea id="story" name="skills" rows="4" cols="20"></textarea>
       <br>
-      <button type="submit" class="btn">Register</button>
+      <button type="submit" class="btn" onsubmit="handleSubmit(event)">Register</button>
       <button type="reset" class="btn">Reset</button>
     </form>
   </div>
