@@ -393,25 +393,25 @@ min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
 box-sizing: border-box; /* Include padding in width/height calculations */
 }
 
-.about-middle dl {
+.about-middle dl , .job-middle dl{
 background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Dark Gray Box */
 padding: 15px;
 border-radius: 8px;
 box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
-.about-middle dt {
+.about-middle dt , .job-middle dt{ 
 font-weight: bold;
 color: #908ae0; /* Gold for Emphasis */
 margin-top: 10px;
 }
 
-.about-middle dd {
+.about-middle dd, .job-middle dd {
 margin-left: 20px;
 color: #cccccc; /* Light Gray for Better Readability */
 }
 
-.about-middle li{
+.about-middle li, .job-middle li{
   color: #cccccc; /* Light Gray for Better Readability */
 }
 
