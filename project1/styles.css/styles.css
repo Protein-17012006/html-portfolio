@@ -712,6 +712,7 @@ img {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  max-width:100%;
 }
 
 .feedback-table th,
@@ -725,6 +726,10 @@ img {
   background-color: #f2f2f2;
 }
 
+.feedback-table textarea{
+  width:260px;
+  max-width:260px;
+}
 .form-feedback {
   margin-top: 100px;
   margin-right: 0px;
@@ -737,3 +742,11 @@ img {
 .form-note {
   margin-top: 15px;
 }
+
+textarea{
+  max-width:330px;
+  max-height:100px;
+  width:330px;
+  height:100px;
+}
+

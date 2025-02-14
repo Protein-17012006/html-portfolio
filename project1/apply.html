@@ -154,19 +154,33 @@
         <legend>Skill list:</legend>
         <div class="input-box">
           <input type="checkbox" id="skills" name="Collaboration" checked />
-          <label for="scales">Collaboration</label>
+          <label for="horns">Collaboration</label>
+        </div>
+
+        <div class="input-box">
+          <input type="checkbox" id="skills" name="Creativity" />
+          <label for="horns">Creativity</label>
         </div>
 
         <div class="input-box">
           <input type="checkbox" id="skills" name="Critical thinking" />
           <label for="horns">Critical thinking</label>
         </div>
+
+        <div class="input-box">
+          <input type="checkbox" id="skills" name="Time management" />
+          <label for="horns">Time management</label>
+        </div>
+
       </fieldset>
+      <div>
       <label for="other skills">Other skills</label>
-      <textarea id="story" name="skills" rows="4" cols="20"></textarea>
+      </div>
+      <textarea id="story" name="skills" rows="4" cols="20" ></textarea>
       <br>
       <button type="submit" class="btn" onsubmit="handleSubmit(event)">Register</button>
       <button type="reset" class="btn">Reset</button>
+    
     </form>
   </div>
 </body>

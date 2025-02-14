@@ -101,7 +101,7 @@
           </div>
           <div class="input-box">
             <label for="name">Your full name</label>
-            <input type="name" maxlength="24" required id="name">
+            <input type="name" pattern="[A-Za-zÀ-ỹ\s]+" maxlength="24" required id="name">
           </div>
           <div class="input-box">
             <label for="postcode">Postcode</label>
@@ -132,7 +132,7 @@
             </tbody>
           </table>
           <div class="form-note">
-            <label for="notes">Note:</label>
+            <div><label for="notes">Note:</label></div>
             <textarea placeholder="write your question here"></textarea>
           </div>
           <button type="submit" class="btn">Submit</button>
