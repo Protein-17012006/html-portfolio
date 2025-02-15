@@ -10,7 +10,6 @@ h1,
 h2 {
   color: #42a5f5;
   /* Bright Electric Blue for Headings */
-  text-align:center;
 }
 
 a {
@@ -340,6 +339,11 @@ nav figure:hover {
   /* Ensure it fills the remaining height */
   box-sizing: border-box;
   /* Include padding in width/height calculations */
+}
+
+.formbody h1{
+  text-align: center;
+  color:#1f104f;
 }
 
 form {
