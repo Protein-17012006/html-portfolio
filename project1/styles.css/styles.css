@@ -10,6 +10,7 @@ h1,
 h2 {
   color: #42a5f5;
   /* Bright Electric Blue for Headings */
+  text-align:center;
 }
 
 a {
@@ -749,4 +750,6 @@ textarea{
   width:330px;
   height:100px;
 }
-
+.link-tip{
+  color:yellow;
+}
