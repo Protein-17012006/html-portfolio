@@ -374,7 +374,7 @@ form {
 }
 .apply-input-container{
   display: flex;
-  justify-content: center; 
+  justify-content: left; 
   gap: 30px;
 }
 
@@ -388,7 +388,6 @@ form {
   font-size: 1rem;
   color: #333;
   margin-bottom: 4px;
-  
 }
 
 .input-box input[type="radio"] {
