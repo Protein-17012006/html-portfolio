@@ -362,16 +362,17 @@ form {
 }
 .apply-input-box{
   display: inline-block;
-  width: 100px;
+  width: 90px;
   height: 10px;
-  margin: 10px;
+  margin: 0px;
   line-height: 20px;
-  padding:10px
+  padding:10px;
+  white-space:nowrap;
 }
 .apply-input-container{
   display: flex;
   justify-content: center; 
-  gap: 20px; 
+  gap: 30px; 
 }
 .input-box label {
   display: block;
@@ -379,6 +380,7 @@ form {
   font-size: 1rem;
   color: #333;
   margin-bottom: 4px;
+  
 }
 
 .input-box input[type="radio"] {
