@@ -173,7 +173,7 @@ nav figure:hover {
   /* Include padding in width/height calculations */
 }
 
-/* Middle of the section */
+/* Middle of the section in the homepage */
 .middle section {
   background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Applies a diagonal gradient from dark gray to blue */
   /* Dark Gray Box */
@@ -478,6 +478,7 @@ form {
   /* Allows vertical resizing */
 }
 
+/* The middle of all webpages, except for homepage and jobpage */
 .about-middle {
   color: white; /* Sets text color to white */
   background-color: transparent; /* Keeps background transparent */
@@ -600,6 +601,7 @@ td {
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Adds a subtle shadow effect */
 }
 
+/* A field in the middle of Cs, businessm and media.html */
 .frame {
   width: 90%; /* Sets width to 90% of the parent */
   height: 240px; /* Sets a fixed height */
@@ -612,8 +614,6 @@ td {
   box-shadow: 0 0 30px rgba(0, 0, 0, .5); /* Adds a glowing shadow */
   background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Gradient background */
 }
-
-
 
 .frame h2 {
   color: white; /* Sets the color of all heading 2 elements inside .frame to white */
@@ -665,7 +665,7 @@ img {
   resize: vertical; /* Allows users to resize the textarea only vertically */
 }
 
-/* Styles the main content area */
+/* Styles the main content area in job.html */
 .job-middle {
   color: white; /* Sets text color to white */
   background-color: transparent; /* Makes background transparent */
@@ -762,7 +762,7 @@ textarea {
   height: 100px; /* Fixes the height at 100px */
 }
 
-/* Styles links with the .link-tip class */
+/* Styles links with the .link-tip class in the job.html aside */
 .link-tip {
   color: yellow; /* Sets the text color to yellow */
 }
