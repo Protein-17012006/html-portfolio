@@ -756,10 +756,9 @@ img {
 
 /* Sets default styles for all textareas */
 textarea {
-  max-width: 330px; /* Ensures textareas don’t exceed 330px width */
-  max-height: 100px; /* Limits the height to 100px */
-  width: 330px; /* Fixes the width at 330px */
-  height: 100px; /* Fixes the height at 100px */
+  width: 100%; /* Ensures textareas don’t exceed 330px width */
+  height: 100%; /* Limits the height to 100px */
+  resize:none;
 }
 
 /* Styles links with the .link-tip class in the job.html aside */
