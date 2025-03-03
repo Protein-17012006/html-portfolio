@@ -5,13 +5,15 @@ body {
   display: flex; /* Uses flexbox for layout */
   justify-content: right; /* Aligns content to the right */
   min-height: 100vh; /* Ensures the body takes up the full viewport height */
-  background: url(./images/background1.gif); /* Sets background image */
+  background: url(./images/background4.png) no-repeat; /* Sets background image */
   background-position: center; /* Centers the background image */
+  background-attachment: fixed;
+  background-size: cover;
 }
 /* Changing color for heading 1 and heading 2 */
 h1,
 h2 {
-  color: #42a5f5; /* Bright Electric Blue for Headings */
+  color: #66fcf1; /* Bright Electric Blue for Headings */
 }
 
 /* Making it more relaxed for user when using it */
@@ -183,9 +185,12 @@ nav figure:hover {
 }
 
 .middle h1 {
-  font-size: 60px; /* Sets the font size of h1 elements inside .middle */
   font-family: cursive; /* Applies a cursive font style */
-  color: #cbc326; /* Sets the text color to a yellowish tone */
+  font-size: 100px;
+  font-weight: 50px;
+  background: url("images/background7.gif"); /* Nền gradient */
+  -webkit-background-clip: text; /* Clip nền lên chữ */
+  color: transparent; /* Làm cho chữ trong suốt, chỉ hiển thị gradient */
 }
 
 .middle section h2 {
@@ -425,6 +430,10 @@ form {
   padding: 15px; /* Adds padding inside the container */
   border-radius: 8px; /* Rounds the corners */
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Adds a subtle shadow effect */
+}
+
+.job-middle h1{
+  text-align: center;
 }
 
 .about-middle dt,
@@ -695,7 +704,7 @@ nav{
   left:0;
   right:0;
   position: absolute;
-  background:#fff;
+  background: #1f2833;
   width: 100%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -706,14 +715,13 @@ nav{
   box-sizing: border-box;
 }
 
-
-
 .nav-content{
   display: flex;
-  height: 120px;
+  height: 65px;
   align-items: center;
   list-style: none;
   position: relative;
+  padding-bottom: -20px;
 
 }
 
@@ -722,7 +730,7 @@ nav{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height:120px;
+  height:8%;
   width: 200px;
   text-decoration: none;
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
@@ -734,19 +742,19 @@ nav{
 }
 .link-icon{
   font-size: 38px;
-  color: #333;
+  color: #66fcf1;
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 
 .link-item.active .link-icon{
-  color: #1e88e5;
+  color: #b3faf5;
 }
 
 .link-text{
   position: absolute;
   font-size: 25px;
   font-weight: 500;
-  color:#1e88e5;
+  color:#b3faf5;
   opacity: 0;
   transform: translateY(32px);
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
@@ -756,14 +764,18 @@ nav{
   opacity: 1;
 }
 
+.nav-list{
+  height: 30px;
+}
+
 .indicator{
   position: absolute;
   height: 36px;
-  top:110px;
+  top:55px;
   left:0px;
   width: 36px;
-  background-color: white;
-  border: 6px solid black;
+  background-color: #1f2833;
+  border: 6px solid #080404;
   border-radius: 50%;
   transform: translateX(250%);
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -782,95 +794,15 @@ nav{
 .indicator::before{
   left: -21.5px;
   top:-4px;
-  background-color: white;
+  background-color: #1f2833;
   border-bottom-right-radius: 25px;
-  box-shadow: 2px 12px black ;
+  box-shadow: 2px 12px #080404 ;
 }
 
 .indicator::after{
   right: -21.5px;
   top:-4px;
-  background-color: white;
+  background-color: #1f2833;
   border-bottom-left-radius: 25px;
-  box-shadow: -2px 12px black ;
+  box-shadow: -2px 12px #080404 ;
 }
-
-
-.dropdown-menu {
-  display: block;
-  position: absolute;
-  background: white;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  padding: 10px;
-  list-style: none;
-  opacity: 0; 
-  transform: translateY(-20px); 
-  transition: opacity 0.3s ease, transform 0.3s ease; 
-  visibility: hidden; 
-  top:100%;
-  z-index: 2;
-}
-
-
-.dropdown-menu li {
-  padding: 10px;
-}
-
-.dropdown-menu li a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  transition: background 0.2s ease;
-  height: 30px;
-}
-
-.dropdown-menu li a:hover {
-  background: #f1f1f1;
-}
-
-.nav-list:hover .dropdown-menu {
-  opacity: 1;
-  transform: translateY(0);
-  visibility: visible;
-}
-
-
-.sub-dropdown-menu {
-  display: none;
-  position: absolute;
-  left: 100%;
-  top: 0;
-  background: white;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  padding: 10px;
-  list-style: none;
-  opacity: 0;
-  transform: translateY(-10px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-
-.has-submenu.active .sub-dropdown-menu {
-  display: block;
-  opacity: 1;
-  transform: translateY(0);
-}
-
-
-.sub-dropdown-menu li {
-  padding: 10px;
-}
-
-.sub-dropdown-menu li a {
-  text-decoration: none;
-  color: black;
-  display: block;
-  transition: background 0.2s ease;
-}
-
-.sub-dropdown-menu li a:hover {
-  background: #f1f1f1; 
-}
-/* kết thúc ở đây*/

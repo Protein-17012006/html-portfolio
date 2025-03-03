@@ -36,6 +36,7 @@ function validateNumberInput(event) {
     const input = event.target;
     input.value = input.value.replace(/[^0-9 ]/g, "");
 }
+
 //bắt đầu làm từ đây//
 const linkItems = document.querySelectorAll(".link-item");
 const indicator = document.querySelector(".indicator");
@@ -94,27 +95,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    const submenuItems = document.querySelectorAll(".has-submenu > a");
-
-    submenuItems.forEach(item => {
-        item.addEventListener("click", function(event) {
-            event.preventDefault(); 
-
-           
-            const parent = this.parentElement;
-            const subMenu = parent.querySelector(".sub-dropdown-menu");
-
-            if (parent.classList.contains("active")) {
-                parent.classList.remove("active");
-            } else {
-               
-                document.querySelectorAll(".has-submenu").forEach(el => el.classList.remove("active"));
-                parent.classList.add("active");
-            }
-        });
-    });
-});
 
 
 
