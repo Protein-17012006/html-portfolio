@@ -36,3 +36,85 @@ function validateNumberInput(event) {
     const input = event.target;
     input.value = input.value.replace(/[^0-9 ]/g, "");
 }
+//bắt đầu làm từ đây//
+const linkItems = document.querySelectorAll(".link-item");
+const indicator = document.querySelector(".indicator");
+
+
+linkItems.forEach((linkItem, index) => {
+    linkItem.addEventListener("mouseover", () => {
+       
+        indicator.style.left = `${index * 200 + 0}px`;
+
+        
+        document.querySelector(".link-item.active").classList.remove("active");
+
+       
+        linkItem.classList.add("active");
+    });
+});
+
+
+document.querySelector(".nav-content").addEventListener("mouseleave", () => {
+    const activeItem = document.querySelector(".link-item.active");
+    const activeIndex = [...linkItems].indexOf(activeItem);
+    indicator.style.left = `${activeIndex * 200 + 0}px`;
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const jobsMenu = document.getElementById("jobs-menu");
+    const dropdownMenu = document.querySelector(".dropdown-menu");
+
+    jobsMenu.addEventListener("mouseenter", function() {
+        dropdownMenu.style.opacity = "1";
+        dropdownMenu.style.transform = "translateY(0)";
+        dropdownMenu.style.visibility = "visible";
+    });
+
+    jobsMenu.addEventListener("mouseleave", function() {
+        setTimeout(() => {
+            dropdownMenu.style.opacity = "1";
+            dropdownMenu.style.transform = "translateY(-20px)";
+            dropdownMenu.style.visibility = "hidden";
+        }, 9999999); 
+    });
+
+    dropdownMenu.addEventListener("mouseenter", function() {
+        dropdownMenu.style.opacity = "1";
+        dropdownMenu.style.transform = "translateY(0)";
+        dropdownMenu.style.visibility = "visible";
+    });
+
+    dropdownMenu.addEventListener("mouseleave", function() {
+        setTimeout(() => {
+            dropdownMenu.style.opacity = "0";
+            dropdownMenu.style.transform = "translateY(-20px)";
+            dropdownMenu.style.visibility = "hidden";
+        }, 200);
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const submenuItems = document.querySelectorAll(".has-submenu > a");
+
+    submenuItems.forEach(item => {
+        item.addEventListener("click", function(event) {
+            event.preventDefault(); 
+
+           
+            const parent = this.parentElement;
+            const subMenu = parent.querySelector(".sub-dropdown-menu");
+
+            if (parent.classList.contains("active")) {
+                parent.classList.remove("active");
+            } else {
+               
+                document.querySelectorAll(".has-submenu").forEach(el => el.classList.remove("active"));
+                parent.classList.add("active");
+            }
+        });
+    });
+});
+
+
+

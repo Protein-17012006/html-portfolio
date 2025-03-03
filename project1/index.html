@@ -7,79 +7,102 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css/styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-  <nav>
-    <table class="vertical_bar">
-      <thead>
-        <tr>
-          <th>
-            <a href="index.html">
-              <figure><img src="./img/logo.png" alt="logo" class="logo">
-                <figcaption>Nothingness</figcaption>
-              </figure>
-            </a>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <a href="index.html">
-              <figure><img src="./img/homeicon.png" alt="Home" />
-                <figcaption>Home</figcaption>
-              </figure>
-            </a>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <a href="about.html">
-              <figure><img src="img/about.png" alt="Car" />
-                <figcaption>About</figcaption>
-              </figure>
-            </a>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <a href="jobs.html">
-              <figure><img src="img/job.png" alt="Book" />
-                <figcaption>Jobs</figcaption>
-              </figure>
-            </a>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <a href="apply.html">
-              <figure><img src="img/apply.png" alt="Electronic" />
-                <figcaption>Apply</figcaption>
-              </figure>
-            </a>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <a href="enhancements.html">
-              <figure><img src="img/enhancements.png" alt="Electronic" />
-                <figcaption>Enhancements</figcaption>
-              </figure>
-            </a>
-          </th>
-        </tr>
-      </thead>
-    </table>
-  </nav>
-  <header>
-    <div class="horizontal_nav">
-      <a href="index.html">Home</a>
-      <a href="./job_description/CS/cs.html">Computer Science</a>
-      <a href="./job_description/Business/business.html">Business</a>
-      <a href="./job_description/Media/media.html">Media</a>
-      <a href="mailto:105710430@student.swin.edu.au">Contact</a>
-      <button class="button-login" onclick="window.location.href='./apply.html'">Apply</button>
-    </div>
-  </header>
+<nav class="nav">
+  <ul class="nav-content">
+    <li class="nav-list">
+      <a href="index.html" class="link-item active">
+        <i class='bx bx-home link-icon'></i>
+        <span class="link-text">Home</span>
+      </a>
+    </li>
+
+    
+    <li class="nav-list">
+      <a href="#" class="link-item" id="jobs-menu">
+        <i class='bx bxs-briefcase link-icon'></i>
+        <span class="link-text">Jobs</span>
+      </a>
+      <ul class="dropdown-menu">
+        <li class="has-submenu">
+          <a href="#">Computer Science</a>
+          <ul class="sub-dropdown-menu">
+            <li><a href="#">Cybersecurity Analyst</a></li>
+            <li><a href="#">Full Stack Developer</a></li>
+            <li><a href="#">Front-End Developer</a></li>
+            <li><a href="#">Back-End Developer</a></li>
+            <li><a href="#">Data Engineer</a></li>
+            <li><a href="#">Automation Engineer</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a href="#">Business</a>
+          <ul class="sub-dropdown-menu">
+            <li><a href="#">Business Development Manager</a></li>
+            <li><a href="#">Operations Manager</a></li>
+            <li><a href="#">Financial Manager</a></li>
+            <li><a href="#">HR Manager</a></li>
+            <li><a href="#">Marketing Manager</a></li>
+            <li><a href="#">Project Manager</a></li>
+          </ul>
+        </li>
+        <li class="has-submenu">
+          <a href="#">Media</a>
+          <ul class="sub-dropdown-menu">
+            <li><a href="#">Content Creator</a></li>
+            <li><a href="#">Social Media Manager</a></li>
+            <li><a href="#">Media Buyer</a></li>
+            <li><a href="#">Public Relations Specialist</a></li>
+            <li><a href="#">Video Production Specialist</a></li>
+            <li><a href="#">Digital Marketing Specialist</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+
+    <li class="nav-list">
+      <a href="apply.html" class="link-item">
+        <i class='bx bxs-registered link-icon' ></i>
+        <span class="link-text">Apply</span>
+      </a>
+    </li>
+    <li class="nav-list">
+      <a href="mailto:105710430@student.swin.edu.au" class="link-item">
+        <i class='bx bxs-contact link-icon' ></i>
+        <span class="link-text">Contact</span>
+      </a>
+    </li>
+    <li class="nav-list">
+      <a href="tips.html" class="link-item">
+        <i class='bx bxs-select-multiple link-icon'></i>
+        <span class="link-text">Tips</span>
+      </a>
+    </li>
+    <li class="nav-list">
+      <a href="about.html" class="link-item">
+        <i class='bx bx-meh-blank link-icon'></i>
+        <span class="link-text">About</span>
+      </a>
+    </li>
+    <li class="nav-list">
+      <a href="enhancements.html" class="link-item">
+        <i class='bx bx-up-arrow-alt link-icon'></i>
+        <span class="link-text">Enhancements</span>
+      </a>
+    </li>
+
+    <span class="indicator"></span>
+  </ul>
+</nav>
+
+
+
+
+
 
   <script src="script.js"></script>
 
