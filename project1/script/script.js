@@ -56,6 +56,8 @@ linkItems.forEach((linkItem, index) => {
 });
 
 
+
+
 document.querySelector(".nav-content").addEventListener("mouseleave", () => {
     const activeItem = document.querySelector(".link-item.active");
     const activeIndex = [...linkItems].indexOf(activeItem);
@@ -94,6 +96,14 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 200);
     });
 });
+
+
+
+
+
+
+
+
 
 
 

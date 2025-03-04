@@ -782,8 +782,8 @@ nav{
   border-radius: 50%;
   transform: translateX(250%);
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  z-index: 1;
 }
+
 
 
 .indicator::before,
@@ -825,6 +825,8 @@ nav{
 p {
   margin: 0;
 }
+
+
 
 #burger-toggle {
   position: absolute;
