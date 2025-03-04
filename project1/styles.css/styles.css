@@ -13,6 +13,10 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+*{
+  font-family: "Gill Sans", sans-serif;
+}
 /* Changing color for heading 1 and heading 2 */
 h1,
 h2 {
@@ -86,16 +90,18 @@ nav figure:hover {
   color: white;
   justify-items: center;
   margin-top: 100px;
-  /* Add space for the horizontal nav height + margin */
-  margin-right: 0;
-  /* Add space for the vertical nav width */
   width: 100%;
   padding: 20px;
-  /* Optional padding inside the main body */
   min-height: calc(100vh - 74px);
-  /* Ensure it fills the remaining height */
   box-sizing: border-box;
-  /* Include padding in width/height calculations */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.middle.active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Middle of the section in the homepage */
@@ -167,7 +173,7 @@ nav figure:hover {
   /* Removes any default border */
   border-radius: 20px;
   /* Rounds the corners of the button */
-  background-color: #074b83;
+  background-color: #45a29e;
   /* Sets the background color to green */
   color: white;
   /* Sets the text color to white */
@@ -188,8 +194,9 @@ nav figure:hover {
 }
 
 .middle h1 {
-  font-family: cursive; /* Applies a cursive font style */
-  font-size: 100px;
+  white-space: nowrap;
+  font-family: "Gill Sans", sans-serif; /* Applies a cursive font style */
+  font-size: 80px;
   font-weight: 50px;
   background: url("images/background7.gif"); /* Nền gradient */
   -webkit-background-clip: text; /* Clip nền lên chữ */
@@ -878,81 +885,31 @@ p {
   }
 }
 
-.burger-menu {
-  --burger-menu-radius: 4em;
-
-  position: fixed;
-  top: 20vh;
-  left: 5vw;
-  z-index: 100;
-  display: block;
-  width: var(--burger-menu-radius);
-  height: var(--burger-menu-radius);
-  outline: none;
-  cursor: pointer;
-
-  .line {
-    position: absolute;
-    left: 25%;
-    width: 50%;
-    height: 3px;
-    background: hsla(210, 29%, 24%, 0.3);
-    border-radius: 10px;
-    overflow: hidden;
-    transition: 0.5s;
-
-    &:nth-child(1) {
-      top: 30%;
-    }
-
-    &:nth-child(2) {
-      top: 50%;
-    }
-
-    &:nth-child(3) {
-      top: 70%;
-    }
-
-    &::after {
-      position: absolute;
-      content: "";
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: var(--primary-color-darker);
-      transform: translateX(-100%);
-      transition: 0.25s;
-    }
-
-    @for $i from 2 through 3 {
-      &:nth-child(#{$i})::after {
-        transition-delay: 0.1s * ($i - 1);
-      }
-    }
-  }
-
-  &:hover {
-    .line::after {
-      transform: translateX(0);
-    }
-  }
-}
-
 .menu {
   position: fixed;
-  top: 0;
+  bottom: 30%;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
+  opacity: 1; /* Always visible */
   overflow-x: hidden;
-  visibility: hidden;
+  visibility: visible; /* Always visible */
   transition: 0.3s;
+  /* Initial state for animation */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100%); /* Start off-screen */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 
+  /* Make menu appear on page load */
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); /* Slide in */
+  }
   @include sp-layout {
     display: block;
   }
@@ -984,7 +941,7 @@ p {
         overflow: hidden;
 
         div {
-          transform: translateY(102%);
+          transform: translateY(0); /* Ensures elements are visible */
         }
       }
 
@@ -1014,15 +971,14 @@ p {
   }
 
   .title {
-    font-size: 24px;
+    font-size: 40px;
     color: white;
     overflow: hidden;
 
     p {
-      font-size: 12px;
       letter-spacing: 2px;
       text-transform: uppercase;
-      transform: translateY(102%);
+      transform: translateY(0); /* Ensures text is visible */
     }
   }
 
@@ -1040,6 +996,7 @@ p {
       margin: 0 12px;
       overflow: hidden;
       height: 300px;
+      border-radius: 20px;
 
       @include sp-layout {
         width: 40vw;
@@ -1049,6 +1006,8 @@ p {
       .image {
         position: relative;
         transition: 0.6s;
+        overflow: hidden; /* Ensure scaled image doesn't overflow */
+        border-radius: inherit; /* Inherit the border-radius */
 
         &::before {
           position: absolute;
@@ -1079,14 +1038,19 @@ p {
 
     img {
       height: 250px;
-      transform: translateY(102%);
+      transform: translateY(0); /* Ensures images are visible */
     }
   }
 }
+.image {
+  border-radius: 20px; /* Ensures rounded corners */
+  overflow: hidden;
+}
+
 
 .icon-1 {
   width: 300px;
-  background: white;
+  background: linear-gradient(#c5c6c7, #45a29e);;
   color: rgba(0, 0, 0, 0.87);
   -webkit-clip-path: circle(24px at 150px 24px); 
   clip-path: circle(24px at 90% 24px);
@@ -1094,6 +1058,7 @@ p {
   transition: -webkit-clip-path 0.5625s ease-in-out, clip-path 0.375s ease-in-out;
   left: 70em;
   top: 110px;
+  border-radius: 30px;
 }
 
 .icon-1:hover {

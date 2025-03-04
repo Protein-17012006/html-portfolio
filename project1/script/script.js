@@ -55,67 +55,26 @@ linkItems.forEach((linkItem, index) => {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    let menu = document.querySelector(".menu");
+  
+    // Remove the class to reset animation
+    menu.classList.remove("active");
+  
+    // Force reflow (trick to restart CSS animation)
+    void menu.offsetWidth;
+  
+    // Re-add the class after a short delay
+    setTimeout(() => {
+      menu.classList.add("active");
+    }, 50); // Small delay ensures animation restarts
+  });
 
-
-
-document.querySelector(".nav-content").addEventListener("mouseleave", () => {
-    const activeItem = document.querySelector(".link-item.active");
-    const activeIndex = [...linkItems].indexOf(activeItem);
-    indicator.style.left = `${activeIndex * 200 + 0}px`;
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-    const jobsMenu = document.getElementById("jobs-menu");
-    const dropdownMenu = document.querySelector(".dropdown-menu");
-
-    jobsMenu.addEventListener("mouseenter", function() {
-        dropdownMenu.style.opacity = "1";
-        dropdownMenu.style.transform = "translateY(0)";
-        dropdownMenu.style.visibility = "visible";
-    });
-
-    jobsMenu.addEventListener("mouseleave", function() {
-        setTimeout(() => {
-            dropdownMenu.style.opacity = "1";
-            dropdownMenu.style.transform = "translateY(-20px)";
-            dropdownMenu.style.visibility = "hidden";
-        }, 9999999); 
-    });
-
-    dropdownMenu.addEventListener("mouseenter", function() {
-        dropdownMenu.style.opacity = "1";
-        dropdownMenu.style.transform = "translateY(0)";
-        dropdownMenu.style.visibility = "visible";
-    });
-
-    dropdownMenu.addEventListener("mouseleave", function() {
-        setTimeout(() => {
-            dropdownMenu.style.opacity = "0";
-            dropdownMenu.style.transform = "translateY(-20px)";
-            dropdownMenu.style.visibility = "hidden";
-        }, 200);
-    });
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  document.addEventListener("DOMContentLoaded", function () {
+    let menu = document.querySelector(".middle");
+    menu.classList.remove("active");
+    void menu.offsetWidth;
+    setTimeout(() => {
+      menu.classList.add("active");
+    }, 50); 
+  });
