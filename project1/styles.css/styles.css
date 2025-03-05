@@ -264,155 +264,6 @@ nav figure:hover {
   color: #42a5f5; /* Sets footer links to electric blue */
 }
 
-/* Form Body Styling */
-.formbody {
-  margin-top: 100px; /* Adds space to accommodate navigation height */
-  margin-right: 25%; /* Creates space for the vertical nav */
-  width: 40%; /* Limits form width */
-  padding: 20px; /* Adds padding inside the form */
-  min-height: calc(100vh - 74px); /* Ensures it fills the remaining viewport height */
-  box-sizing: border-box; /* Includes padding in the width and height calculations */
-}
-
-.formbody h1 {
-  text-align: center; /* Centers the heading */
-  color: #1f104f; /* Sets text color to dark purple */
-}
-
-/* Form styling */
-form {
-  background: linear-gradient(135deg, #fff, #5c7ecf); /* Applies a diagonal gradient */
-  padding: 20px; /* Adds padding inside the form */
-  margin: 20px; /* Adds space around the form */
-  border-radius: 10px; /* Rounds the edges */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
-  width: 100%; /* Makes the form take full width of its container */
-  max-width: 600px; /* Limits the form width */
-}
-
-.formbody fieldset {
-  padding-left: 0px; /* Removes left padding */
-  width: 100%; /* Ensures it spans full width */
-}
-
-/* Input Box Styling */
-.input-box {
-  margin-bottom: 10px; /* Adds spacing between input fields */
-}
-
-.apply-input-box {
-  display: inline-block; /* Aligns input boxes inline */
-  width: 90px; /* Sets fixed width */
-  height: 10px; /* Sets small height */
-  margin: 0px; /* Removes margin */
-  line-height: 20px; /* Adjusts text alignment */
-  padding: 10px; /* Adds space inside */
-  white-space: nowrap; /* Prevents text from wrapping */
-}
-
-.apply-input-container {
-  display: flex; /* Enables flexbox */
-  justify-content: left; /* Aligns items to the left */
-  gap: 30px; /* Adds space between elements */
-}
-
-.apply-input-container label {
-  gap: 0px; /* Ensures labels don't have unnecessary spacing */
-}
-
-/* Label Styling */
-.input-box label {
-  display: block; /* Makes labels take full width */
-  font-size: 1rem; /* Sets text size */
-  color: #333; /* Sets text color to dark gray */
-  margin-bottom: 4px; /* Adds space below labels */
-}
-
-/* Radio Button Styling */
-.input-box input[type="radio"] {
-  width: auto; /* Keeps default width */
-  margin-right: 5px; /* Adds space between radio button and label */
-}
-
-/* Radio Group Styling */
-.radio-group {
-  display: flex; /* Enables flexbox */
-  gap: 15px; /* Adds space between radio options */
-  align-items: center; /* Aligns items vertically */
-}
-
-.radio-group label {
-  display: inline-block; /* Ensures labels stay inline */
-  font-size: 1rem; /* Sets text size */
-  color: #555; /* Sets text color to a medium gray */
-}
-
-.input-box input,
-.input-box select {
-  width: 100%; /* Makes inputs take full width */
-  padding: 8px; /* Adds padding for better usability */
-  font-size: 1rem; /* Sets text size */
-  border: 1px solid #ccc; /* Adds a light gray border */
-  border-radius: 5px; /* Rounds input edges */
-  outline: none; /* Removes default outline */
-  transition: border 0.3s ease; /* Smooth transition for focus effect */
-}
-
-.input-box input:focus,
-.input-box select:focus {
-  border-color: #42a5f5; /* Changes border color when focused */
-  box-shadow: 0 0 5px rgba(66, 165, 245, 0.5); /* Adds a glow effect on focus */
-}
-
-
-.btn {
-  display: inline-block; /* Allows the button to have block-like properties but still stay inline */
-  width: 120px; /* Sets a fixed width for the button */
-  padding: 8px 10px; /* Adds space inside the button for better appearance */
-  /* Reduced padding for smaller buttons */
-  font-size: 1rem; /* Sets the font size to 1rem (default size based on root element) */
-  font-weight: bold; /* Makes the text bold */
-  color: #ffffff; /* Sets the text color to white */
-  background: #074b83; /* Sets the button background color to a dark blue */
-  border: none; /* Removes any default border */
-  border-radius: 5px; /* Rounds the button corners */
-  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
-  text-align: center; /* Centers text inside the button */
-  margin: 5px 5px 0; /* Adds margin around the button, with reduced vertical spacing */
-  /* Reduced vertical margin */
-  transition: background 0.3s ease, box-shadow 0.3s ease; /* Adds smooth transitions for hover effects */
-}
-
-.btn:hover {
-  background: #03223d; /* Changes background to a darker shade when hovered */
-  box-shadow: 0 4px 10px rgba(66, 165, 245, 0.4); /* Adds a glowing shadow effect */
-}
-
-.radio-group {
-  display: flex; /* Aligns child elements in a row */
-  align-items: center; /* Centers elements vertically */
-  gap: 10px; /* Adds spacing between elements */
-}
-
-.group-this {
-  margin-bottom: 15px; /* Adds spacing below the group */
-}
-
-.group-this label {
-  display: block; /* Ensures label is on its own line */
-  margin-bottom: 5px; /* Adds spacing between label and input/textarea */
-  font-weight: bold; /* Makes label text bold */
-}
-
-.group-this textarea {
-  width: 100%; /* Makes the textarea full width of its container */
-  height: 100px; /* Sets a fixed height */
-  padding: 8px; /* Adds padding inside the textarea */
-  box-sizing: border-box; /* Ensures padding is included in width/height calculations */
-  resize: vertical; /* Allows users to resize only vertically */
-  /* Allows vertical resizing */
-}
-
 /* The middle of all webpages, except for homepage and jobpage */
 .about-middle {
   color: white; /* Sets text color to white */
@@ -421,7 +272,7 @@ form {
   /* Add space for the horizontal nav height + margin */
   margin-right: 0; /* Ensures it takes full width */
   /* Add space for the vertical nav width */
-  width: 88%; /* Sets width to 88% of its parent */
+  width: 100%; /* Sets width to 88% of its parent */
   padding: 20px; /* Adds internal spacing */
   /* Optional padding inside the main body */
   min-height: calc(100vh - 74px); /* Ensures it fills remaining height of the viewport */
@@ -1050,7 +901,7 @@ p {
 
 .icon-1 {
   width: 300px;
-  background: linear-gradient(#c5c6c7, #45a29e);;
+  background: linear-gradient(#c5c6c7, #45a29e);
   color: rgba(0, 0, 0, 0.87);
   -webkit-clip-path: circle(24px at 150px 24px); 
   clip-path: circle(24px at 90% 24px);
