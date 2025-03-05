@@ -8,84 +8,94 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css/styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
-  <nav>
-    <table class="vertical_bar">
-      <thead>
-        <tr>
-          <th>
-            <a href="index.html">
-              <figure><img src="./img/logo.png" alt="logo" class="logo">
-                <figcaption>Nothingness</figcaption>
-              </figure>
-            </a>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <a href="index.html">
-              <figure><img src="./img/homeicon.png" alt="Home" />
-                <figcaption>Home</figcaption>
-              </figure>
-            </a>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <a href="about.html">
-              <figure><img src="img/about.png" alt="Car" />
-                <figcaption>About</figcaption>
-              </figure>
-            </a>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <a href="jobs.html">
-              <figure><img src="img/job.png" alt="Book" />
-                <figcaption>Jobs</figcaption>
-              </figure>
-            </a>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <a href="apply.html">
-              <figure><img src="img/apply.png" alt="Electronic" />
-                <figcaption>Apply</figcaption>
-              </figure>
-            </a>
-          </th>
-        </tr>
-        <tr>
-          <th>
-            <a href="enhancements.html">
-              <figure><img src="img/enhancements.png" alt="Electronic" />
-                <figcaption>Enhancements</figcaption>
-              </figure>
-            </a>
-          </th>
-        </tr>
-      </thead>
-    </table>
+  <nav class="nav">
+    <ul class="nav-content">
+      <li class="nav-list">
+        <a href="index.html" class="link-item active">
+          <i class='bx bx-home link-icon'></i>
+          <span class="link-text">Home</span>
+        </a>
+      </li>
+      <li class="nav-list">
+        <a href="jobs.html" class="link-item" id="jobs-menu">
+          <i class='bx bxs-briefcase link-icon'></i>
+          <span class="link-text">Jobs</span>
+        </a>
+      </li>
+
+
+      <li class="nav-list">
+        <a href="apply.html" class="link-item">
+          <i class='bx bxs-registered link-icon'></i>
+          <span class="link-text">Apply</span>
+        </a>
+      </li>
+      <li class="nav-list">
+        <a href="mailto:105710430@student.swin.edu.au" class="link-item">
+          <i class='bx bxs-contact link-icon'></i>
+          <span class="link-text">Contact</span>
+        </a>
+      </li>
+      <li class="nav-list">
+        <a href="tips.html" class="link-item">
+          <i class='bx bxs-select-multiple link-icon'></i>
+          <span class="link-text">Tips</span>
+        </a>
+      </li>
+      <li class="nav-list">
+        <a href="about.html" class="link-item">
+          <i class='bx bx-meh-blank link-icon'></i>
+          <span class="link-text">About</span>
+        </a>
+      </li>
+      <li class="nav-list">
+        <a href="enhancements.html" class="link-item">
+          <i class='bx bx-up-arrow-alt link-icon'></i>
+          <span class="link-text">Enhancements</span>
+        </a>
+      </li>
+
+      <span class="indicator"></span>
+    </ul>
   </nav>
-  <header>
-    <div class="horizontal_nav">
-      <a href="index.html">Home</a>
-      <a href="./job_description/CS/cs.html">Computer Science</a>
-      <a href="./job_description/Business/business.html">Business</a>
-      <a href="./job_description/Media/media.html">Media</a>
-      <a href="mailto:105710430@student.swin.edu.au">Contact</a>
-      <button class="button-login" onclick="window.location.href='./apply.html'">Apply</button>
-    </div>
-  </header>
 
-  <script src="script.js"></script>
+  <script src="./script/script.js"></script>
+
+  
+
+  <div class="gallery-circle">
+    <img src="https://assets.codepen.io/8889025/Collabrorative.PNG" alt="a hot air balloon">
+    <img src="https://assets.codepen.io/8889025/Adventurous.PNG">
+    <img src="https://assets.codepen.io/8889025/Reliable.PNG" alt="a small boat">
+    <img src="https://assets.codepen.io/8889025/Energetic.PNG" alt="a forest">
+  </div>
+  <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'></script>
 
 
-  <div class="about-middle">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="about-middle">
     <h1>Group Information</h1>
 
     <h2>Basic Details</h2>
@@ -177,7 +187,7 @@
         </ul>
       </p>
     </div>
-  </div>
+  </div> -->
 
 </body>
 
