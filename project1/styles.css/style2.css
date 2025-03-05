@@ -1,0 +1,224 @@
+.login-box {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 100%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    background: transparent;
+    /* Applies a diagonal gradient */
+    padding: 20px;
+    /* Adds padding inside the form */
+    margin: 20px;
+    /* Adds space around the form */
+    border-radius: 10px;
+    /* Rounds the edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow effect */
+
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box input:focus~label,
+.login-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%; /* Đặt độ rộng của form thành 70% */
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    background: linear-gradient(#75777e, #0b0c10);
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các phần tử trong form xếp thành nhiều hàng */
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%; /* Chiếm hết chiều rộng */
+}
+
+.input-box {
+    position: relative;
+    width: 48%; /* Mỗi trường chiếm 48% chiều rộng */
+}
+
+.input-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.input-box input, .input-box select, .input-box textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label,
+.input-box select:focus ~ label,
+.input-box textarea:focus ~ label,
+.input-box:focus-within label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+  
+  
+
+textarea {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+}
+
+fieldset {
+    border: 2px solid #fff;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.radio-group {
+    width: 100%; /* Make it take the full width */
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 15px; /* Add space between radio buttons */
+}
+
+.radio-group fieldset {
+    padding: 1em;
+    font-size: 1.5em; /* Increase legend and overall text size */
+}
+
+.radio-group input[type="radio"] {
+    transform: scale(1.5); /* Enlarges the radio button */
+    margin-right: 8px;
+}
+
+.radio-group label {
+    font-size: 1.2em; /* Increase label text size */
+    margin-right: 15px;
+}
+
+
+#formale, #forfemale{
+    color: #fff;
+    font-size: 16px;
+}
+
+
+legend {
+    color: #fff;
+    font-size: 16px;
+}
+
+.apply-input-container {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.apply-input-box {
+    color: #fff;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    width: 40%;
+    padding: 12px;
+    background: #45a29e;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin: auto 20px;
+    display: block;
+}
+
+button:hover {
+    background: #1f2833;
+}
