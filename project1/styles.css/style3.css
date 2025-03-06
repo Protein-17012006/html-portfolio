@@ -227,13 +227,22 @@ iframe{
 
 /* Card Style */
 .container .card {
-    background: white;
+    background: transparent;
+    border: 2px solid #ddd; /* Add border around each card */
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.card:hover {
+    border-color: #48a9c5; /* Change border color on hover */
+    transform: scale(1.05); /* Slightly increase size */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhance shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .container .card img {
@@ -260,13 +269,13 @@ iframe{
 }
 
 .container .details {
-    color: gray;
+    color: #fff;
     font-size: 14px;
     margin-bottom: 10px;
 }
 
 .container .description {
-    color: #666;
+    color: #fff;
     font-size: 14px;
     margin-bottom: 15px;
 }
