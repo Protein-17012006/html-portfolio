@@ -35,7 +35,7 @@
         </a>
       </li>
       <li class="nav-list">
-        <a href="about.php" class="link-item">
+        <a href="../../about.php" class="link-item">
           <i class='bx bx-meh-blank link-icon'></i>
           <span class="link-text">About</span>
         </a>

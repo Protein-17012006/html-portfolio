@@ -7,90 +7,117 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css/style3.css">
   <link rel="stylesheet" href="./styles.css/styles.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
+  <?php
+  include_once("header.inc");
+  ?>
 
-<body>
-  <nav class="nav">
-    <ul class="nav-content">
-      <li class="nav-list">
-        <a href="index.html" class="link-item active">
-          <i class='bx bx-home link-icon'></i>
-          <span class="link-text">Home</span>
-        </a>
-      </li>
-      <li class="nav-list">
-        <a href="jobs.html" class="link-item" id="jobs-menu">
-          <i class='bx bxs-briefcase link-icon'></i>
-          <span class="link-text">Jobs</span>
-        </a>
-      </li>
+  <div class="about-middle">
 
+    <div class="gallery-circle">
+      <img src="https://assets.codepen.io/8889025/Collabrorative.PNG" alt="a hot air balloon">
+      <img src="https://assets.codepen.io/8889025/Adventurous.PNG">
+      <img src="https://assets.codepen.io/8889025/Reliable.PNG" alt="a small boat">
+      <img src="https://assets.codepen.io/8889025/Energetic.PNG" alt="a forest">
+    </div>
 
-      <li class="nav-list">
-        <a href="apply.html" class="link-item">
-          <i class='bx bxs-registered link-icon'></i>
-          <span class="link-text">Apply</span>
-        </a>
-      </li>
-      <li class="nav-list">
-        <a href="mailto:105710430@student.swin.edu.au" class="link-item">
-          <i class='bx bxs-contact link-icon'></i>
-          <span class="link-text">Contact</span>
-        </a>
-      </li>
-      <li class="nav-list">
-        <a href="tips.html" class="link-item">
-          <i class='bx bxs-select-multiple link-icon'></i>
-          <span class="link-text">Tips</span>
-        </a>
-      </li>
-      <li class="nav-list">
-        <a href="about.html" class="link-item">
-          <i class='bx bx-meh-blank link-icon'></i>
-          <span class="link-text">About</span>
-        </a>
-      </li>
-      <li class="nav-list">
-        <a href="enhancements.html" class="link-item">
-          <i class='bx bx-up-arrow-alt link-icon'></i>
-          <span class="link-text">Enhancements</span>
-        </a>
-      </li>
+    <div class="about-info">
+      <h1>About Us</h1>
+      <p>Group Name: <span>Nothingness</span></p>
+      <p>Tutor’s Name: <span>Tristan Nguyen</span></p>
+      <p>Subject: <span>COS10026</span></p>
+      <p>Team Members:</p>
+      <ul class="team-list">
+        <li>Binh Phuong Vu</li>
+        <li>Nguyen Huy Hoang Nguyen</li>
+        <li>Hai Dang Nguyen</li>
+        <li>Xuan Ny Le</li>
+      </ul>
+    </div>
 
-      <span class="indicator"></span>
-    </ul>
-  </nav>
+    <div class="container-in-about">
+      <div class="card">
+        <div class="card-content">
+          <p class="offer">*Limited Offer Today</p>
+          <h2>Glasgow City Lorem</h2>
+          <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button class="btn">Make A Reservation</button>
+        </div>
+      </div>
 
-  <script src="./script/script.js"></script>
+      <div class="card">
+        <div class="card-content">
+          <p class="offer">*Today & Tomorrow Only</p>
+          <h2>Venezia Italy Ipsum</h2>
+          <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button class="btn">Make A Reservation</button>
+        </div>
+      </div>
 
-  
+      <div class="card">
+        <div class="card-content">
+          <p class="offer">**Undefined</p>
+          <h2>Glasgow City Lorem</h2>
+          <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button class="btn">Make A Reservation</button>
+        </div>
+      </div>
 
-  <div class="gallery-circle">
-    <img src="https://assets.codepen.io/8889025/Collabrorative.PNG" alt="a hot air balloon">
-    <img src="https://assets.codepen.io/8889025/Adventurous.PNG">
-    <img src="https://assets.codepen.io/8889025/Reliable.PNG" alt="a small boat">
-    <img src="https://assets.codepen.io/8889025/Energetic.PNG" alt="a forest">
+      <div class="card">
+        <div class="card-content">
+          <p class="offer">**Undefined</p>
+          <h2>Glasgow City Lorem</h2>
+          <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
+          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button class="btn">Make A Reservation</button>
+        </div>
+      </div>
+    </div>
+
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>Time</th>
+        <th>Activity</th>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>7:15 AM - 11:15 AM</td>
+        <td>Networks and Switching</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>7 PM - 11 PM</td>
+        <td>Web Technology Project</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>1 PM - 4 PM</td>
+        <td>Foundation of Statistics</td>
+      </tr>
+    </table>
+
+    <div class="about-footer">
+      <?php
+      include_once("footer.inc");
+      ?>
+    </div>
   </div>
+
+
+
+
   <!-- partial -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js'></script>
   <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
   <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -188,7 +215,7 @@
       </p>
     </div>
   </div> -->
-
+  <script src="./script/script.js"></script>
 </body>
 
 

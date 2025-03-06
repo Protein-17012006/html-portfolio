@@ -72,7 +72,7 @@
 
 .about-middle{
     float: left;
-    
+    position: relative;
 }
 
 .about-middle hr{

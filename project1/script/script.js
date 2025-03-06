@@ -123,5 +123,5 @@ function changePage(direction) {
 
     if (newIndex >= 0 && newIndex < circles.length) {
         setActive(circles[newIndex], newIndex + 1);
-    }
+    } 
 }

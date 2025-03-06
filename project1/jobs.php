@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
   <?php
   include_once("header.inc");
   ?>
@@ -40,6 +41,7 @@
     </div>
   </div>
   </div>
+  
 
   <nav class="icon-1">
     <div class="navicon-1">
@@ -56,8 +58,10 @@
 
   </nav>
 
+  
   </div>
   <script src="./script/script.js"></script>
+</div>
 </body>
 
 </html>

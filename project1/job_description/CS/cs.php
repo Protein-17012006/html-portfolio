@@ -25,7 +25,7 @@
         artificial intelligence, networking, and IT support.</p>
       <br><br><br><br><br><br><br><br>
 
-      <div class="container">
+      <div class="container" onclick="navigateTo('cs1.php')">
         <div class="card">
           <img src="./cs.img/cs1.jpg" alt="Destination">
           <div class="card-content">
@@ -37,8 +37,8 @@
           </div>
         </div>
 
-        <div class="card">
-          <img src="https://source.unsplash.com/400x250/?italy,venice" alt="Destination">
+        <div class="card" onclick="navigateTo('cs2.php')">
+          <img src="./cs.img/cs2.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Today & Tomorrow Only</p>
             <h2>Venezia Italy Ipsum</h2>
@@ -48,8 +48,8 @@
           </div>
         </div>
 
-        <div class="card">
-          <img src="https://source.unsplash.com/400x250/?road,desert" alt="Destination">
+        <div class="card" onclick="navigateTo('cs3.php')">
+          <img src="./cs.img/cs3.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">**Undefined</p>
             <h2>Glasgow City Lorem</h2>
@@ -59,8 +59,30 @@
           </div>
         </div>
 
-        <div class="card">
-          <img src="https://source.unsplash.com/400x250/?travel,backpack" alt="Destination">
+        <div class="card" onclick="navigateTo('cs4.php')">
+          <img src="./cs.img/cs4.jpg" alt="Destination">
+          <div class="card-content">
+            <p class="offer">*Offer Until 24th March</p>
+            <h2>Glasgow City Lorem</h2>
+            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
+            <p class="description">This free CSS template is provided by Template Mo.</p>
+            <button class="btn">Make A Reservation</button>
+          </div>
+        </div>
+
+        <div class="card" onclick="navigateTo('cs5.php')">
+          <img src="./cs.img/cs5.jpg" alt="Destination">
+          <div class="card-content">
+            <p class="offer">*Offer Until 24th March</p>
+            <h2>Glasgow City Lorem</h2>
+            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
+            <p class="description">This free CSS template is provided by Template Mo.</p>
+            <button class="btn">Make A Reservation</button>
+          </div>
+        </div>
+
+        <div class="card" onclick="navigateTo('cs6.php')">
+          <img src="./cs.img/cs6.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 24th March</p>
             <h2>Glasgow City Lorem</h2>
@@ -72,7 +94,10 @@
       </div>
     </div>
 
-
+    <footer>
+      <p>Contact us at: <a href="mailto:105710430@student.swin.edu.au">105710430@student.swin.edu.au</a> | Phone: 0916
+        166 559</p>
+    </footer>
 
     <script src="../../script/script.js"></script>
 </body>

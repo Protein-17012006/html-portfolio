@@ -3,210 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagination with Sliding Frames</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #ffffff;
-        }
-
-        /* Centering pagination */
-        .pagination {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-            margin-top: 20px;
-        }
-
-        .circle {
-            width: 50px;
-            height: 50px;
-            border: 2px solid #50a5b1;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 20px;
-            color: #50a5b1;
-            cursor: pointer;
-            transition: 0.3s ease;
-        }
-
-        .active {
-            background: #50a5b1;
-            color: white;
-            border: none;
-        }
-
-        .arrow {
-            font-size: 24px;
-            color: #50a5b1;
-            cursor: pointer;
-        }
-
-        .circle:hover, .arrow:hover {
-            opacity: 0.7;
-            transform: scale(1.1);
-        }
-
-        /* About Middle Section */
-        .about-middle {
-            text-align: center;
-            margin-top: 50px;
-            overflow: hidden;
-            position: relative;
-            width: 600px;
-            height: 200px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        /* Frame Container */
-        .frame-container {
-            position: relative;
-            width: 100%;
-            height: 100%;
-        }
-
-        /* Frame Wrap */
-        .frame-wrap {
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            opacity: 0;
-            display: none;
-            transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        /* Animation for sliding left & right */
-        .frame-wrap.active {
-            display: flex;
-            opacity: 1;
-            transform: translateX(0);
-        }
-
-        .frame-wrap.slide-in-left {
-            transform: translateX(-100%);
-        }
-
-        .frame-wrap.slide-in-right {
-            transform: translateX(100%);
-        }
-
-        /* Individual Frame */
-        .frame {
-            width: 200px;
-            height: 150px;
-            background: linear-gradient(135deg, #3d3b3b, #5c7ecf);
-            border-radius: 15px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-    </style>
+    <title>Timeline</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+    /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+/* Timeline Container */
+.timeline {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+/* Center Line */
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background: #ccc;
+    transform: translateX(-50%);
+}
+
+/* Timeline Item */
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Left Side Items */
+.timeline-item:nth-child(odd) {
+    text-align: right;
+    left: -5%;
+}
+
+/* Right Side Items */
+.timeline-item:nth-child(even) {
+    text-align: left;
+    left: 55%;
+}
+
+/* Content Box */
+.timeline-content {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Title (Black Header) */
+.timeline-content h2 {
+    background: black;
+    color: white;
+    padding: 10px;
+    margin: -15px -15px 10px;
+    font-size: 18px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Date Style */
+.timeline-date {
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+
+/* Icons */
+/* Timeline Icon Fix */
+.timeline-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Make sure the icons stay in the correct place */
+.timeline-item:nth-child(odd) .timeline-icon {
+    left: calc(110%); /* Move icons to the left side */
+}
+
+.timeline-item:nth-child(even) .timeline-icon {
+    left: calc(-10%); /* Move icons to the right side */
+}
+
+
+
+
+</style>
 <body>
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <i>✔</i> 
+            </div>
+            <div class="timeline-content left">
+                <h2>Get the vaccine</h2>
+                <p>Donec facilisis urna dui, a dignissim mauris pretium a. Quisque quis libero fermentum, tempus felis eu, consequat nibh.</p>
+                <span class="date">2021-07-31 Saturday</span>
+            </div>
+        </div>
 
-    <!-- Pagination -->
-    <div class="pagination">
-        <span class="arrow" onclick="changePage(-1)">&#8592;</span> 
-        <div class="circle active" onclick="setActive(this, 0)">1</div>
-        <div class="circle" onclick="setActive(this, 1)">2</div>
-        <div class="circle" onclick="setActive(this, 2)">3</div>
-        <div class="circle" onclick="setActive(this, 3)">4</div>
-        <div class="circle" onclick="setActive(this, 4)">5</div>
-        <div class="circle" onclick="setActive(this, 5)">6</div>
-        <span class="arrow" onclick="changePage(1)">&#8594;</span> 
-    </div>
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <i>📖</i>
+            </div>
+            <div class="timeline-content right">
+                <h2>Consulting your health</h2>
+                <p>You are fully permitted to use this template for your commercial or personal website.</p>
+                <span class="date">2021-07-15 Thursday</span>
+            </div>
+        </div>
 
-    <!-- About Middle Section -->
-    <div class="about-middle">
-        <div class="frame-container">
-            <!-- Frame Wraps -->
-            <div class="frame-wrap active">
-                <div class="frame">Frame 1A</div>
-                <div class="frame">Frame 1B</div>
-                <div class="frame">Frame 1C</div>
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <i>📑</i>
             </div>
-            <div class="frame-wrap">
-                <div class="frame">Frame 2A</div>
-                <div class="frame">Frame 2B</div>
-                <div class="frame">Frame 2C</div>
+            <div class="timeline-content left">
+                <h2>Certified Nurses</h2>
+                <p>Phasellus eleifend, urna interdum congue viverra, arcu neque ultrices ligula, id pulvinar nisl nibh et lacus.</p>
+                <span class="date">2021-06-28 Monday</span>
             </div>
-            <div class="frame-wrap">
-                <div class="frame">Frame 3A</div>
-                <div class="frame">Frame 3B</div>
-                <div class="frame">Frame 3C</div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <i>🌍</i>
             </div>
-            <div class="frame-wrap">
-                <div class="frame">Frame 4A</div>
-                <div class="frame">Frame 4B</div>
-                <div class="frame">Frame 4C</div>
-            </div>
-            <div class="frame-wrap">
-                <div class="frame">Frame 5A</div>
-                <div class="frame">Frame 5B</div>
-                <div class="frame">Frame 5C</div>
-            </div>
-            <div class="frame-wrap">
-                <div class="frame">Frame 6A</div>
-                <div class="frame">Frame 6B</div>
-                <div class="frame">Frame 6C</div>
+            <div class="timeline-content right">
+                <h2>Covid-19 Hospitals</h2>
+                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum.</p>
+                <span class="date">2021-05-30 Sunday</span>
             </div>
         </div>
     </div>
-
-    <script>
-        let currentIndex = 0;
-
-        function setActive(element, index) {
-            if (index === currentIndex) return; // Avoid unnecessary updates
-
-            let frameWraps = document.querySelectorAll('.frame-wrap');
-            let direction = index > currentIndex ? 'right' : 'left';
-
-            // Remove active class from previous frame
-            let prevFrame = frameWraps[currentIndex];
-            prevFrame.classList.remove('active');
-            prevFrame.classList.add(direction === 'right' ? 'slide-in-left' : 'slide-in-right');
-
-            // Show new frame
-            let nextFrame = frameWraps[index];
-            nextFrame.classList.remove('slide-in-left', 'slide-in-right');
-            nextFrame.classList.add('active');
-
-            // Delay hiding the old frame to allow animation
-            setTimeout(() => {
-                prevFrame.style.display = "none";
-                nextFrame.style.display = "flex";
-            }, 500); // Matches CSS transition duration
-
-            // Update pagination button states
-            document.querySelectorAll('.circle').forEach(btn => btn.classList.remove('active'));
-            element.classList.add('active');
-
-            currentIndex = index;
-        }
-
-        function changePage(direction) {
-            let circles = document.querySelectorAll('.circle');
-            let newIndex = currentIndex + direction;
-
-            if (newIndex >= 0 && newIndex < circles.length) {
-                setActive(circles[newIndex], newIndex);
-            }
-        }
-    </script>
-
 </body>
 </html>
