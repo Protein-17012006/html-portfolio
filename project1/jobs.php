@@ -26,7 +26,7 @@
           <div class="image" data-label="All of jobs"><img src="img/all.png" alt="">
           </div>
         </a>
-        <a class="image-link" href="job_description/CS/cs.html">
+        <a class="image-link" href="job_description/CS/cs.php">
           <div class="image" data-label="Computer Science"><img src="img/CS.png" alt=""></div>
         </a>
         <a class="image-link" href="job_description/Business/business.html">
