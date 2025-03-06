@@ -5,27 +5,35 @@
 
 
 body {
-  display: flex; /* Uses flexbox for layout */
-  justify-content: right; /* Aligns content to the right */
-  min-height: 100vh; /* Ensures the body takes up the full viewport height */
-  background: url(./images/background4.png) no-repeat; /* Sets background image */
-  background-position: center; /* Centers the background image */
+  display: flex;
+  /* Uses flexbox for layout */
+  justify-content: right;
+  /* Aligns content to the right */
+  min-height: 100vh;
+  /* Ensures the body takes up the full viewport height */
+  background: url(./images/background4.png) no-repeat;
+  /* Sets background image */
+  background-position: center;
+  /* Centers the background image */
   background-attachment: fixed;
   background-size: cover;
 }
 
-*{
+* {
   font-family: "Gill Sans", sans-serif;
 }
+
 /* Changing color for heading 1 and heading 2 */
 h1,
 h2 {
-  color: #66fcf1; /* Bright Electric Blue for Headings */
+  color: #66fcf1;
+  /* Bright Electric Blue for Headings */
 }
 
 /* Making it more relaxed for user when using it */
 a {
-  text-decoration: none; /* Removes underline from links */
+  text-decoration: none;
+  /* Removes underline from links */
 }
 
 
@@ -34,13 +42,16 @@ a {
 
 /* Styles for verticle bar make it not to disappear the content inside the main content*/
 .vertical_bar {
-  margin-left: -34px; /* Moves the element 34 pixels to the left */
+  margin-left: -34px;
+  /* Moves the element 34 pixels to the left */
 }
 
 /* Adjusting the formats of the images */
 img {
-  height: 30px; /* Sets image height to 30px */
-  text-align: center; /* Centers text inside the image container */
+  height: 30px;
+  /* Sets image height to 30px */
+  text-align: center;
+  /* Centers text inside the image container */
 }
 
 
@@ -76,12 +87,18 @@ nav figure:hover {
 
 
 .mainbody {
-  margin-top: 100px; /* Add space for the horizontal nav height + margin */
-  margin-right: 20px; /* Add space for the vertical nav width */
-  width: 27.5%; /* Set the element's width to 27.5% of its parent container */
-  padding: 20px; /* Optional padding inside the main body */
-  min-height: calc(100vh - 74px); /* Ensure it fills the remaining height */
-  box-sizing: border-box; /* Include padding in width/height calculations */
+  margin-top: 100px;
+  /* Add space for the horizontal nav height + margin */
+  margin-right: 20px;
+  /* Add space for the vertical nav width */
+  width: 27.5%;
+  /* Set the element's width to 27.5% of its parent container */
+  padding: 20px;
+  /* Optional padding inside the main body */
+  min-height: calc(100vh - 74px);
+  /* Ensure it fills the remaining height */
+  box-sizing: border-box;
+  /* Include padding in width/height calculations */
 }
 
 /* middle in the homeoage*/
@@ -106,12 +123,17 @@ nav figure:hover {
 
 /* Middle of the section in the homepage */
 .middle section {
-  background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Applies a diagonal gradient from dark gray to blue */
+  background: linear-gradient(135deg, #3d3b3b, #5c7ecf);
+  /* Applies a diagonal gradient from dark gray to blue */
   /* Dark Gray Box */
-  padding: 15px; /* Adds inner spacing inside the section */
-  border-radius: 8px; /* Rounds the corners of the section */
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Adds a subtle white shadow for a soft glow effect */
-  width: 81%; /* Sets the width of the section to 81% of its container */
+  padding: 15px;
+  /* Adds inner spacing inside the section */
+  border-radius: 8px;
+  /* Rounds the corners of the section */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  /* Adds a subtle white shadow for a soft glow effect */
+  width: 81%;
+  /* Sets the width of the section to 81% of its container */
 }
 
 
@@ -163,7 +185,8 @@ nav figure:hover {
 }
 
 .middle .search img {
-  max-height: 20px;  /* Set the maximum height of the image to 20px */
+  max-height: 20px;
+  /* Set the maximum height of the image to 20px */
 }
 
 .middle .search button {
@@ -186,353 +209,507 @@ nav figure:hover {
 }
 
 .middle .search button:hover {
-  background-color: #03223d; /* Slightly darker green when hovered */
+  background-color: #03223d;
+  /* Slightly darker green when hovered */
 }
 
 .middle .search input:focus {
-  background: #e8f0fe; /* Changes the background to a light blue when the input is focused */
+  background: #e8f0fe;
+  /* Changes the background to a light blue when the input is focused */
 }
 
 .middle h1 {
   white-space: nowrap;
-  font-family: "Gill Sans", sans-serif; /* Applies a cursive font style */
+  font-family: "Gill Sans", sans-serif;
+  /* Applies a cursive font style */
   font-size: 80px;
   font-weight: 50px;
-  background: url("images/background7.gif"); /* Nền gradient */
-  -webkit-background-clip: text; /* Clip nền lên chữ */
-  color: transparent; /* Làm cho chữ trong suốt, chỉ hiển thị gradient */
+  background: url("images/background7.gif");
+  /* Nền gradient */
+  -webkit-background-clip: text;
+  /* Clip nền lên chữ */
+  color: transparent;
+  /* Làm cho chữ trong suốt, chỉ hiển thị gradient */
 }
 
 .middle section h2 {
-  text-align: center; /* Centers the heading 2 text inside the section */
+  text-align: center;
+  /* Centers the heading 2 text inside the section */
 }
 
 .middle a {
-  color: yellow; /* Sets link color to yellow */
+  color: yellow;
+  /* Sets link color to yellow */
 }
 
 /* Container styling */
 .middle .steps {
-  display: flex; /* Enables flexbox layout */
-  justify-content: center; /* Centers child elements horizontally */
-  align-items: flex-start; /* Aligns items at the top */
-  padding: 20px; /* Adds space inside the container */
-  border-radius: 15px; /* Rounds the edges of the container */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
-  max-width: 90%; /* Limits the width to 90% of the parent container */
-  margin: 0 auto; /* Centers the container horizontally */
+  display: flex;
+  /* Enables flexbox layout */
+  justify-content: center;
+  /* Centers child elements horizontally */
+  align-items: flex-start;
+  /* Aligns items at the top */
+  padding: 20px;
+  /* Adds space inside the container */
+  border-radius: 15px;
+  /* Rounds the edges of the container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* Adds a subtle shadow effect */
+  max-width: 90%;
+  /* Limits the width to 90% of the parent container */
+  margin: 0 auto;
+  /* Centers the container horizontally */
 }
 
 .middle .steps span {
-  color: #185891; /* Sets text color to a deep blue */
+  color: #185891;
+  /* Sets text color to a deep blue */
 }
 
 /* Figure styling */
 .middle .steps figure {
-  height: 400px; /* Sets the height of the figure box */
-  width: 100%; /* Makes the figure take full width */
-  text-align: center; /* Centers image and caption */
-  background: #b4bdc6; /* Sets a light background color */
-  padding: 15px; /* Adds padding around the content */
-  border-radius: 10px; /* Rounds the corners */
+  height: 400px;
+  /* Sets the height of the figure box */
+  width: 100%;
+  /* Makes the figure take full width */
+  text-align: center;
+  /* Centers image and caption */
+  background: #b4bdc6;
+  /* Sets a light background color */
+  padding: 15px;
+  /* Adds padding around the content */
+  border-radius: 10px;
+  /* Rounds the corners */
 }
 
 /* Image styling */
 .middle .steps figure img {
-  width: 100%; /* Ensures the image fits the figure width */
-  height: 300px; /* Sets a fixed height for uniformity */
-  border-radius: 8px; /* Rounds the image corners */
+  width: 100%;
+  /* Ensures the image fits the figure width */
+  height: 300px;
+  /* Sets a fixed height for uniformity */
+  border-radius: 8px;
+  /* Rounds the image corners */
 }
 
 /* Caption styling */
 .middle .steps figcaption {
-  margin-top: 10px; /* Adds space above the caption */
-  font-size: 16px; /* Sets the caption text size */
-  color: #333; /* Sets text color to dark gray */
-  line-height: 1.5; /* Improves readability */
-  font-weight: 500; /* Sets a medium font weight */
+  margin-top: 10px;
+  /* Adds space above the caption */
+  font-size: 16px;
+  /* Sets the caption text size */
+  color: #333;
+  /* Sets text color to dark gray */
+  line-height: 1.5;
+  /* Improves readability */
+  font-weight: 500;
+  /* Sets a medium font weight */
 }
 
 .middle footer {
-  height: 50px; /* Sets footer height */
-  width: 105%; /* Extends slightly beyond full width */
-  text-align: center; /* Centers the content */
-  background-color: #2c353e; /* Dark gray background */
+  height: 50px;
+  /* Sets footer height */
+  width: 105%;
+  /* Extends slightly beyond full width */
+  text-align: center;
+  /* Centers the content */
+  background-color: #2c353e;
+  /* Dark gray background */
 }
 
 .middle footer a {
-  color: #42a5f5; /* Sets footer links to electric blue */
+  color: #42a5f5;
+  /* Sets footer links to electric blue */
 }
 
 /* The middle of all webpages, except for homepage and jobpage */
 .about-middle {
-  color: white; /* Sets text color to white */
-  background-color: transparent; /* Keeps background transparent */
-  margin-top: 100px; /* Creates space at the top */
+  color: white;
+  /* Sets text color to white */
+  background-color: transparent;
+  /* Keeps background transparent */
+  margin-top: 100px;
+  /* Creates space at the top */
   /* Add space for the horizontal nav height + margin */
-  margin-right: 0; /* Ensures it takes full width */
+  margin-right: 0;
+  /* Ensures it takes full width */
   /* Add space for the vertical nav width */
-  width: 100%; /* Sets width to 88% of its parent */
-  padding: 20px; /* Adds internal spacing */
+  width: 100%;
+  /* Sets width to 88% of its parent */
+  padding: 20px;
+  /* Adds internal spacing */
   /* Optional padding inside the main body */
-  min-height: calc(100vh - 74px); /* Ensures it fills remaining height of the viewport */
+  min-height: calc(100vh - 74px);
+  /* Ensures it fills remaining height of the viewport */
   /* Ensure it fills the remaining height */
-  box-sizing: border-box; /* Includes padding in total width/height calculations */
+  box-sizing: border-box;
+  /* Includes padding in total width/height calculations */
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.about-middle.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .about-middle a {
-  color: yellow; /* Makes links yellow */
+  color: yellow;
+  /* Makes links yellow */
 }
 
 .about-middle dl,
 .job-middle dl {
-  background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Creates a gradient background */
+  background: linear-gradient(135deg, #3d3b3b, #5c7ecf);
+  /* Creates a gradient background */
   /* Dark Gray Box */
-  padding: 15px; /* Adds padding inside the container */
-  border-radius: 8px; /* Rounds the corners */
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Adds a subtle shadow effect */
+  padding: 15px;
+  /* Adds padding inside the container */
+  border-radius: 8px;
+  /* Rounds the corners */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  /* Adds a subtle shadow effect */
 }
 
-.job-middle h1{
+.job-middle h1 {
   text-align: center;
 }
 
 .about-middle dt,
 .job-middle dt {
-  font-weight: bold; /* Makes text bold */
-  color: #908ae0; /* Sets the color to a light purple */
+  font-weight: bold;
+  /* Makes text bold */
+  color: #908ae0;
+  /* Sets the color to a light purple */
   /* Gold for Emphasis */
-  margin-top: 10px; /* Adds spacing above */
+  margin-top: 10px;
+  /* Adds spacing above */
 }
 
 .about-middle dd,
 .job-middle dd {
-  margin-left: 20px; /* Indents the description */
-  color: #cccccc; /* Light gray for readability */
+  margin-left: 20px;
+  /* Indents the description */
+  color: #cccccc;
+  /* Light gray for readability */
   /* Light Gray for Better Readability */
 }
 
 .about-middle li,
 .job-middle li {
-  color: #cccccc; /* Light gray for readability */
+  color: #cccccc;
+  /* Light gray for readability */
   /* Light Gray for Better Readability */
 }
 
 .about-middle table {
-  width: 100%; /* Ensures the table spans full width */
-  border-collapse: collapse; /* Removes extra spacing between table cells */
-  margin-top: 20px; /* Adds space above the table */
-  background: #1e1e1e; /* Sets a dark gray background */
+  width: 100%;
+  /* Ensures the table spans full width */
+  border-collapse: collapse;
+  /* Removes extra spacing between table cells */
+  margin-top: 20px;
+  /* Adds space above the table */
+  background: #1e1e1e;
+  /* Sets a dark gray background */
   /* Dark Gray Table Background */
 }
 
 .about-middle th,
 td {
-  border: 1px solid #333; /* Adds dark borders to table cells */
+  border: 1px solid #333;
+  /* Adds dark borders to table cells */
   /* Darker Borders */
-  padding: 10px; /* Adds spacing inside cells */
-  text-align: left; /* Aligns text to the left */
+  padding: 10px;
+  /* Adds spacing inside cells */
+  text-align: left;
+  /* Aligns text to the left */
 }
 
 .about-middle th {
-  background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Sets a gradient background */
+  background: linear-gradient(135deg, #3d3b3b, #5c7ecf);
+  /* Sets a gradient background */
   /* Electric Blue Headers */
-  color: white; /* Makes text white */
+  color: white;
+  /* Makes text white */
 }
 
 .about-middle td {
-  color: #f5f5f5; /* Light text color for better readability */
+  color: #f5f5f5;
+  /* Light text color for better readability */
   /* Light Text for Readability */
 }
 
 .about-middle figure {
-  width: 50%; /* Makes the figure take up half the width */ /* Set figure width to 50% of its parent */
-  height: 300px; /* Sets a fixed height */
-  display: flex; /* Uses flexbox to align content */ /* Ensure the image aligns properly */
-  align-items: center; /* Centers content vertically */ /* Align the image vertically */
-  overflow: hidden; /* Hides overflowing content */  /* Hide any overflowing content */
+  width: 50%;
+  /* Makes the figure take up half the width */
+  /* Set figure width to 50% of its parent */
+  height: 300px;
+  /* Sets a fixed height */
+  display: flex;
+  /* Uses flexbox to align content */
+  /* Ensure the image aligns properly */
+  align-items: center;
+  /* Centers content vertically */
+  /* Align the image vertically */
+  overflow: hidden;
+  /* Hides overflowing content */
+  /* Hide any overflowing content */
 }
 
 .about-middle figcaption {
-  color: #aaa; /* Sets a light gray color for captions */
+  color: #aaa;
+  /* Sets a light gray color for captions */
   /* Light Gray Caption */
-  font-size: 14px; /* Sets font size for captions */
+  font-size: 14px;
+  /* Sets font size for captions */
 }
 
 .example-photo img {
-  object-fit: cover; /* Ensures the image covers the container without distortion */
+  object-fit: cover;
+  /* Ensures the image covers the container without distortion */
   /* Ensures the image covers the container properly */
-  display: block; /* Removes extra space under images */
+  display: block;
+  /* Removes extra space under images */
   /* Removes unwanted space below the image */
 }
 
 .about-middle .email {
-  color: white; /* Sets email text color to white */
+  color: white;
+  /* Sets email text color to white */
 }
 
 .about-middle .email a {
-  color: #42a5f5; /* Bright blue for email links */
+  color: #42a5f5;
+  /* Bright blue for email links */
   /* Bright Blue Email Link */
-  font-weight: bold; /* Makes the link bold */
-  text-decoration: none; /* Removes underline from links */
+  font-weight: bold;
+  /* Makes the link bold */
+  text-decoration: none;
+  /* Removes underline from links */
 }
 
 .about-middle .email a:hover {
-  color: #1e88e5; /* Changes to a slightly darker blue on hover */
+  color: #1e88e5;
+  /* Changes to a slightly darker blue on hover */
   /* Slightly Darker Blue on Hover */
 }
 
 .about-middle .profile {
-  color: white; /* Sets text color to white */
-  margin-top: 30px; /* Adds spacing above */
-  padding: 15px; /* Adds internal spacing */
-  background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Gradient background */
-  border-radius: 8px; /* Rounds the corners */
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Adds a subtle shadow effect */
+  color: white;
+  /* Sets text color to white */
+  margin-top: 30px;
+  /* Adds spacing above */
+  padding: 15px;
+  /* Adds internal spacing */
+  background: linear-gradient(135deg, #3d3b3b, #5c7ecf);
+  /* Gradient background */
+  border-radius: 8px;
+  /* Rounds the corners */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  /* Adds a subtle shadow effect */
 }
 
 .group-this {
-  margin-bottom: 15px; /* Adds spacing below each .group-this section */
+  margin-bottom: 15px;
+  /* Adds spacing below each .group-this section */
 }
 
 /* Styles labels inside .group-this */
 .group-this label {
-  display: block; /* Makes labels block elements, ensuring they appear above inputs */
-  margin-bottom: 5px; /* Adds spacing between label and input field */
-  font-weight: bold; /* Makes label text bold */
+  display: block;
+  /* Makes labels block elements, ensuring they appear above inputs */
+  margin-bottom: 5px;
+  /* Adds spacing between label and input field */
+  font-weight: bold;
+  /* Makes label text bold */
 }
 
 /* Styles textareas inside .group-this */
 .group-this textarea {
-  width: 100%; /* Makes the textarea take the full width of its container */
-  height: 100px; /* Sets a fixed height of 100px */
-  padding: 8px; /* Adds padding inside the textarea */
-  box-sizing: border-box; /* Includes padding and border in the width calculation */
-  resize: vertical; /* Allows users to resize the textarea only vertically */
+  width: 100%;
+  /* Makes the textarea take the full width of its container */
+  height: 100px;
+  /* Sets a fixed height of 100px */
+  padding: 8px;
+  /* Adds padding inside the textarea */
+  box-sizing: border-box;
+  /* Includes padding and border in the width calculation */
+  resize: vertical;
+  /* Allows users to resize the textarea only vertically */
 }
 
 /* Styles the main content area in job.html */
 .job-middle {
-  color: white; /* Sets text color to white */
-  background-color: transparent; /* Makes background transparent */
-  margin-top: 100px; /* Pushes the content down by 100px, accounting for header space */
-  margin-right: 20%; /* Leaves space for a sidebar on the right */
-  width: 68%; /* Sets the width to 68% of the container */
-  padding: 20px; /* Adds padding inside the section */
-  min-height: calc(100vh - 74px); /* Ensures it fills the viewport height minus 74px */
-  box-sizing: border-box; /* Includes padding in the total width/height calculation */
+  color: white;
+  /* Sets text color to white */
+  background-color: transparent;
+  /* Makes background transparent */
+  margin-top: 100px;
+  /* Pushes the content down by 100px, accounting for header space */
+  margin-right: 20%;
+  /* Leaves space for a sidebar on the right */
+  width: 68%;
+  /* Sets the width to 68% of the container */
+  padding: 20px;
+  /* Adds padding inside the section */
+  min-height: calc(100vh - 74px);
+  /* Ensures it fills the viewport height minus 74px */
+  box-sizing: border-box;
+  /* Includes padding in the total width/height calculation */
 }
 
 /* Styles the sidebar inside .job-middle */
 .job-middle aside {
-  position: fixed; /* Fixes the sidebar position on the screen */
-  width: 19%; /* Sets sidebar width to 19% */
-  top: 105px; /* Positions it 105px from the top */
-  right: 0; /* Positions it at the right edge */
-  height: 100%; /* Makes the sidebar take up the full height of the screen */
-  padding: 10px; /* Adds padding inside the sidebar */
-  background: linear-gradient(135deg, #3d3b3b, #4b4b7b); /* Adds a diagonal gradient background */
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Creates a subtle shadow effect */
+  position: fixed;
+  /* Fixes the sidebar position on the screen */
+  width: 19%;
+  /* Sets sidebar width to 19% */
+  top: 105px;
+  /* Positions it 105px from the top */
+  right: 0;
+  /* Positions it at the right edge */
+  height: 100%;
+  /* Makes the sidebar take up the full height of the screen */
+  padding: 10px;
+  /* Adds padding inside the sidebar */
+  background: linear-gradient(135deg, #3d3b3b, #4b4b7b);
+  /* Adds a diagonal gradient background */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  /* Creates a subtle shadow effect */
 }
 
 /* Styles headings inside the sidebar */
 .job-middle aside h2 {
-  color: yellow; /* Sets the text color to yellow */
+  color: yellow;
+  /* Sets the text color to yellow */
 }
 
 /* Styles the container for example images */
 .Example-photo {
-  display: flex; /* Uses flexbox to align content */
-  justify-content: center; /* Centers the content horizontally */
-  width: 30%; /* Sets the width to 30% of the parent container */
-  height: 10%; /* Sets a small height */
-  max-width: 600px; /* Ensures the width does not exceed 600px */
-  border: 1px solid #ccc; /* Adds a light gray border around the container */
-  padding: 1px; /* Adds a small gap inside the container */
-  margin-left: 2px; /* Adds a small margin on the left */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a soft shadow for depth */
+  display: flex;
+  /* Uses flexbox to align content */
+  justify-content: center;
+  /* Centers the content horizontally */
+  width: 30%;
+  /* Sets the width to 30% of the parent container */
+  height: 10%;
+  /* Sets a small height */
+  max-width: 600px;
+  /* Ensures the width does not exceed 600px */
+  border: 1px solid #ccc;
+  /* Adds a light gray border around the container */
+  padding: 1px;
+  /* Adds a small gap inside the container */
+  margin-left: 2px;
+  /* Adds a small margin on the left */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Adds a soft shadow for depth */
 }
 
 /* Ensures images inside .Example-photo fit properly */
 .Example-photo img {
-  max-width: 120%; /* Allows images to slightly overflow the container */
-  height: auto; /* Maintains the original aspect ratio */
+  max-width: 120%;
+  /* Allows images to slightly overflow the container */
+  height: auto;
+  /* Maintains the original aspect ratio */
 }
 
 /* Styles the feedback table */
 .feedback-table {
-  width: 100%; /* Makes the table take up the full width of its container */
-  border-collapse: collapse; /* Removes gaps between table borders */
-  margin-top: 20px; /* Adds space above the table */
-  max-width: 100%; /* Ensures the table does not exceed the container width */
+  width: 100%;
+  /* Makes the table take up the full width of its container */
+  border-collapse: collapse;
+  /* Removes gaps between table borders */
+  margin-top: 20px;
+  /* Adds space above the table */
+  max-width: 100%;
+  /* Ensures the table does not exceed the container width */
 }
 
 /* Styles table headers and report table cells */
 .feedback-table th,
 .report-table td {
-  border: 1px solid #000; /* Adds a black border around table cells */
-  padding: 8px; /* Adds padding inside table cells */
-  text-align: left; /* Aligns text to the left */
+  border: 1px solid #000;
+  /* Adds a black border around table cells */
+  padding: 8px;
+  /* Adds padding inside table cells */
+  text-align: left;
+  /* Aligns text to the left */
 }
 
 /* Styles table header rows */
 .feedback-table th {
-  background-color: #f2f2f2; /* Sets a light gray background for headers */
+  background-color: #f2f2f2;
+  /* Sets a light gray background for headers */
 }
 
 /* Styles textareas inside the feedback table */
 .feedback-table textarea {
-  width: 260px; /* Sets a fixed width of 260px */
-  max-width: 260px; /* Ensures it does not exceed 260px */
+  width: 260px;
+  /* Sets a fixed width of 260px */
+  max-width: 260px;
+  /* Ensures it does not exceed 260px */
 }
 
 /* Styles the feedback form */
 .form-feedback {
-  margin-top: 100px; /* Adds space above the form */
-  margin-right: 0px; /* Removes right margin */
-  width: 900px; /* Sets the form width to 900px */
-  padding: 20px; /* Adds padding inside the form */
-  min-height: calc(100vh - 74px); /* Ensures it takes up the full screen minus 74px */
-  box-sizing: border-box; /* Includes padding in the width/height calculation */
+  margin-top: 100px;
+  /* Adds space above the form */
+  margin-right: 0px;
+  /* Removes right margin */
+  width: 900px;
+  /* Sets the form width to 900px */
+  padding: 20px;
+  /* Adds padding inside the form */
+  min-height: calc(100vh - 74px);
+  /* Ensures it takes up the full screen minus 74px */
+  box-sizing: border-box;
+  /* Includes padding in the width/height calculation */
 }
 
 .form-note {
-  margin-top: 15px; /* Adds space above form notes */
+  margin-top: 15px;
+  /* Adds space above form notes */
 }
 
 /* Sets default styles for all textareas */
 textarea {
-  width: 100%; /*Ensures textareas don’t exceed 330px width*/
-  height: 100%; /* Limits the height to 100px */
-  resize:none;
+  width: 100%;
+  /*Ensures textareas don’t exceed 330px width*/
+  height: 100%;
+  /* Limits the height to 100px */
+  resize: none;
 }
 
 /* Styles links with the .link-tip class in the job.html aside */
 .link-tip {
-  color: yellow; /* Sets the text color to yellow */
+  color: yellow;
+  /* Sets the text color to yellow */
 }
 
 
 
 
 /* bắt đầu chỉnh từ đây */
-nav{
-  top:0; 
-  left:0;
-  right:0;
+nav {
+  top: 0;
+  left: 0;
+  right: 0;
   position: absolute;
   background: #1f2833;
   width: 100%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.nav{
-  margin:0;
+.nav {
+  margin: 0;
   padding: 0px;
   box-sizing: border-box;
 }
 
-.nav-content{
+.nav-content {
   display: flex;
   height: 65px;
   align-items: center;
@@ -542,54 +719,55 @@ nav{
 
 }
 
-.link-item{
+.link-item {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height:8%;
+  height: 8%;
   width: 200px;
   text-decoration: none;
-  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 
-.link-item.active{
+.link-item.lighted {
   transform: translateY(-10px);
 }
-.link-icon{
+
+.link-icon {
   font-size: 38px;
   color: #66fcf1;
-  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.link-item.active .link-icon{
+.link-item.lighted .link-icon {
   color: #b3faf5;
 }
 
-.link-text{
+.link-text {
   position: absolute;
   font-size: 25px;
   font-weight: 500;
-  color:#b3faf5;
+  color: #b3faf5;
   opacity: 0;
   transform: translateY(32px);
-  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.link-item.active .link-text{
+.link-item.lighted .link-text {
   opacity: 1;
 }
 
-.nav-list{
+.nav-list {
   height: 30px;
 }
 
-.indicator{
+.indicator {
   position: absolute;
   height: 36px;
-  top:55px;
-  left:0px;
+  top: 55px;
+  left: 0px;
   width: 36px;
   background-color: #1f2833;
   border: 6px solid #080404;
@@ -601,27 +779,27 @@ nav{
 
 
 .indicator::before,
-.indicator::after{
+.indicator::after {
   content: "";
   position: absolute;
-  height:24px;
+  height: 24px;
   width: 19px;
 }
 
-.indicator::before{
+.indicator::before {
   left: -21.5px;
-  top:-4px;
+  top: -4px;
   background-color: #1f2833;
   border-bottom-right-radius: 25px;
-  box-shadow: 2px 12px #080404 ;
+  box-shadow: 2px 12px #080404;
 }
 
-.indicator::after{
+.indicator::after {
   right: -21.5px;
-  top:-4px;
+  top: -4px;
   background-color: #1f2833;
   border-bottom-left-radius: 25px;
-  box-shadow: -2px 12px #080404 ;
+  box-shadow: -2px 12px #080404;
 }
 
 @mixin sp-layout {
@@ -648,7 +826,7 @@ p {
   opacity: 0;
 
   &:checked {
-    & ~ .menu {
+    &~.menu {
       opacity: 1;
       visibility: visible;
 
@@ -668,15 +846,14 @@ p {
       }
     }
 
-    & ~ .burger-menu {
+    &~.burger-menu {
       .line {
         &::after {
           transform: translateX(0);
         }
 
         &:nth-child(1) {
-          transform: translateY(calc(var(--burger-menu-radius) / 5))
-            rotate(45deg);
+          transform: translateY(calc(var(--burger-menu-radius) / 5)) rotate(45deg);
         }
 
         &:nth-child(2) {
@@ -684,8 +861,7 @@ p {
         }
 
         &:nth-child(3) {
-          transform: translateY(calc(var(--burger-menu-radius) / -5))
-            rotate(-45deg);
+          transform: translateY(calc(var(--burger-menu-radius) / -5)) rotate(-45deg);
         }
       }
     }
@@ -701,22 +877,27 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 1; /* Always visible */
+  opacity: 1;
+  /* Always visible */
   overflow-x: hidden;
-  visibility: visible; /* Always visible */
+  visibility: visible;
+  /* Always visible */
   transition: 0.3s;
   /* Initial state for animation */
   opacity: 0;
   visibility: hidden;
-  transform: translateY(100%); /* Start off-screen */
+  transform: translateY(100%);
+  /* Start off-screen */
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 
   /* Make menu appear on page load */
   &.active {
     opacity: 1;
     visibility: visible;
-    transform: translateY(0); /* Slide in */
+    transform: translateY(0);
+    /* Slide in */
   }
+
   @include sp-layout {
     display: block;
   }
@@ -748,7 +929,8 @@ p {
         overflow: hidden;
 
         div {
-          transform: translateY(0); /* Ensures elements are visible */
+          transform: translateY(0);
+          /* Ensures elements are visible */
         }
       }
 
@@ -785,7 +967,8 @@ p {
     p {
       letter-spacing: 2px;
       text-transform: uppercase;
-      transform: translateY(0); /* Ensures text is visible */
+      transform: translateY(0);
+      /* Ensures text is visible */
     }
   }
 
@@ -813,8 +996,10 @@ p {
       .image {
         position: relative;
         transition: 0.6s;
-        overflow: hidden; /* Ensure scaled image doesn't overflow */
-        border-radius: inherit; /* Inherit the border-radius */
+        overflow: hidden;
+        /* Ensure scaled image doesn't overflow */
+        border-radius: inherit;
+        /* Inherit the border-radius */
 
         &::before {
           position: absolute;
@@ -845,12 +1030,15 @@ p {
 
     img {
       height: 250px;
-      transform: translateY(0); /* Ensures images are visible */
+      transform: translateY(0);
+      /* Ensures images are visible */
     }
   }
 }
+
 .image {
-  border-radius: 20px; /* Ensures rounded corners */
+  border-radius: 20px;
+  /* Ensures rounded corners */
   overflow: hidden;
 }
 
@@ -859,7 +1047,7 @@ p {
   width: 300px;
   background: linear-gradient(#c5c6c7, #45a29e);
   color: rgba(0, 0, 0, 0.87);
-  -webkit-clip-path: circle(24px at 150px 24px); 
+  -webkit-clip-path: circle(24px at 150px 24px);
   clip-path: circle(24px at 90% 24px);
   -webkit-transition: -webkit-clip-path 0.5625s ease-in-out, clip-path 0.375s ease-in-out;
   transition: -webkit-clip-path 0.5625s ease-in-out, clip-path 0.375s ease-in-out;
@@ -873,7 +1061,7 @@ p {
   transition-timing-function: ease-out;
   -webkit-transition-duration: 0.75s;
   transition-duration: 0.75s;
-  -webkit-clip-path: circle(390px at 100% 24px); 
+  -webkit-clip-path: circle(390px at 100% 24px);
   clip-path: circle(390px at 150px 24px);
 }
 
@@ -889,9 +1077,13 @@ p {
   user-select: none;
 }
 
-.icon-1 a:hover { background: #ffe082; }
+.icon-1 a:hover {
+  background: #ffe082;
+}
 
-.icon-1 a:active { background: #ffca28; }
+.icon-1 a:active {
+  background: #ffca28;
+}
 
 .navicon-1 {
   padding: 23px 20px;
@@ -906,7 +1098,7 @@ p {
   width: 20px;
   height: 2px;
   background: rgba(0, 0, 0, 0.87);
-  left:15em;
+  left: 15em;
 }
 
 .navicon-1 div:before,
@@ -919,9 +1111,13 @@ p {
   position: absolute;
 }
 
-.navicon-1 div:before { top: -7px; }
+.navicon-1 div:before {
+  top: -7px;
+}
 
-.navicon-1 div:after { top: 7px; }
+.navicon-1 div:after {
+  top: 7px;
+}
 
 .gallery-circle {
   --g: 8px;
@@ -979,5 +1175,3 @@ p {
   clip-path: polygon(50% 50%, 1.2em .5em, 1em 0, 0 0, 0 100%, 1em 100%, 1.2em calc(100% - .5em));
   --_x: calc(-1*var(--g))
 }
-
-

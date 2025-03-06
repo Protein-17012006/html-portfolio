@@ -17,7 +17,7 @@
   include_once("header.inc");
   ?>
 
-  <div class="about-middle">
+  <div class="about-middle" id="about-middle">
     <div class="top">
       <h1>All of Occupations in Our Company</h1>
 

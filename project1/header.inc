@@ -3,7 +3,7 @@
 <nav class="nav">
     <ul class="nav-content">
       <li class="nav-list">
-        <a href="index.php" class="link-item active">
+        <a href="index.php" class="link-item lighted">
           <i class='bx bx-home link-icon'></i>
           <span class="link-text">Home</span>
         </a>

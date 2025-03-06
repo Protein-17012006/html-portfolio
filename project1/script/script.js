@@ -48,10 +48,10 @@ linkItems.forEach((linkItem, index) => {
         indicator.style.left = `${index * 200 + 0}px`;
 
 
-        document.querySelector(".link-item.active").classList.remove("active");
+        document.querySelector(".link-item.lighted").classList.remove("lighted");
 
 
-        linkItem.classList.add("active");
+        linkItem.classList.add("lighted");
     });
 });
 
@@ -83,6 +83,11 @@ window.onload = function () {
     document.querySelector(".login-box").classList.add("show");
     document.querySelector("form").classList.add("show");
 };
+
+window.onload = function () {
+    document.querySelector(".about-middle").classList.add("show");
+};
+
 
 let currentIndex = 0;
 
