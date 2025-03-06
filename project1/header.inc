@@ -9,7 +9,7 @@
         </a>
       </li>
       <li class="nav-list">
-        <a href="jobs.html" class="link-item" id="jobs-menu">
+        <a href="jobs.php" class="link-item" id="jobs-menu">
           <i class='bx bxs-briefcase link-icon'></i>
           <span class="link-text">Jobs</span>
         </a>
@@ -35,13 +35,13 @@
         </a>
       </li>
       <li class="nav-list">
-        <a href="about.html" class="link-item">
+        <a href="about.php" class="link-item">
           <i class='bx bx-meh-blank link-icon'></i>
           <span class="link-text">About</span>
         </a>
       </li>
       <li class="nav-list">
-        <a href="enhancements.html" class="link-item">
+        <a href="enhancements.php" class="link-item">
           <i class='bx bx-up-arrow-alt link-icon'></i>
           <span class="link-text">Enhancements</span>
         </a>

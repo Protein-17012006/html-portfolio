@@ -1,6 +1,6 @@
 .login-box {
     position: absolute;
-    top: 100%;
+    top: 300px;
     left: 50%;
     width: 100%;
     padding: 40px;
@@ -80,7 +80,7 @@
 
 form {
     position: absolute;
-    top: 50%;
+    top: 400px;
     left: 50%;
     width: 70%; /* Đặt độ rộng của form thành 70% */
     padding: 40px;
