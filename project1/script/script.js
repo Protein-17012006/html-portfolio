@@ -83,3 +83,40 @@ window.onload = function () {
     document.querySelector(".login-box").classList.add("show");
     document.querySelector("form").classList.add("show");
 };
+
+let currentIndex = 0;
+
+        function setActive(element, index) {
+            if (index === currentIndex) return; // Avoid unnecessary updates
+
+            let frameWraps = document.querySelectorAll('.frame-wrap');
+
+            // Remove active class from previous frame
+            let prevFrame = frameWraps[currentIndex];
+            prevFrame.classList.remove('active');
+
+            // Show new frame
+            let nextFrame = frameWraps[index];
+            nextFrame.classList.add('active');
+
+            // Delay hiding the old frame to allow animation
+            setTimeout(() => {
+                prevFrame.style.display = "none";
+                nextFrame.style.display = "block";
+            }, 500); // Matches CSS transition duration
+
+            // Update pagination button states
+            document.querySelectorAll('.circle').forEach(btn => btn.classList.remove('active'));
+            element.classList.add('active');
+
+            currentIndex = index;
+        }
+
+function changePage(direction) {
+    let circles = document.querySelectorAll('.circle');
+    let newIndex = currentIndex + direction;
+
+    if (newIndex >= 0 && newIndex < circles.length) {
+        setActive(circles[newIndex], newIndex + 1);
+    }
+}
