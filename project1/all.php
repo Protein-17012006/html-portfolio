@@ -24,41 +24,82 @@
       <p>In the scenario of establishing another branch, there are multiple positions for you</p>
       <br><br><br><br><br><br><br><br>
       <div class="info-bar">
-      <div class="info-item">
-            <div class="info-icon">👤</div>
-            <div class="info-text">Population: <strong>1.250</strong></div>
+        <div class="info-item">
+          <div class="info-icon">👤</div>
+          <div class="info-text">Population: <strong>1.250</strong></div>
         </div>
         <div class="info-item">
-            <div class="info-icon">🌍</div>
-            <div class="info-text">Territory: <strong>500 KM²</strong></div>
+          <div class="info-icon">🌍</div>
+          <div class="info-text">Territory: <strong>500 KM²</strong></div>
         </div>
         <div class="info-item">
-            <div class="info-icon">🏠</div>
-            <div class="info-text">AVG Price: <strong>$80.000</strong></div>
+          <div class="info-icon">🏠</div>
+          <div class="info-text">AVG Price: <strong>$80.000</strong></div>
         </div>
         <button class="apply-btn" onclick="navigateTo('apply.php')">Apply Now</button>
       </div>
     </div>
 
     <div class="frame">
-
+      <img src="switzerland.jpg" alt="Switzerland" class="frame-image">
+      <div class="frame-content">
+        <h2>SWITZERLAND</h2>
+        <p class="subtitle">Europe</p>
+        <p class="description">
+          Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
+          You can use this layout for your commercial work.
+        </p>
+        <div class="frame-info">
+          <span>👤 8.66 Mil People</span>
+          <span>🌍 41.290 km²</span>
+          <span>🏠 $1.100.200</span>
+        </div>
+        <a href="#" class="frame-link">Need Directions ? ➜</a>
+      </div>
+      <button class="frame-button">Explore More</button>
     </div>
 
     <div class="frame">
-      
+    <img src="switzerland.jpg" alt="Switzerland" class="frame-image">
+      <div class="frame-content">
+        <h2>SWITZERLAND</h2>
+        <p class="subtitle">Europe</p>
+        <p class="description">
+          Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
+          You can use this layout for your commercial work.
+        </p>
+        <div class="frame-info">
+          <span>👤 8.66 Mil People</span>
+          <span>🌍 41.290 km²</span>
+          <span>🏠 $1.100.200</span>
+        </div>
+        <a href="#" class="frame-link">Need Directions ? ➜</a>
+      </div>
+      <button class="frame-button">Explore More</button>
     </div>
 
     <div class="frame">
-      
+    <img src="switzerland.jpg" alt="Switzerland" class="frame-image">
+      <div class="frame-content">
+        <h2>SWITZERLAND</h2>
+        <p class="subtitle">Europe</p>
+        <p class="description">
+          Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
+          You can use this layout for your commercial work.
+        </p>
+        <div class="frame-info">
+          <span>👤 8.66 Mil People</span>
+          <span>🌍 41.290 km²</span>
+          <span>🏠 $1.100.200</span>
+        </div>
+        <a href="#" class="frame-link">Need Directions ? ➜</a>
+      </div>
+      <button class="frame-button">Explore More</button>
     </div>
 
-    <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.428064686955!2d106.66673549337516!3d10.81631374784539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ff6c51d5ebd%3A0x4403e126c229b92b!2sSwinburne%20Vietnam%20Alliance%20Program%20-%20HCMC%20location!5e1!3m2!1svi!2s!4v1741239398102!5m2!1svi!2s" 
-    width="450" 
-    height="700" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.428064686955!2d106.66673549337516!3d10.81631374784539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ff6c51d5ebd%3A0x4403e126c229b92b!2sSwinburne%20Vietnam%20Alliance%20Program%20-%20HCMC%20location!5e1!3m2!1svi!2s!4v1741239398102!5m2!1svi!2s"
+      width="450" height="782" style="border:0;" allowfullscreen="" loading="lazy">
     </iframe>
   </div>
   <script src="./script/script.js"></script>
