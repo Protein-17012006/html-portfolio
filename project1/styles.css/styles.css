@@ -391,50 +391,6 @@ td {
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Adds a subtle shadow effect */
 }
 
-/* A field in the middle of Cs, businessm and media.html */
-.frame {
-  width: 90%; /* Sets width to 90% of the parent */
-  height: 240px; /* Sets a fixed height */
-  padding: 20px; /* Adds internal spacing */
-  margin: 20px; /* Adds margin around the frame */
-  align-items: center; /* Centers content vertically */
-  text-align: center; /* Centers text inside the frame */
-  border: 2px solid rgba(255, 255, 255, .5); /* Adds a semi-transparent white border */
-  border-radius: 20px; /* Rounds the corners */
-  box-shadow: 0 0 30px rgba(0, 0, 0, .5); /* Adds a glowing shadow */
-  background: linear-gradient(135deg, #3d3b3b, #5c7ecf); /* Gradient background */
-}
-
-.frame h2 {
-  color: white; /* Sets the color of all heading 2 elements inside .frame to white */
-}
-
-/* Styles images inside .frame */
-.frame img {
-  width: 100%; /* Makes the image take the full width of its container */
-  height: 175px; /* Sets a fixed height to maintain uniform size */
-  border-radius: 10px; /* Adds rounded corners to the image */
-}
-
-/* Styles all images on the page */
-img {
-  height: 30px; /* Sets a default height of 30px for images */
-  text-align: center; /* Does nothing since text-align doesn’t affect images */
-}
-
-/* Styles paragraph text inside .frame */
-.frame p {
-  font-size: 1.2rem; /* Increases text size to 1.2 rem */
-  color: #cccccc; /* Sets text color to light gray */
-  font-weight: bold; /* Makes the text bold */
-}
-
-/* Removes default margins for heading 2 and paragraph elements inside .frame */
-.frame h2,
-.frame p {
-  margin: 0; /* Removes default margins for heading 2 and paragraph elements inside .frame */
-}
-
 .group-this {
   margin-bottom: 15px; /* Adds spacing below each .group-this section */
 }

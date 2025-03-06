@@ -1,0 +1,147 @@
+.top {
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+}
+
+.top h1 {
+    font-size: 70px;
+    white-space: nowrap;
+}
+
+.top p {
+    font-size: 25px;
+}
+
+.info-bar {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 50px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #29a7c6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #29a7c6;
+    margin-right: 10px;
+}
+
+.info-text {
+    color: gray;
+    font-size: 16px;
+}
+
+.info-text strong {
+    color: #29a7c6;
+    font-size: 18px;
+}
+
+.apply-btn {
+    background: #29a7c6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 20px;
+    position: relative;
+    left: 250px;
+    transition: all 0.3s ease-in-out;
+}
+
+.apply-btn:hover {
+    background: darkcyan;
+    transform: scale(1.1);
+}
+
+.about-middle{
+    float: left;
+}
+
+/* A field in the middle of Cs, businessm and media.html */
+.frame {
+    width: 55%;
+    /* Sets width to 90% of the parent */
+    height: 240px;
+    /* Sets a fixed height */
+    padding: 20px;
+    /* Adds internal spacing */
+    margin: 20px;
+    /* Adds margin around the frame */
+    margin-left: 5%;
+    align-items: center;
+    /* Centers content vertically */
+    text-align: center;
+    /* Centers text inside the frame */
+    border: 2px solid rgba(255, 255, 255, .5);
+    /* Adds a semi-transparent white border */
+    border-radius: 20px;
+    /* Rounds the corners */
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    /* Adds a glowing shadow */
+    background: linear-gradient(135deg, #3d3b3b, #5c7ecf);
+    /* Gradient background */
+}
+
+.frame h2 {
+    color: white;
+    /* Sets the color of all heading 2 elements inside .frame to white */
+}
+
+/* Styles images inside .frame */
+.frame img {
+    width: 100%;
+    /* Makes the image take the full width of its container */
+    height: 175px;
+    /* Sets a fixed height to maintain uniform size */
+    border-radius: 10px;
+    /* Adds rounded corners to the image */
+}
+
+/* Styles all images on the page */
+img {
+    height: 30px;
+    /* Sets a default height of 30px for images */
+    text-align: center;
+    /* Does nothing since text-align doesn’t affect images */
+}
+
+/* Styles paragraph text inside .frame */
+.frame p {
+    font-size: 1.2rem;
+    /* Increases text size to 1.2 rem */
+    color: #cccccc;
+    /* Sets text color to light gray */
+    font-weight: bold;
+    /* Makes the text bold */
+}
+
+/* Removes default margins for heading 2 and paragraph elements inside .frame */
+.frame h2,
+.frame p {
+    margin: 0;
+    /* Removes default margins for heading 2 and paragraph elements inside .frame */
+}
+
+iframe{
+    position: absolute;
+    left: 65%;
+    top: 665px;
+    border-radius: 15px;
+}

@@ -23,8 +23,8 @@ function search() {
         "hr manager": "../project1/job_description/Business/business4.html",
         "marketing manager": "../project1/job_description/Business/business5.html",
         "project manager": "../project1/job_description/Business/business6.html",
-    }; 
-    
+    };
+
     if (links[query]) {
         window.location.href = links[query];
     } else {
@@ -44,37 +44,42 @@ const indicator = document.querySelector(".indicator");
 
 linkItems.forEach((linkItem, index) => {
     linkItem.addEventListener("mouseover", () => {
-       
+
         indicator.style.left = `${index * 200 + 0}px`;
 
-        
+
         document.querySelector(".link-item.active").classList.remove("active");
 
-       
+
         linkItem.classList.add("active");
     });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
     let menu = document.querySelector(".menu");
-  
+
     // Remove the class to reset animation
     menu.classList.remove("active");
-  
+
     // Force reflow (trick to restart CSS animation)
     void menu.offsetWidth;
-  
+
     // Re-add the class after a short delay
     setTimeout(() => {
-      menu.classList.add("active");
+        menu.classList.add("active");
     }, 50); // Small delay ensures animation restarts
-  });
+});
 
-  document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     let menu = document.querySelector(".middle");
     menu.classList.remove("active");
     void menu.offsetWidth;
     setTimeout(() => {
-      menu.classList.add("active");
-    }, 50); 
-  });
+        menu.classList.add("active");
+    }, 50);
+});
+
+window.onload = function () {
+    document.querySelector(".login-box").classList.add("show");
+    document.querySelector("form").classList.add("show");
+};

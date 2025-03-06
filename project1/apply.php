@@ -21,7 +21,6 @@
   ?>
   <div class="about-middle">
     <div class="login-box">
-      <h2>Login</h2>
       <form action="" method="post">
         <h1>Application Form</h1>
 

@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<?php
+  <?php
       include_once("header.inc");
     ?>
 
@@ -105,7 +105,7 @@
       <h2>Description of this website</h2>
       Our company's IT part has designed this webpage for potential individuals to easily take opportunities to go along
       with us . Click <a href="">here</a> to watch a video about this occupations seeking website.
-      Moreover, if you want to send feedback for our company, click <a href="./feedback.html">here</a> to go to the
+      Moreover, if you want to send feedback for our company, click <a href="feedback.php">here</a> to go to the
       feedback form.
     </section>
 

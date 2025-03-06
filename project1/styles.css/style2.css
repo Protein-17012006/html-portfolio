@@ -19,8 +19,8 @@
     /* Rounds the edges */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     /* Adds a subtle shadow effect */
-
 }
+
 
 .login-box h2 {
     margin: 0 0 30px;
@@ -36,7 +36,7 @@
 .login-box .user-box input {
     width: 100%;
     padding: 10px 0;
-    font-size: 16px;
+    font-size: 30px;
     color: #fff;
     margin-bottom: 30px;
     border: none;
@@ -50,26 +50,19 @@
     top: 0;
     left: 0;
     padding: 10px 0;
-    font-size: 16px;
+    font-size: 30px;
     color: #fff;
     pointer-events: none;
     transition: .5s;
 }
 
-.login-box input:focus~label,
-.login-box input:valid~label {
-    top: -20px;
-    left: 0;
-    color: #03e9f4;
-    font-size: 12px;
-}
 
 .login-box form a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
     color: #03e9f4;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
@@ -113,7 +106,7 @@ h1 {
     top: 0;
     left: 0;
     padding: 10px 0;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
     pointer-events: none;
     transition: 0.5s;
@@ -139,7 +132,7 @@ h1 {
     top: -20px;
     left: 0;
     color: #03e9f4;
-    font-size: 12px;
+    font-size: 16px;
 }
 
   
@@ -149,7 +142,7 @@ textarea {
     background-color: transparent;
     border: 1px solid #fff;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 fieldset {
@@ -189,13 +182,51 @@ fieldset {
 
 legend {
     color: #fff;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .apply-input-container {
     display: inline-block;
     margin-right: 15px;
+    font-size: 20px;
 }
+
+/* Default checkbox style */
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Checkmark (pseudo-element) */
+input[type="checkbox"]::after {
+    content: "✔";
+    font-size: 16px;
+    color: #03e9f4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* When checked, show the checkmark */
+input[type="checkbox"]:checked {
+    background-color: transparent;
+}
+
+/* Animate the checkmark appearing */
+input[type="checkbox"]:checked::after {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
 
 .apply-input-box {
     color: #fff;
@@ -211,7 +242,7 @@ button {
     background: #45a29e;
     border: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.5s;
@@ -221,4 +252,17 @@ button {
 
 button:hover {
     background: #1f2833;
+}
+
+/* Initially hidden and positioned lower */
+.login-box, form {
+    opacity: 0;
+    transform: translate(-50%, 50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* When the class is added, it becomes visible and moves up */
+.show {
+    opacity: 1;
+    transform: translate(-50%, -50%);
 }
