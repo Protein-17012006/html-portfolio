@@ -79,10 +79,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 50);
 });
 
-window.onload = function () {
+window.addEventListener("load", function () {
     document.querySelector(".login-box").classList.add("show");
     document.querySelector("form").classList.add("show");
-};
+    document.querySelector(".form-middle").classList.add("show");
+});
+
 
 window.onload = function () {
     document.querySelector(".about-middle").classList.add("show");

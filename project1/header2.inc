@@ -29,9 +29,9 @@
         </a>
       </li>
       <li class="nav-list">
-        <a href="../../tips.html" class="link-item">
+        <a href="../../manage.php" class="link-item">
           <i class='bx bxs-select-multiple link-icon'></i>
-          <span class="link-text">Tips</span>
+          <span class="link-text">Manage</span>
         </a>
       </li>
       <li class="nav-list">

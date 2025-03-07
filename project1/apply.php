@@ -2,7 +2,7 @@
 
 <html>
 
-<head>
+<head> 
   <title>Apply</title>
   <meta charset="UTF-8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,7 @@
   <?php
   include_once("header.inc");
   ?>
-  <div class="about-middle">
+  <div class="form-middle">
     <div class="login-box">
       <form action="" method="post">
         <h1>Application Form</h1>
@@ -140,7 +140,15 @@
 
       </form>
     </div>
+    
+    <div class="apply-footer">
+    <?php
+    include_once("footer.inc");
+    ?>
+    </div>
   </div>
+
+  
 
   <script src="./script/script.js"></script>
 </body>
