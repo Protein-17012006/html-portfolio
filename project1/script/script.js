@@ -127,3 +127,36 @@ function changePage(direction) {
         setActive(circles[newIndex], newIndex + 1);
     } 
 }
+
+
+let currentIndex2 = 0;
+    const carousel = document.querySelector(".carousel");
+    const cards = document.querySelectorAll(".card");
+    const totalCards = cards.length;
+    const visibleCards = 3;
+    const cardWidth = 320; // 300px width + 10px margin each side
+    const leftArrow = document.querySelector(".arrow-left");
+    const rightArrow = document.querySelector(".arrow-right");
+
+    function updateButtons() {
+        leftArrow.disabled = currentIndex2 === 0;
+        rightArrow.disabled = currentIndex2 >= totalCards - visibleCards;
+    }
+
+    function moveSlide(direction) {
+        currentIndex2 += direction;
+
+        // Prevent out-of-bounds movement
+        if (currentIndex2 < 0) {
+            currentIndex2 = 0;
+        } else if (currentIndex2 > totalCards - visibleCards) {
+            currentIndex2 = totalCards - visibleCards;
+        }
+
+        const newTransformValue = -currentIndex2 * cardWidth + "px";
+        carousel.style.transform = `translateX(${newTransformValue})`;
+
+        updateButtons();
+    }
+
+    updateButtons();
