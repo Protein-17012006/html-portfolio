@@ -2,7 +2,7 @@
 
 <html>
 
-<head> 
+<head>
   <title>Apply</title>
   <meta charset="UTF-8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,26 +21,27 @@
   ?>
   <div class="form-middle">
     <div class="login-box">
-      <form action="" method="post">
+      <form action="process_eoi.php" method="post">
         <h1>Application Form</h1>
 
         <div class="input-box">
-
-          <input type="name" maxlength="5" required id="jobnumber">
+          <input type="name" maxlength="5" required id="jobnumber" name="jobnumber">
           <label for="jobnumber">Job reference number</label>
         </div>
         <div class="input-box">
+          <input type="text" pattern="[A-Za-zÀ-ỹ\s]+" maxlength="20" required id="firstname" name="firstname">
           <label for="firstname">First name</label>
-          <input type="text" pattern="[A-Za-zÀ-ỹ\s]+" maxlength="20" required id="firstname">
         </div>
         <div class="input-box">
+          <input type="text" pattern="[A-Za-zÀ-ỹ\s]+" maxlength="20" required id="lastname" name="lastname">
           <label for="lastname">Last name</label>
-          <input type="text" pattern="[A-Za-zÀ-ỹ\s]+" maxlength="20" required id="lastname">
         </div>
-        <div class="input-box">
+        <div class="input-box2">
+          <input placeholder=" " class="textbox-n" type="text" id="date" onfocus="this.type='date'"
+            onblur="if(!this.value) this.type='text'" name="date">
           <label for="date">Date of birth</label>
-          <input placeholder="" class="textbox-n" type="text" onfocus="(this.type='date')"
-            onblur="(this.type='text')" id="date" />
+
+
         </div>
         <div class="radio-group">
           <fieldset>
@@ -52,17 +53,18 @@
           </fieldset>
         </div>
         <div class="input-box">
+          <input type="text" maxlength="40" required id="address" name="address">
           <label for="address">Street adress</label>
-          <input type="text" maxlength="40" required id="address">
         </div>
         <div class="input-box">
+          <input type="text" required id="town" name="town">
           <label for="town">Suburb/Town</label>
-          <input type="text" required id="town">
         </div>
-        <div class="input-box">
-          <label for="state">State</label>
-          <select name="state" id="state">
-            <option value="none"></option>
+
+        <div class="state-row">
+          <label for="state" class="state-label" id="stateLabel">State:</label>
+          <select name="state" id="state" required>
+            <option value="" disabled selected>Choose a state</option>
             <option value="VIC">VIC</option>
             <option value="NSW">NSW</option>
             <option value="QLD">QLD</option>
@@ -73,63 +75,89 @@
             <option value="ACT">ACT</option>
           </select>
         </div>
+
         <div class="input-box">
+          <input type="text" maxlength="4" id="numberInput" required id="postcode" name="postcode">
           <label for="postcode">Postcode</label>
-          <input type="text" maxlength="4" id="numberInput" required id="postcode">
         </div>
         <div class="input-box">
+          <input type="email" required id="email" name="email">
           <label for="email">Email</label>
-          <input type="email" required id="email">
         </div>
-        <div class="input-box">
-          <label for="numberInput">Phone number</label>
-          <input type="text" pattern="\d{8,12}|\d{2,3} \d{6,10}" id="numberInput" maxlength="12"
-            oninput="validateNumberInput(event)">
+        <div class="input-box3">
+          <input type="text" id="phone" name="phone" pattern="\d{8,12}|\d{2,3} \d{6,10}" maxlength="12" placeholder=" "
+            required oninput="validateNumberInput(event)">
+          <label for="phone">Phone number</label>
+
         </div>
+
         <fieldset>
           <legend>Skill list:</legend>
-          <div class="apply-input-container"><input type="checkbox" id="check">
+
+          <div class="apply-input-container">
+            <input type="checkbox" id="management" name="management" value="Management">
             <div class="apply-input-box">
-              <label for="box">Management</label>
-            </div class="apply-input-container"><input type="checkbox" id="check">
+              <label for="management">Management</label>
+            </div>
+
+            <input type="checkbox" id="technology" name="technology" value="Technology Advancement">
             <div class="apply-input-box">
-              <label for="box">Technology advancement</label>
+              <label for="technology">Technology advancement</label>
             </div>
           </div>
-          <div class="apply-input-container"><input type="checkbox" id="check">
+
+          <div class="apply-input-container">
+            <input type="checkbox" id="collaboration" name="collaboration" value="Collaboration">
             <div class="apply-input-box">
-              <label for="box">Colloboration</label>
-            </div class="apply-input-container"><input type="checkbox" id="check">
+              <label for="collaboration">Collaboration</label>
+            </div>
+
+            <input type="checkbox" id="time-management" name="time-management" value="Time Management">
             <div class="apply-input-box">
-              <label for="box">Time management</label>
+              <label for="time-management">Time management</label>
             </div>
           </div>
-          <div class="apply-input-container"><input type="checkbox" id="check">
+
+          <div class="apply-input-container">
+            <input type="checkbox" id="project-management" name="project-management" value="Project Management">
             <div class="apply-input-box">
-              <label for="box">Project management</label>
-            </div class="apply-input-container"><input type="checkbox" id="check">
+              <label for="project-management">Project management</label>
+            </div>
+
+            <input type="checkbox" id="critical-thinking" name="critical-thinking" value="Critical Thinking">
             <div class="apply-input-box">
-              <label for="box">Critical thinking</label>
+              <label for="critical-thinking">Critical thinking</label>
             </div>
           </div>
-          <div class="apply-input-container"><input type="checkbox" id="check">
+
+          <div class="apply-input-container">
+            <input type="checkbox" id="adaptation" name="adaptation" value="Adaptation">
             <div class="apply-input-box">
-              <label for="box">Adaptation</label>
-            </div class="apply-input-container"><input type="checkbox" id="check">
+              <label for="adaptation">Adaptation</label>
+            </div>
+
+            <input type="checkbox" id="creativity" name="creativity" value="Creativity">
             <div class="apply-input-box">
-              <label for="box">Creativity</label>
+              <label for="creativity">Creativity</label>
             </div>
           </div>
-          <div class="apply-input-container"><input type="checkbox" id="check">
+
+          <div class="apply-input-container">
+            <input type="checkbox" id="problem-solving" name="problem-solving" value="Problem Solving">
             <div class="apply-input-box">
-              <label for="box">Problem solving</label>
-            </div class="apply-input-container"><input type="checkbox" id="check">
+              <label for="problem-solving">Problem solving</label>
+            </div>
+
+            <input type="checkbox" id="communication" name="communication" value="Communication">
             <div class="apply-input-box">
-              <label for="box">Communication</label>
+              <label for="communication">Communication</label>
             </div>
           </div>
 
         </fieldset>
+
+
+
         <div>
           <label for="otherskills">Other skills:</label>
         </div>
@@ -140,15 +168,15 @@
 
       </form>
     </div>
-    
+
     <div class="apply-footer">
-    <?php
-    include_once("footer.inc");
-    ?>
+      <?php
+      include_once("footer.inc");
+      ?>
     </div>
   </div>
 
-  
+
 
   <script src="./script/script.js"></script>
 </body>

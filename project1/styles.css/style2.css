@@ -127,12 +127,16 @@ h1 {
     width: 100%; /* Chiếm hết chiều rộng */
 }
 
-.input-box {
+.input-box , .input-box2, .input-box3{
     position: relative;
     width: 48%; /* Mỗi trường chiếm 48% chiều rộng */
 }
 
-.input-box label {
+.input-box #fix .select{
+    width: 80%;
+}
+
+.input-box label , .input-box2 label, .input-box3 label{
     position: absolute;
     top: 0;
     left: 0;
@@ -143,7 +147,7 @@ h1 {
     transition: 0.5s;
 }
 
-.input-box input, .input-box select, .input-box textarea {
+.input-box input, .input-box select, .input-box textarea ,.input-box2 input, .input-box3 input{
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -165,9 +169,59 @@ h1 {
     color: #03e9f4;
     font-size: 16px;
 }
+.input-box2 input:focus ~ label,
+.input-box2 select:focus ~ label,
+.input-box2:focus-within label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 16px;
+}
 
+.input-box2 input:not(:placeholder-shown) ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 16px;
+}
+
+.input-box3 input:focus ~ label,
+.input-box3 input:valid ~ label,
+.input-box3 input:not(:placeholder-shown) ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 16px;
+}
+
+/* Container for label and select */
+.state-row {
+    display: flex;            /* Lay out label and select side by side */
+    align-items: center;      /* Vertically center them */
+    margin-bottom: 20px;      /* Spacing from other elements */
+  }
   
+  /* Label styling */
+  .state-label {
+    margin-right: 10px;       /* Space between label and dropdown */
+    font-size: 20px;          /* Adjust font size as needed */
+    color: #fff;              /* Match your form’s color scheme */
+  }
   
+  /* Dropdown styling */
+  .state-row select {
+    width: 385px;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+  }
+  
+
+
 
 textarea {
     background-color: transparent;

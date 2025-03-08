@@ -93,31 +93,31 @@ window.onload = function () {
 
 let currentIndex = 0;
 
-        function setActive(element, index) {
-            if (index === currentIndex) return; // Avoid unnecessary updates
+function setActive(element, index) {
+    if (index === currentIndex) return; // Avoid unnecessary updates
 
-            let frameWraps = document.querySelectorAll('.frame-wrap');
+    let frameWraps = document.querySelectorAll('.frame-wrap');
 
-            // Remove active class from previous frame
-            let prevFrame = frameWraps[currentIndex];
-            prevFrame.classList.remove('active');
+    // Remove active class from previous frame
+    let prevFrame = frameWraps[currentIndex];
+    prevFrame.classList.remove('active');
 
-            // Show new frame
-            let nextFrame = frameWraps[index];
-            nextFrame.classList.add('active');
+    // Show new frame
+    let nextFrame = frameWraps[index];
+    nextFrame.classList.add('active');
 
-            // Delay hiding the old frame to allow animation
-            setTimeout(() => {
-                prevFrame.style.display = "none";
-                nextFrame.style.display = "block";
-            }, 500); // Matches CSS transition duration
+    // Delay hiding the old frame to allow animation
+    setTimeout(() => {
+        prevFrame.style.display = "none";
+        nextFrame.style.display = "block";
+    }, 500); // Matches CSS transition duration
 
-            // Update pagination button states
-            document.querySelectorAll('.circle').forEach(btn => btn.classList.remove('active'));
-            element.classList.add('active');
+    // Update pagination button states
+    document.querySelectorAll('.circle').forEach(btn => btn.classList.remove('active'));
+    element.classList.add('active');
 
-            currentIndex = index;
-        }
+    currentIndex = index;
+}
 
 function changePage(direction) {
     let circles = document.querySelectorAll('.circle');
@@ -125,38 +125,40 @@ function changePage(direction) {
 
     if (newIndex >= 0 && newIndex < circles.length) {
         setActive(circles[newIndex], newIndex + 1);
-    } 
+    }
 }
 
 
 let currentIndex2 = 0;
-    const carousel = document.querySelector(".carousel");
-    const cards = document.querySelectorAll(".card");
-    const totalCards = cards.length;
-    const visibleCards = 3;
-    const cardWidth = 320; // 300px width + 10px margin each side
-    const leftArrow = document.querySelector(".arrow-left");
-    const rightArrow = document.querySelector(".arrow-right");
+const carousel = document.querySelector(".carousel");
+const cards = document.querySelectorAll(".card");
+const totalCards = cards.length;
+const visibleCards = 3;
+const cardWidth = 320; // 300px width + 10px margin each side
+const leftArrow = document.querySelector(".arrow-left");
+const rightArrow = document.querySelector(".arrow-right");
 
-    function updateButtons() {
-        leftArrow.disabled = currentIndex2 === 0;
-        rightArrow.disabled = currentIndex2 >= totalCards - visibleCards;
+function updateButtons() {
+    leftArrow.disabled = currentIndex2 === 0;
+    rightArrow.disabled = currentIndex2 >= totalCards - visibleCards;
+}
+
+function moveSlide(direction) {
+    currentIndex2 += direction;
+
+    // Prevent out-of-bounds movement
+    if (currentIndex2 < 0) {
+        currentIndex2 = 0;
+    } else if (currentIndex2 > totalCards - visibleCards) {
+        currentIndex2 = totalCards - visibleCards;
     }
 
-    function moveSlide(direction) {
-        currentIndex2 += direction;
-
-        // Prevent out-of-bounds movement
-        if (currentIndex2 < 0) {
-            currentIndex2 = 0;
-        } else if (currentIndex2 > totalCards - visibleCards) {
-            currentIndex2 = totalCards - visibleCards;
-        }
-
-        const newTransformValue = -currentIndex2 * cardWidth + "px";
-        carousel.style.transform = `translateX(${newTransformValue})`;
-
-        updateButtons();
-    }
+    const newTransformValue = -currentIndex2 * cardWidth + "px";
+    carousel.style.transform = `translateX(${newTransformValue})`;
 
     updateButtons();
+}
+
+updateButtons();
+
+  
