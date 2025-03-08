@@ -47,14 +47,14 @@
           <img src="job_description/CS/cs.img/cs1.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
             <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <p class="subtitle">Reference ID: ...</p>
             <p class="description">
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
             <div class="frame-info">
               <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
+              <span>🌍 41.290 km²</span> 
               <span>🏠 $1.100.200</span>
             </div>
           </div>
