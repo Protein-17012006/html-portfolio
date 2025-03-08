@@ -12,75 +12,86 @@
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
-  <?php
-  include_once("header.inc");
-  ?>
+<?php
+include_once("header.inc");
+?>
 
-  <div class="about-middle">
+<div class="about-middle">
 
-    <div class="gallery-circle">
-      <img src="https://assets.codepen.io/8889025/Collabrorative.PNG" alt="a hot air balloon">
-      <img src="https://assets.codepen.io/8889025/Adventurous.PNG">
-      <img src="https://assets.codepen.io/8889025/Reliable.PNG" alt="a small boat">
-      <img src="https://assets.codepen.io/8889025/Energetic.PNG" alt="a forest">
-    </div>
+  <div class="gallery-circle">
+    <img src="img/about1.jpg" alt="a hot air balloon">
+    <img src="img/about2.jpg">
+    <img src="img/about3.jpg" alt="a small boat">
+    <img src="img/about4.jpg" alt="a forest">
+  </div>
 
-    <div class="about-info">
-      <h1>About Us</h1>
-      <p>Group Name: <span>Nothingness</span></p>
-      <p>Tutor’s Name: <span>Tristan Nguyen</span></p>
-      <p>Subject: <span>COS10026</span></p>
-      <p>Team Members:</p>
-      <ul class="team-list">
-        <li>Binh Phuong Vu</li>
-        <li>Nguyen Huy Hoang Nguyen</li>
-        <li>Hai Dang Nguyen</li>
-        <li>Xuan Ny Le</li>
-      </ul>
-    </div>
+  <div class="about-info">
+    <h1>About Us</h1>
+    <p>Group Name: <span>Nothingness</span></p>
+    <p>Tutor’s Name: <span>Tristan Nguyen</span></p>
+    <p>Subject: <span>COS10026</span></p>
+    <p>Team Members:</p>
+    <ul class="team-list">
+      <li>Binh Phuong Vu</li>
+      <li>Nguyen Huy Hoang Nguyen</li>
+      <li>Hai Dang Nguyen</li>
+      <li>Xuan Ny Le</li>
+    </ul>
+  </div>
 
-    <div class="container-in-about">
-      <div class="card">
-        <div class="card-content">
-          <p class="offer">*Limited Offer Today</p>
-          <h2>Glasgow City Lorem</h2>
-          <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <button class="btn">Make A Reservation</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-content">
-          <p class="offer">*Today & Tomorrow Only</p>
-          <h2>Venezia Italy Ipsum</h2>
-          <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <button class="btn">Make A Reservation</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-content">
-          <p class="offer">**Undefined</p>
-          <h2>Glasgow City Lorem</h2>
-          <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <button class="btn">Make A Reservation</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-content">
-          <p class="offer">**Undefined</p>
-          <h2>Glasgow City Lorem</h2>
-          <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <button class="btn">Make A Reservation</button>
-        </div>
+  <div class="container-in-about">
+    <div class="card">
+      <div class="card-content">
+        <p class="offer">*Limited Offer Today</p>
+        <h2>Glasgow City Lorem</h2>
+        <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn">Make A Reservation</button>
       </div>
     </div>
 
+    <div class="card">
+      <div class="card-content">
+        <p class="offer">*Today & Tomorrow Only</p>
+        <h2>Venezia Italy Ipsum</h2>
+        <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn">Make A Reservation</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <p class="offer">**Undefined</p>
+        <h2>Glasgow City Lorem</h2>
+        <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn">Make A Reservation</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <p class="offer">**Undefined</p>
+        <h2>Glasgow City Lorem</h2>
+        <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="btn">Make A Reservation</button>
+      </div>
+    </div>
+
+
+  </div>
+  
+
+
+  <div class="about-footer">
+    <?php
+    include_once("footer.inc");
+    ?>
+  </div>
+
+  <div class="table-in-about">
     <table>
       <tr>
         <th>Day</th>
@@ -103,26 +114,21 @@
         <td>Foundation of Statistics</td>
       </tr>
     </table>
-
-    <div class="about-footer">
-      <?php
-      include_once("footer.inc");
-      ?>
-    </div>
   </div>
+</div>
 
 
 
 
-  <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js'></script>
-  <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
-  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'></script>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'></script>
 
 
 
 
-  <!-- <div class="about-middle">
+<!-- <div class="about-middle">
     <h1>Group Information</h1>
 
     <h2>Basic Details</h2>
@@ -215,7 +221,7 @@
       </p>
     </div>
   </div> -->
-  <script src="./script/script.js"></script>
+<script src="./script/script.js"></script>
 </body>
 
 

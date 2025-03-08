@@ -388,18 +388,7 @@ nav figure:hover {
   /* Light Gray for Better Readability */
 }
 
-.about-middle table {
-  width: 100%;
-  /* Ensures the table spans full width */
-  border-collapse: collapse;
-  /* Removes extra spacing between table cells */
-  margin-top: -100px;
-  /* Adds space above the table */
-  background: transparent;
-  /* Sets a dark gray background */
-  /* Dark Gray Table Background */
-  margin-bottom: -100px;
-}
+
 
 .about-middle th,
 td {
