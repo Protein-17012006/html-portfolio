@@ -1,4 +1,13 @@
 <?php
+session_start(); // Start session
+
+// Check if user is logged in
+if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
+    // Redirect to login page if not logged in
+    header("Location: login.php");
+    exit();
+}
+
 require_once 'setting.php';
 $conn = mysqli_connect($host, $username, $password, $database);
 
