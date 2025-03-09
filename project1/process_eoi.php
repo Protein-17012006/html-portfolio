@@ -38,50 +38,51 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $phone = $_POST['phone'];
         $other_skills = isset($_POST['otherskills']) ? $conn->real_escape_string($_POST['otherskills']) : "";
 
-        //$skills = [];
+        $skills = [];
 
         // Check if each skill checkbox is selected
-        //if (isset($_POST["management"]))
-        //    $skills[] = "management";
-        //if (isset($_POST["technology"]))
-        //    $skills[] = "technology";
-        //if (isset($_POST["collaboration"]))
-        //    $skills[] = "collaboration";
-        //if (isset($_POST["time-management"]))
-        //    $skills[] = "time-management";
-        //if (isset($_POST["project-management"]))
-        //    $skills[] = "project-management";
-        //if (isset($_POST["critical-thinking"]))
-        //    $skills[] = "critical-thinking";
-        //if (isset($_POST["adaptation"]))
-        //    $skills[] = "adaptation";
-        //if (isset($_POST["creativity"]))
-        //    $skills[] = "creativity";
-        //if (isset($_POST["problem-solving"]))
-        //    $skills[] = "problem-solving";
-        //if (isset($_POST["communication"]))
-        //    $skills[] = "communication";
+        if (isset($_POST["management"]))
+            $skills[] = "management";
+        if (isset($_POST["technology"]))
+            $skills[] = "technology";
+        if (isset($_POST["collaboration"]))
+            $skills[] = "collaboration";
+        if (isset($_POST["time-management"]))
+            $skills[] = "time-management";
+        if (isset($_POST["project-management"]))
+            $skills[] = "project-management";
+        if (isset($_POST["critical-thinking"]))
+            $skills[] = "critical-thinking";
+        if (isset($_POST["adaptation"]))
+            $skills[] = "adaptation";
+        if (isset($_POST["creativity"]))
+            $skills[] = "creativity";
+        if (isset($_POST["problem-solving"]))
+            $skills[] = "problem-solving";
+        if (isset($_POST["communication"]))
+            $skills[] = "communication";
 
         // Format as "A, B, C and D"
-        //if (count($skills) > 1) {
-        //    $last_skill = array_pop($skills);
-        //    $skills_string = implode(", ", $skills) . " and " . $last_skill;
-        //} else {
-        //    $skills_string = implode("", $skills);
-        //}
+        if (count($skills) > 1) {
+            $last_skill = array_pop($skills);
+            $skills_string = implode(", ", $skills) . " and " . $last_skill;
+        } else {
+            $skills_string = implode("", $skills);
+        }
+
 
         // Escape for database
-        //$skills_string = mysqli_real_escape_string($conn, $skills_string);
+        $skills_string = mysqli_real_escape_string($conn, $skills_string);
 
 
         // Insert into database
         $sql = "INSERT INTO EOI (job_reference_number, first_name, last_name, date_of_birth, gender, 
-                street_address, suburb, state, postcode, email_address, phone_number, other_skills) 
+                street_address, suburb, state, postcode, email_address, phone_number, skills,other_skills) 
                 VALUES ('$jobnumber', '$firstname', '$lastname', '$date_of_birth', '$gender', '$street_address', 
-                '$suburb', '$state', '$postcode', '$email', '$phone', '$other_skills')";
+                '$suburb', '$state', '$postcode', '$email', '$phone', '$skills_string','$other_skills')";
 
         if ($conn->query($sql) === TRUE) {
-            echo "Application submitted successfully!";
+            echo "Application submitted successfully!"; 
         } else {
             echo "Error: " . $conn->error;
         }
