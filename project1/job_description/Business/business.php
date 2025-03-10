@@ -27,67 +27,68 @@
 
       <div class="container" >
         <div class="card" onclick="navigateTo('business1.php')">
-          <img src="./cs.img/cs1.jpg" alt="Destination">
+          <img src="./business.img/business1.png" alt="Destination">
           <div class="card-content">
             <p class="offer">*Limited Offer Today</p>
-            <h2>Glasgow City Lorem</h2>
+            <h2>Business Development Manager</h2>
             <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="description">A Business Development Manager is responsible for:
+              Driving business growth by identifying new opportunities. A Business Development Manager is responsible for: Driving business growth by identifying new opportunities</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
 
         <div class="card" onclick="navigateTo('business2.php')">
-          <img src="./cs.img/cs2.jpg" alt="Destination">
+          <img src="./business.img/business2.png" alt="Destination">
           <div class="card-content">
             <p class="offer">*Today & Tomorrow Only</p>
-            <h2>Venezia Italy Ipsum</h2>
-            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2>Marketing Manager</h2>
+            <p class="details">🕒 8 Days &nbsp; 📍 Daily Places</p>
+            <p class="description">A marketing manager is responsible for developing and executing marketing strategies that align with a company's goals. This role involves overseeing campaigns, managing brand messaging, and driving customer engagement through various channels.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
 
         <div class="card" onclick="navigateTo('business3.php')">
-          <img src="./cs.img/cs3.jpg" alt="Destination">
+          <img src="./business.img/business3.png" alt="Destination">
           <div class="card-content">
-            <p class="offer">**Undefined</p>
-            <h2>Glasgow City Lorem</h2>
+            <p class="offer">*Offer Until 29th April</p>
+            <h2>Financial Analysis</h2>
             <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="description">Analyzing investment opportunities to determine potential return on investment. Providing guidance to maximize financial performance. Predicting the return on investment for different stocks and business ventures.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
 
         <div class="card" onclick="navigateTo('business4.php')">
-          <img src="./cs.img/cs4.jpg" alt="Destination">
+          <img src="./business.img/business4.png" alt="Destination">
           <div class="card-content">
-            <p class="offer">*Offer Until 24th March</p>
-            <h2>Glasgow City Lorem</h2>
-            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">This free CSS template is provided by Template Mo.</p>
+            <p class="offer">*Offer Until 21th April</p>
+            <h2>Operations Manager</h2>
+            <p class="details">🕒 9 Days &nbsp; 📍 Daily Places</p>
+            <p class="description">The Operations Manager oversees a company’s organizational processes and operations to ensure productivity and quality and Managing quality standards.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
 
         <div class="card" onclick="navigateTo('business5.php')">
-          <img src="./cs.img/cs5.jpg" alt="Destination">
+          <img src="./business.img/business5.png" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 24th March</p>
-            <h2>Glasgow City Lorem</h2>
+            <h2>Human Resources Manager</h2>
             <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">This free CSS template is provided by Template Mo.</p>
+            <p class="description">A Human Resources Manager is responsible for coordinating all administrative activities related to an organization’s personnel</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
 
         <div class="card" onclick="navigateTo('business6.php')">
-          <img src="./cs.img/cs6.jpg" alt="Destination">
+          <img src="./business.img/business6.png" alt="Destination">
           <div class="card-content">
-            <p class="offer">*Offer Until 24th March</p>
-            <h2>Glasgow City Lorem</h2>
-            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">This free CSS template is provided by Template Mo.</p>
+            <p class="offer">*Offer Until 27th March</p>
+            <h2>Sale Manager</h2>
+            <p class="details">🕒 8 Days &nbsp; 📍 Daily Places</p>
+            <p class="description">HR Managers play a crucial role in shaping company culture, and developing strategies to attract, retain, and support employees for long-term organizational success.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>

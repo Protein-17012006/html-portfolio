@@ -25,11 +25,9 @@
         <p>Oversee recruitment, employee relations, and organizational development to build a productive and positive workplace. 
           Implement policies, manage performance evaluations, and ensure compliance with labor regulations. 
           Focus on talent acquisition, training, and fostering employee engagement.</p> <br>
-        <p>HR Managers play a crucial role in shaping company culture, enhancing workforce satisfaction, 
-          and developing strategies to attract, retain, and support employees for long-term organizational success.</p>
       </div>
       <div class="circle-image">
-        <img src="business6.jpg" alt="Doctor">
+        <img src="./business.img/business6.png" alt="Doctor">
       </div>
     </div>
 
@@ -39,7 +37,7 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: SM1234</h2>
+          <h2>Reference Number: BUS61</h2>
           <ul>
             <li>
               <p><strong>Position Title:</strong>Sales Manager</p>

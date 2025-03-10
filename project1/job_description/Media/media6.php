@@ -21,16 +21,13 @@
   <div class="about-middle">
     <div class="content-container">
       <div class="text-content">
-        <h2>Content Creator</h2>
-        <p>Produce engaging and valuable content by leveraging creativity, storytelling, and digital tools. 
-            Stay updated on trends and audience preferences to craft compelling videos, blogs, and social media posts.
-            Regularly refine strategies, optimize for SEO, and ensure high-quality visuals. 
-            Creating meaningful content is more effective than spamming audiences.</p> <br>
-        <p>Content creators help build brand identity, drive engagement, 
-            and connect with audiences through storytelling, marketing, and multimedia platforms. </p>
+        <h2>Digital Marketing Specialist</h2>
+          <p>The Digital Marketing Specialist will manage campaigns
+          across various digital channels, including social media, search engines, email marketing, and paid ads, to
+          help achieve company growth goals.</p>
       </div>
       <div class="circle-image">
-        <img src="media.img/media1.jpg" alt="Doctor">
+        <img src="media.img/media6.jpg" alt="Doctor">
       </div>
     </div>
 
@@ -40,16 +37,16 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: ABC56</h2>
+          <h2>Reference Number: MDA61</h2>
           <ul>
             <li>
-              <p><strong>Position Title:</strong>Content Creator</p>
+              <p><strong>Position Title:</strong>Digital Marketing Specialist</p>
             </li>
             <li>
-              <p><strong>Salary Range:</strong> $50,000 - $75,000 per year</p>
+              <p><strong>Salary Range:</strong> $50,000 - $100,000 per year</p>
             </li>
             <li>
-              <p><strong>Reports To:</strong> Content Marketing Manager</p>
+              <p><strong>Reports To:</strong> Digital Marketing Manager</p>
             </li>
           </ul>
 
@@ -63,9 +60,8 @@
         <div class="timeline-content right">
           <h2>Key Responsibilities</h2>
           <ul>
-            <li>Optimize content for SEO to increase website traffic and engagement</li>
-            <li>Monitor content performance through analytics and adjust strategies accordingly</li>
-            <li>Stay updated on social media trends, digital marketing, and content best practices</li>
+          <li>Conduct market research to identify opportunities and stay updated with digital marketing trends</li>
+          <li>Generate reports on key metrics, including ROI, website traffic, conversion rates, and engagement</li>
           </ul>
         </div>
       </div>
@@ -77,9 +73,10 @@
         <div class="timeline-content left">
           <h2>Qualifications</h2>
           <ul>
-            <li>Familiarity with social media platforms, blogs, and content management systems</li>
-            <li>Basic knowledge of SEO best practices</li>
-            <li>At least 1-2 years of experience in content creation or digital marketing</li>
+          <li>Bachelor's degree in Marketing, Communications, Business, or a related field</li>
+          <li>Proven experience in digital marketing, including SEO, SEM, social media, and email marketing</li>
+          <li>Strong knowledge of digital marketing tools and platforms (e.g., Google Analytics, Google Ads, Facebook Ads
+          Manager, Mailchimp)</li>
           </ul>
         </div>
       </div>
@@ -90,9 +87,9 @@
         </div>
         <div class="timeline-content right">
           <h2>Preferable</h2>
-          <li>Familiarity with email marketing platforms like Mailchimp or Constant Contact</li>
-          <li>Strong analytical skills and experience with content performance metrics</li>
-          <li>Ability to work independently and manage multiple projects simultaneously</li>
+          <li>Knowledge of marketing automation tools (e.g., HubSpot, Marketo)</li>
+          <li>Experience with conversion rate optimization and A/B testing</li>
+          <li>Ability to work in a fast-paced environment and manage multiple campaigns simultaneously</li>
         </div>
       </div>
 
@@ -103,21 +100,21 @@
         <th>Activities</th>
       </tr>
       <tr>
-        <td>Monday</td>
-        <td>9:00 AM - 11:00 AM</td>
-        <td>Create engaging content</td>
+        <td>Tuesday</td>
+        <td>9:00 AM - 15:00 PM</td>
+        <td>Run paid ad campaigns</td>
       </tr>
       <tr>
         <td>Thursday</td>
         <td>13:00 PM - 16:00 PM</td>
-        <td>Edit and optimize content</td>
+        <td>Develop SEO strategies</td>
       </tr>
       <tr>
         <td>Friday</td>
         <td>15:00 PM - 17:00 PM</td>
-        <td>Research trends</td>
+        <td>Email marketing campaigns</td>
       </tr>
-      </table>
+    </table>
     </div>
 
     <div class="everyjob-footer">

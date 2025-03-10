@@ -23,10 +23,9 @@
       <div class="text-content">
         <h2>Automation Engineer</h2>
         <p>Develop and implement automated solutions to streamline processes, improve efficiency, and reduce manual effort. Design, test, and deploy automation scripts for software development, deployment, and system monitoring. Utilize tools like Selenium, Jenkins, and scripting languages to enhance workflow automation.</p> <br>
-        <p>Automation engineers focus on optimizing operations, ensuring system reliability, and integrating automation frameworks to enhance productivity and minimize errors in various environments.</p>
       </div>
       <div class="circle-image">
-        <img src="cs.img/cs1.jpg" alt="Doctor">
+        <img src="cs.img/cs6.jpg" alt="Doctor">
       </div>
     </div>
 
@@ -36,7 +35,7 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: ABC56</h2>
+          <h2>Reference Number: ABC61</h2>
           <ul>
             <li>
               <p><strong>Position Title:</strong>Automation Engineer</p>

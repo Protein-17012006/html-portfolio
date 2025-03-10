@@ -23,10 +23,9 @@
       <div class="text-content">
         <h2>Front-End Developer</h2>
         <p>Create and enhance user interfaces by developing visually appealing and highly responsive web applications. Implement modern design principles, optimize website performance, and ensure cross-browser compatibility. Use HTML, CSS, and JavaScript to build seamless user experiences.</p> <br>
-        <p>Front-end developers focus on delivering interactive, accessible, and mobile-friendly applications that enhance user engagement while ensuring smooth navigation and functionality.</p>
       </div>
       <div class="circle-image">
-        <img src="cs.img/cs1.jpg" alt="Doctor">
+        <img src="cs.img/cs3.jpg" alt="Doctor">
       </div>
     </div>
 
@@ -36,7 +35,7 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: ABC56</h2>
+          <h2>Reference Number: ABC58</h2>
           <ul>
             <li>
               <p><strong>Position Title:</strong>Front-End Developer</p>
@@ -75,7 +74,6 @@
           <ul>
             <li>Experience with back-end technologies such as Node.js, Python, Ruby, or Java</li>
             <li>Familiarity with relational and non-relational databases (e.g., MySQL, MongoDB)</li>
-            <li>Experience working with RESTful APIs and version control systems like Git</li>
           </ul>
         </div>
       </div>
@@ -86,7 +84,6 @@
         </div>
         <div class="timeline-content right">
           <h2>Preferable</h2>
-            <li>Knowledge of modern front-end build tools and workflows (e.g., Webpack, Babel)</li>
             <li>Familiarity with testing frameworks like Jest, Mocha, or Cypress</li>
             <li>Experience with front-end performance optimization</li>
         </div>

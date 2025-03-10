@@ -23,10 +23,9 @@
       <div class="text-content">
         <h2>Back-End Developer</h2>
         <p>Design, build, and maintain scalable data pipelines and infrastructure to process large datasets efficiently. Implement data integration, transformation, and storage solutions using modern tools and frameworks. Ensure data quality, security, and accessibility for analytics and machine learning applications.</p> <br>
-        <p>Data engineers focus on optimizing data workflows, managing databases, and enabling seamless data flow between systems, supporting organizations in making data-driven decisions.</p>
       </div>
       <div class="circle-image">
-        <img src="cs.img/cs1.jpg" alt="Doctor">
+        <img src="cs.img/cs5.jpg" alt="Doctor">
       </div>
     </div>
 
@@ -36,7 +35,7 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: ABC56</h2>
+          <h2>Reference Number: ABC60</h2>
           <ul>
             <li>
               <p><strong>Position Title:</strong>Data Engineer</p>

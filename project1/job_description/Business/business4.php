@@ -22,14 +22,11 @@
     <div class="content-container">
       <div class="text-content">
         <h2>Operations Manager</h2>
-        <p>Oversee recruitment, employee relations, and organizational development to build a productive and positive workplace. 
-          Implement policies, manage performance evaluations, and ensure compliance with labor regulations. 
-          Focus on talent acquisition, training, and fostering employee engagement.</p> <br>
-        <p>HR Managers play a crucial role in shaping company culture, enhancing workforce satisfaction, 
-          and developing strategies to attract, retain, and support employees for long-term organizational success.</p>
+        <p>Managing various aspects of the business, including production, quality control, inventory management, and resource allocation.
+        Implementing the right processes and practices across the organization.</p> <br>
       </div>
       <div class="circle-image">
-        <img src="business4.jpg" alt="Doctor">
+        <img src="./business.img/business4.png" alt="Doctor">
       </div>
     </div>
 
@@ -39,7 +36,7 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: BA1234</h2>
+          <h2>Reference Number: BUS59</h2>
           <ul>
             <li>
               <p><strong>Position Title:</strong>Operations Manager</p>

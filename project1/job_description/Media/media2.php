@@ -25,7 +25,6 @@
         <p>Manage online presence by developing strategies, creating content, and engaging with audiences across social platforms. 
           Stay updated on trends, track analytics, and optimize posts for reach and engagement. Regularly interact with followers, 
           use effective hashtags, and monitor brand reputation. Building a strong online community is more effective than just posting content.</p> <br>
-        <p>Social media managers help grow brand awareness, drive traffic, and enhance customer relationships through strategic content and digital engagement. </p>
       </div>
       <div class="circle-image">
         <img src="media.img/media2.jpg" alt="Doctor">
@@ -38,7 +37,7 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: ABC56</h2>
+          <h2>Reference Number: MDA57</h2>
           <ul>
             <li>
               <p><strong>Position Title:</strong>Social Media Manager</p>

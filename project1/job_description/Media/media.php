@@ -27,67 +27,76 @@
 
       <div class="container" >
         <div class="card" onclick="navigateTo('media1.php')">
-          <img src="./cs.img/cs1.jpg" alt="Destination">
+          <img src="media.img/media1.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Limited Offer Today</p>
-            <h2>Glasgow City Lorem</h2>
+            <h2>Content Creators</h2>
             <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="description"> Responsible for producing creative and engaging content across multiple
+            platforms, including social media, blogs, and video, to enhance brand visibility and engage target audiences.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
 
         <div class="card" onclick="navigateTo('media2.php')">
-          <img src="./cs.img/cs2.jpg" alt="Destination">
+          <img src="media.img/media2.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Today & Tomorrow Only</p>
-            <h2>Venezia Italy Ipsum</h2>
-            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2>Social Media Manager</h2>
+            <p class="details">🕒 8 Days &nbsp; 📍 Daily Places</p>
+            <p class="description">Responsible for developing, implementing, and managing the company’s
+            social media strategy to increase brand awareness, drive traffic, and engage with the target audience across
+            multiple platforms.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
 
         <div class="card" onclick="navigateTo('media3.php')">
-          <img src="./cs.img/cs3.jpg" alt="Destination">
+          <img src="media.img/media3.jpg" alt="Destination">
           <div class="card-content">
-            <p class="offer">**Undefined</p>
-            <h2>Glasgow City Lorem</h2>
-            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="offer">*Offer until 23th April</p>
+            <h2>Media Buyer</h2>
+            <p class="details">🕒 4 Days &nbsp; 📍 Daily Places</p>
+            <p class="description">Responsible for planning, negotiating, and purchasing media space to
+            ensure that advertising campaigns reach the target audience effectively and efficiently across multiple
+            platforms.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
 
         <div class="card" onclick="navigateTo('media4.php')">
-          <img src="./cs.img/cs4.jpg" alt="Destination">
+          <img src="media.img/media4.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 24th March</p>
-            <h2>Glasgow City Lorem</h2>
-            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">This free CSS template is provided by Template Mo.</p>
+            <h2>Public Relations Specialist</h2>
+            <p class="details">🕒 4 Days &nbsp; 📍 Daily Places</p>
+            <p class="description">Responsible for managing and enhancing the company’s public image,
+            including developing media relations, crafting press releases, and executing PR campaigns that strengthen
+            brand reputation and foster positive relationships with stakeholders.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
 
         <div class="card" onclick="navigateTo('media5.php')">
-          <img src="./cs.img/cs5.jpg" alt="Destination">
+          <img src="media.img/media5.jpg" alt="Destination">
           <div class="card-content">
-            <p class="offer">*Offer Until 24th March</p>
-            <h2>Glasgow City Lorem</h2>
-            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">This free CSS template is provided by Template Mo.</p>
+            <p class="offer">*Offer Until 29th March</p>
+            <h2>Video Production Specialist</h2>
+            <p class="details">🕒 4 Days &nbsp; 📍 Daily Places</p>
+            <p class="description"> Responsible for overseeing the creation, production, and editing of video
+            content for various platforms, including marketing campaigns, social media, and internal communications.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
 
         <div class="card" onclick="navigateTo('media6.php')">
-          <img src="./cs.img/cs6.jpg" alt="Destination">
+          <img src="media.img/media6.jpg" alt="Destination">
           <div class="card-content">
-            <p class="offer">*Offer Until 24th March</p>
-            <h2>Glasgow City Lorem</h2>
+            <p class="offer">*Offer Until 12th March</p>
+            <h2>Digital Marketing Specialist</h2>
             <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">This free CSS template is provided by Template Mo.</p>
+            <p class="description"> Responsible for developing and executing digital marketing strategies to
+            drive online visibility, engagement, and conversion.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>

@@ -26,8 +26,6 @@
             Stay updated on trends and audience preferences to craft compelling videos, blogs, and social media posts.
             Regularly refine strategies, optimize for SEO, and ensure high-quality visuals. 
             Creating meaningful content is more effective than spamming audiences.</p> <br>
-        <p>Content creators help build brand identity, drive engagement, 
-            and connect with audiences through storytelling, marketing, and multimedia platforms. </p>
       </div>
       <div class="circle-image">
         <img src="media.img/media1.jpg" alt="Doctor">
@@ -40,7 +38,7 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: ABC56</h2>
+          <h2>Reference Number: MDA56</h2>
           <ul>
             <li>
               <p><strong>Position Title:</strong>Content Creator</p>

@@ -22,14 +22,10 @@
     <div class="content-container">
       <div class="text-content">
         <h2>Financial Analyst</h2>
-        <p>Identify and create growth opportunities by building strong relationships with clients, partners, and stakeholders. 
-            Develop strategic plans, analyze market trends, and implement sales initiatives to drive business expansion. 
-            Focus on networking, negotiation, and fostering long-term partnerships.</p> <br>
-        <p>Business Development Managers play a key role in increasing revenue, improving brand presence, 
-            and identifying new business prospects while ensuring sustainable company growth and market competitiveness. </p>
+        <p>A Financial Analyst is a professional who advises companies and teams on financial matters, including investment decisions in stocks and bonds.</p> <br>
       </div>
       <div class="circle-image">
-        <img src="business3.jpg" alt="Doctor">
+        <img src="./business.img/business3.png" alt="Doctor">
       </div>
     </div>
 
@@ -39,7 +35,7 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: FA4567</h2>
+          <h2>Reference Number: BUS58</h2>
           <ul>
             <li>
               <p><strong>Position Title:</strong>Financial Analyst</p>

@@ -30,11 +30,11 @@
         <a class="image-link" href="job_description/CS/cs.php">
           <div class="image" data-label="Computer Science"><img src="img/CS.png" alt=""></div>
         </a>
-        <a class="image-link" href="job_description/Business/business.html">
+        <a class="image-link" href="job_description/Business/business.php">
           <div class="image" data-label="Business"><img src="img/Business.png" alt="">
           </div>
         </a>
-        <a class="image-link" href="job_description/Media/media.html">
+        <a class="image-link" href="job_description/Media/media.php">
           <div class="image" data-label="Media"><img src="img/Media.png" alt=""></div>
         </a>
       </div>

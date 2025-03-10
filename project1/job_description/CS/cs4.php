@@ -23,10 +23,9 @@
       <div class="text-content">
         <h2>Back-End Developer</h2>
         <p>Develop and maintain the server-side logic, databases, and application architecture to ensure seamless functionality. Implement secure authentication, optimize performance, and manage APIs for smooth data exchange. Use programming languages like Python, Node.js, or Java to build scalable applications.</p> <br>
-        <p>Back-end developers focus on processing requests, handling data storage, and ensuring system reliability while integrating various services to support front-end operations efficiently.</p>
       </div>
       <div class="circle-image">
-        <img src="cs.img/cs1.jpg" alt="Doctor">
+        <img src="cs.img/cs4.jpg" alt="Doctor">
       </div>
     </div>
 
@@ -36,7 +35,7 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: ABC56</h2>
+          <h2>Reference Number: ABC59</h2>
           <ul>
             <li>
               <p><strong>Position Title:</strong>Back-End Developer</p>

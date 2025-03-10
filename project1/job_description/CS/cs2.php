@@ -25,7 +25,7 @@
         <p>A Full Stack Developer is responsible for both the front-end (client-side) and back-end (server-side) development of web applications. They design, develop, and maintain complete software solutions, ensuring seamless integration between the user interface and the underlying system architecture.</p> <br>
       </div>
       <div class="circle-image">
-        <img src="cs.img/cs1.jpg" alt="Doctor">
+        <img src="cs.img/cs2.jpg" alt="Doctor">
       </div>
     </div>
 
@@ -35,7 +35,7 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: ABC56</h2>
+          <h2>Reference Number: ABC57</h2>
           <ul>
             <li>
               <p><strong>Position Title:</strong>Full Stack Developer</p>

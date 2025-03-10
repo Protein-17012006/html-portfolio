@@ -21,13 +21,10 @@
   <div class="about-middle">
     <div class="content-container">
       <div class="text-content">
-        <h2>Cybersecurity</h2>
-        <p>Produce engaging and valuable content by leveraging creativity, storytelling, and digital tools. 
-            Stay updated on trends and audience preferences to craft compelling videos, blogs, and social media posts.
-            Regularly refine strategies, optimize for SEO, and ensure high-quality visuals. 
-            Creating meaningful content is more effective than spamming audiences.</p> <br>
-        <p>Content creators help build brand identity, drive engagement, 
-            and connect with audiences through storytelling, marketing, and multimedia platforms. </p>
+        <h2>Media Buyer</h2>
+          <p>Responsible for planning, negotiating, and purchasing media space to
+          ensure that advertising campaigns reach the target audience effectively and efficiently across multiple
+          platforms.</p>
       </div>
       <div class="circle-image">
         <img src="media.img/media3.jpg" alt="Doctor">
@@ -40,10 +37,10 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: ABC56</h2>
+          <h2>Reference Number: MDA58</h2>
           <ul>
             <li>
-              <p><strong>Position Title:</strong>Content Creator</p>
+              <p><strong>Position Title:</strong>Social Media Managers</p>
             </li>
             <li>
               <p><strong>Salary Range:</strong> $50,000 - $75,000 per year</p>
@@ -63,9 +60,9 @@
         <div class="timeline-content right">
           <h2>Key Responsibilities</h2>
           <ul>
-            <li>Optimize content for SEO to increase website traffic and engagement</li>
-            <li>Monitor content performance through analytics and adjust strategies accordingly</li>
-            <li>Stay updated on social media trends, digital marketing, and content best practices</li>
+          <li>Plan and execute media buying strategies for digital, TV, radio, print, and outdoor campaigns</li>
+          <li>Negotiate and purchase media space and time across various channels, ensuring maximum ROI</li>
+          <li>Monitor media campaigns and adjust as needed based on performance and analytics</li>
           </ul>
         </div>
       </div>
@@ -77,9 +74,10 @@
         <div class="timeline-content left">
           <h2>Qualifications</h2>
           <ul>
-            <li>Familiarity with social media platforms, blogs, and content management systems</li>
-            <li>Basic knowledge of SEO best practices</li>
-            <li>At least 1-2 years of experience in content creation or digital marketing</li>
+          <li>Bachelor's degree in Marketing, Advertising, or a related field</li>
+          <li>Proven experience in media buying, preferably in digital and traditional media</li>
+          <li>Strong negotiation and communication skills</li>
+          <li>Familiarity with media buying tools and platforms (e.g., Google Ads, Facebook Ads Manager, DSPs)</li>
           </ul>
         </div>
       </div>
@@ -90,9 +88,9 @@
         </div>
         <div class="timeline-content right">
           <h2>Preferable</h2>
-          <li>Familiarity with email marketing platforms like Mailchimp or Constant Contact</li>
-          <li>Strong analytical skills and experience with content performance metrics</li>
-          <li>Ability to work independently and manage multiple projects simultaneously</li>
+          <li>Experience with programmatic advertising and digital display networks</li>
+          <li>Familiarity with social media advertising platforms (Facebook, Instagram, LinkedIn, Twitter)</li>
+          <li>Strong knowledge of audience segmentation and targeting strategies</li>
         </div>
       </div>
 
@@ -103,21 +101,22 @@
         <th>Activities</th>
       </tr>
       <tr>
-        <td>Monday</td>
-        <td>9:00 AM - 11:00 AM</td>
-        <td>Create engaging content</td>
+        <td>Tuesday</td>
+        <td>9:00 AM - 15:00 PM</td>
+        <td>Plan and execute ad campaigns</td>
       </tr>
       <tr>
         <td>Thursday</td>
         <td>13:00 PM - 16:00 PM</td>
-        <td>Edit and optimize content</td>
+        <td>Optimize ad spend</td>
       </tr>
       <tr>
         <td>Friday</td>
         <td>15:00 PM - 17:00 PM</td>
-        <td>Research trends</td>
+        <td>Analyze campaign performance</td>
       </tr>
-      </table>
+    </table>
+
     </div>
 
     <div class="everyjob-footer">

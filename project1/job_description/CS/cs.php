@@ -16,7 +16,7 @@
   <?php
   include_once("../../header2.inc");
   ?>
-  <div class="about-middle" id="about-middle">
+    <div class="about-middle" id="about-middle">
     <div class="top">
       <h1>Computer Science</h1>
 
@@ -25,14 +25,14 @@
         artificial intelligence, networking, and IT support.</p>
       <br><br><br><br><br><br><br><br>
 
-      <div class="container" >
+      <div class="container">
         <div class="card" onclick="navigateTo('cs1.php')">
           <img src="./cs.img/cs1.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Limited Offer Today</p>
-            <h2>Glasgow City Lorem</h2>
-            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2>Cyber Security</h2>
+            <p class="details">🕒 10 Days &nbsp; 📍 Daily Places</p>
+            <p class="description">Organizations protect applications, data, programs, networks, and systems from cyberattacks and unauthorized access.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
@@ -41,9 +41,9 @@
           <img src="./cs.img/cs2.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Today & Tomorrow Only</p>
-            <h2>Venezia Italy Ipsum</h2>
-            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2>Full Stack Developer</h2>
+            <p class="details">🕒 7 Days &nbsp; 📍 Daily Places</p>
+            <p class="description">Responsible for working on both front-end and back-end development processes, and create web optimization.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
@@ -51,10 +51,10 @@
         <div class="card" onclick="navigateTo('cs3.php')">
           <img src="./cs.img/cs3.jpg" alt="Destination">
           <div class="card-content">
-            <p class="offer">**Undefined</p>
-            <h2>Glasgow City Lorem</h2>
-            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="offer">*3 Days Remaining</p>
+            <h2>Front End Developer</h2>
+            <p class="details">🕒 7 Days &nbsp; 📍 Daily Places</p>
+            <p class="description">A front-end developer is a professional responsible for crafting the visual and interactive components of websites.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
@@ -63,9 +63,9 @@
           <img src="./cs.img/cs4.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 24th March</p>
-            <h2>Glasgow City Lorem</h2>
+            <h2>Back End Developer</h2>
             <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">This free CSS template is provided by Template Mo.</p>
+            <p class="description"> handle data processing, database management, and business logic</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
@@ -73,10 +73,10 @@
         <div class="card" onclick="navigateTo('cs5.php')">
           <img src="./cs.img/cs5.jpg" alt="Destination">
           <div class="card-content">
-            <p class="offer">*Offer Until 24th March</p>
-            <h2>Glasgow City Lorem</h2>
-            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">This free CSS template is provided by Template Mo.</p>
+            <p class="offer">*Offer Until 29th March</p>
+            <h2>Data Engineering Manager</h2>
+            <p class="details">🕒 7 Days &nbsp; 📍 Daily Places</p>
+            <p class="description">Data Engineering Manager ensuring efficient data processing and integration pipelines.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
@@ -84,16 +84,15 @@
         <div class="card" onclick="navigateTo('cs6.php')">
           <img src="./cs.img/cs6.jpg" alt="Destination">
           <div class="card-content">
-            <p class="offer">*Offer Until 24th March</p>
-            <h2>Glasgow City Lorem</h2>
-            <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">This free CSS template is provided by Template Mo.</p>
+            <p class="offer">*Offer Until 26th March</p>
+            <h2>Automation Engineer</h2>
+            <p class="details">🕒 8 Days &nbsp; 📍 Daily Places</p>
+            <p class="description"> improves various manufacturing processes and computer systems</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
       </div>
     </div>
-
     <footer>
       <p>Contact us at: <a href="mailto:105710430@student.swin.edu.au">105710430@student.swin.edu.au</a> | Phone: 0916
         166 559</p>

@@ -21,16 +21,13 @@
   <div class="about-middle">
     <div class="content-container">
       <div class="text-content">
-        <h2>Content Creator</h2>
-        <p>Produce engaging and valuable content by leveraging creativity, storytelling, and digital tools. 
-            Stay updated on trends and audience preferences to craft compelling videos, blogs, and social media posts.
-            Regularly refine strategies, optimize for SEO, and ensure high-quality visuals. 
-            Creating meaningful content is more effective than spamming audiences.</p> <br>
-        <p>Content creators help build brand identity, drive engagement, 
-            and connect with audiences through storytelling, marketing, and multimedia platforms. </p>
+        <h2>Video Production Specialist</h2>
+          <p> Responsible for overseeing the creation, production, and editing of video
+          content for various platforms, including marketing campaigns, social media, and internal communications. The
+          Video Production Specialist ensures high-quality videos that align with the company’s brand messaging.</p>
       </div>
       <div class="circle-image">
-        <img src="media.img/media1.jpg" alt="Doctor">
+        <img src="media.img/media5.jpg" alt="Doctor">
       </div>
     </div>
 
@@ -40,13 +37,13 @@
           <i>👤</i>
         </div>
         <div class="timeline-content left">
-          <h2>Reference Number: ABC56</h2>
+          <h2>Reference Number: MDA60</h2>
           <ul>
             <li>
-              <p><strong>Position Title:</strong>Content Creator</p>
+              <p><strong>Position Title:</strong> Video Production Specialist</p>
             </li>
             <li>
-              <p><strong>Salary Range:</strong> $50,000 - $75,000 per year</p>
+              <p><strong>Salary Range:</strong> $50,000 - $80,000 per year</p>
             </li>
             <li>
               <p><strong>Reports To:</strong> Content Marketing Manager</p>
@@ -63,9 +60,9 @@
         <div class="timeline-content right">
           <h2>Key Responsibilities</h2>
           <ul>
-            <li>Optimize content for SEO to increase website traffic and engagement</li>
-            <li>Monitor content performance through analytics and adjust strategies accordingly</li>
-            <li>Stay updated on social media trends, digital marketing, and content best practices</li>
+          <li>Collaborate with the marketing team to ensure video content aligns with campaign goals and messaging</li>
+          <li>Operate video equipment (e.g., cameras, lighting, sound equipment) during shoots</li>
+          <li>Edit raw footage into polished videos, including adding effects, transitions, sound, and graphics</li>
           </ul>
         </div>
       </div>
@@ -77,9 +74,9 @@
         <div class="timeline-content left">
           <h2>Qualifications</h2>
           <ul>
-            <li>Familiarity with social media platforms, blogs, and content management systems</li>
-            <li>Basic knowledge of SEO best practices</li>
-            <li>At least 1-2 years of experience in content creation or digital marketing</li>
+          <li>Bachelor's degree in Film Production, Media, Communications, or a related field</li>
+          <li>Proven experience in video production and editing</li>
+          <li>Proficiency in video editing software (e.g., Adobe Premiere Pro, Final Cut Pro, DaVinci Resolve)</li>
           </ul>
         </div>
       </div>
@@ -90,9 +87,9 @@
         </div>
         <div class="timeline-content right">
           <h2>Preferable</h2>
-          <li>Familiarity with email marketing platforms like Mailchimp or Constant Contact</li>
-          <li>Strong analytical skills and experience with content performance metrics</li>
-          <li>Ability to work independently and manage multiple projects simultaneously</li>
+          <li>Experience with motion graphics and animation (e.g., After Effects)</li>
+          <li>Familiarity with video optimization for SEO and social media</li>
+          <li>Ability to work in a fast-paced environment and manage multiple projects simultaneously</li>
         </div>
       </div>
 
@@ -103,21 +100,21 @@
         <th>Activities</th>
       </tr>
       <tr>
-        <td>Monday</td>
-        <td>9:00 AM - 11:00 AM</td>
-        <td>Create engaging content</td>
+        <td>Tuesday</td>
+        <td>8:00 AM - 11:00 PM</td>
+        <td>Shoot and edit videos</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>13:00 PM - 16:00 PM</td>
+        <td>Create motion graphics</td>
       </tr>
       <tr>
         <td>Thursday</td>
-        <td>13:00 PM - 16:00 PM</td>
-        <td>Edit and optimize content</td>
-      </tr>
-      <tr>
-        <td>Friday</td>
         <td>15:00 PM - 17:00 PM</td>
-        <td>Research trends</td>
+        <td>Optimize videos for platforms</td>
       </tr>
-      </table>
+    </table>
     </div>
 
     <div class="everyjob-footer">
