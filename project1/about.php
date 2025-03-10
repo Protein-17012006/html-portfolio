@@ -42,41 +42,41 @@ include_once("header.inc");
   <div class="container-in-about">
     <div class="card">
       <div class="card-content">
-        <p class="offer">*Limited Offer Today</p>
-        <h2>Glasgow City Lorem</h2>
-        <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <button class="btn">Make A Reservation</button>
+        <p class="offer">Leader</p>
+        <h2>Binh Phuong Vu</h2>
+        <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
+        <p class="description">Contribution: make the format for the website: homepage, about, enhancements, jobs page, tips, add CSS features, navigate hyperlinks on pages, search engine in homepage</p>
+        <button class="btn">Contact</button>
       </div>
     </div>
 
     <div class="card">
       <div class="card-content">
-        <p class="offer">*Today & Tomorrow Only</p>
-        <h2>Venezia Italy Ipsum</h2>
-        <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <button class="btn">Make A Reservation</button>
+        <p class="offer">Member</p>
+        <h2>Nguyen Huy Hoang Nguyen</h2>
+        <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
+        <p class="description">Contribution: Edit structure for form and feedback form, check for css style.</p>
+        <button class="btn">Contact</button>
       </div>
     </div>
 
     <div class="card">
       <div class="card-content">
-        <p class="offer">**Undefined</p>
-        <h2>Glasgow City Lorem</h2>
-        <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <button class="btn">Make A Reservation</button>
+        <p class="offer">Member</p>
+        <h2>Hai Dang Nguyen</h2>
+        <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
+        <p class="description">Contribution: Find information for each jobs, take note for css, search data for extending occupations, check for html format, css style and structure.</p>
+        <button class="btn">Contact</button>
       </div>
     </div>
 
     <div class="card">
       <div class="card-content">
-        <p class="offer">**Undefined</p>
-        <h2>Glasgow City Lorem</h2>
-        <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <button class="btn">Make A Reservation</button>
+        <p class="offer">Member</p>
+        <h2>Xuan Ny Le</h2>
+        <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
+        <p class="description">Contribution: Find information for each jobs, take note for css, search data for extending occupations, check for html format, css style and structure.</p>
+        <button class="btn">Contact</button>
       </div>
     </div>
 
@@ -143,9 +143,9 @@ include_once("header.inc");
       <dd>
         <ul>
           <li><strong>Binh Phuong Vu:</strong> make the format for the website: homepage, about, enhancements, jobs page, tips, add CSS features, navigate hyperlinks on pages, search engine in homepage.</li>
-          <li><strong>Nguyen Huy Hoang Nguyen:</strong>edit structure for application form and feedback form, check for css style.</li>
-          <li><strong>Hai Dang Nguyen:</strong> find information for each jobs, take note for css, search data for extending occupations, check for html format and structure.</li>
-          <li><strong>Xuan Ny Le:</strong> find information for each jobs, check the function of each necessary tab, check for html format and structure.</li>
+          <li><strong>Nguyen Huy Hoang Nguyen:</strong>edit structure for form and feedback form, check for css style.</li>
+          <li><strong>Hai Dang Nguyen:</strong> find information for each jobs, take note for css, search data for extending occupations, check for html format, css style and structure.</li>
+          <li><strong>Xuan Ny Le:</strong> find information for each jobs, check the function of each necessary tab, check for html format, css style and structure.</li>
         </ul>
       </dd>
     </dl>
