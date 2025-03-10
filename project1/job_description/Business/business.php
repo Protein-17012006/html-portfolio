@@ -20,13 +20,13 @@
     <div class="top">
       <h1>Computer Science</h1>
 
-      <p>A Computer Science job involves designing, developing, and maintaining software, hardware, and systems that
-        power modern technology. It covers various roles such as software development, cybersecurity, data science,
-        artificial intelligence, networking, and IT support.</p>
+      <p>A Business job involves strategizing, managing, and optimizing operations to drive growth, efficiency, and profitability in various industries. 
+        It covers multiple roles such as marketing, finance, sales, entrepreneurship, human resources, and project management. 
+        Business professionals analyze market trends, develop business plans, and implement solutions to enhance organizational success.</p>
       <br><br><br><br><br><br><br><br>
 
       <div class="container" >
-        <div class="card" onclick="navigateTo('cs1.php')">
+        <div class="card" onclick="navigateTo('business1.php')">
           <img src="./cs.img/cs1.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Limited Offer Today</p>
@@ -37,7 +37,7 @@
           </div>
         </div>
 
-        <div class="card" onclick="navigateTo('cs2.php')">
+        <div class="card" onclick="navigateTo('business2.php')">
           <img src="./cs.img/cs2.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Today & Tomorrow Only</p>
@@ -48,7 +48,7 @@
           </div>
         </div>
 
-        <div class="card" onclick="navigateTo('cs3.php')">
+        <div class="card" onclick="navigateTo('business3.php')">
           <img src="./cs.img/cs3.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">**Undefined</p>
@@ -59,7 +59,7 @@
           </div>
         </div>
 
-        <div class="card" onclick="navigateTo('cs4.php')">
+        <div class="card" onclick="navigateTo('business4.php')">
           <img src="./cs.img/cs4.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 24th March</p>
@@ -70,7 +70,7 @@
           </div>
         </div>
 
-        <div class="card" onclick="navigateTo('cs5.php')">
+        <div class="card" onclick="navigateTo('business5.php')">
           <img src="./cs.img/cs5.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 24th March</p>
@@ -81,7 +81,7 @@
           </div>
         </div>
 
-        <div class="card" onclick="navigateTo('cs6.php')">
+        <div class="card" onclick="navigateTo('business6.php')">
           <img src="./cs.img/cs6.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 24th March</p>

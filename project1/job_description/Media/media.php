@@ -20,13 +20,13 @@
     <div class="top">
       <h1>Computer Science</h1>
 
-      <p>A Computer Science job involves designing, developing, and maintaining software, hardware, and systems that
-        power modern technology. It covers various roles such as software development, cybersecurity, data science,
-        artificial intelligence, networking, and IT support.</p>
+      <p>A Media job involves creating, distributing, and managing content across various platforms to inform, entertain, and engage audiences. 
+        It covers multiple roles such as journalism, broadcasting, digital marketing, public relations, content creation, and social media management.
+        Media professionals analyze trends, develop creative content, and use technology to enhance communication and storytelling.</p>
       <br><br><br><br><br><br><br><br>
 
       <div class="container" >
-        <div class="card" onclick="navigateTo('cs1.php')">
+        <div class="card" onclick="navigateTo('media1.php')">
           <img src="./cs.img/cs1.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Limited Offer Today</p>
@@ -37,7 +37,7 @@
           </div>
         </div>
 
-        <div class="card" onclick="navigateTo('cs2.php')">
+        <div class="card" onclick="navigateTo('media2.php')">
           <img src="./cs.img/cs2.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Today & Tomorrow Only</p>
@@ -48,7 +48,7 @@
           </div>
         </div>
 
-        <div class="card" onclick="navigateTo('cs3.php')">
+        <div class="card" onclick="navigateTo('media3.php')">
           <img src="./cs.img/cs3.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">**Undefined</p>
@@ -59,7 +59,7 @@
           </div>
         </div>
 
-        <div class="card" onclick="navigateTo('cs4.php')">
+        <div class="card" onclick="navigateTo('media4.php')">
           <img src="./cs.img/cs4.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 24th March</p>
@@ -70,7 +70,7 @@
           </div>
         </div>
 
-        <div class="card" onclick="navigateTo('cs5.php')">
+        <div class="card" onclick="navigateTo('media5.php')">
           <img src="./cs.img/cs5.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 24th March</p>
@@ -81,7 +81,7 @@
           </div>
         </div>
 
-        <div class="card" onclick="navigateTo('cs6.php')">
+        <div class="card" onclick="navigateTo('media6.php')">
           <img src="./cs.img/cs6.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 24th March</p>

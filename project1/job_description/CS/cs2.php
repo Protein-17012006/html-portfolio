@@ -21,12 +21,8 @@
   <div class="about-middle">
     <div class="content-container">
       <div class="text-content">
-        <h2>Cybersecurity</h2>
-        <p>Protect sensitive data and systems by implementing strong security measures and staying vigilant against
-          cyber threats. Regularly update software, use strong passwords, and be cautious of phishing attacks.
-          Preventing cyber incidents is more effective than responding to breaches.</p> <br>
-        <p>Cybersecurity professionals help protect networks, devices, and data from unauthorized access, cyberattacks,
-          and theft. </p>
+        <h2>Full Stack Developer</h2>
+        <p>A Full Stack Developer is responsible for both the front-end (client-side) and back-end (server-side) development of web applications. They design, develop, and maintain complete software solutions, ensuring seamless integration between the user interface and the underlying system architecture.</p> <br>
       </div>
       <div class="circle-image">
         <img src="cs.img/cs1.jpg" alt="Doctor">
@@ -42,13 +38,13 @@
           <h2>Reference Number: ABC56</h2>
           <ul>
             <li>
-              <p><strong>Position Title:</strong>Cybersecurity</p>
+              <p><strong>Position Title:</strong>Full Stack Developer</p>
             </li>
             <li>
-              <p><strong>Salary Range:</strong> $90,000 - $150,000 per year</p>
+              <p><strong>Salary Range:</strong> $80,000 - $110,000 per year</p>
             </li>
             <li>
-              <p><strong>Reports To:</strong> Chief Information Security Officer (CISO)</p>
+              <p><strong>Reports To:</strong> Software Development Manager</p>
             </li>
           </ul>
 
@@ -62,9 +58,9 @@
         <div class="timeline-content right">
           <h2>Key Responsibilities</h2>
           <ul>
-            <li>Implement security protocols to protect systems and networks.</li>
-            <li>Monitor for threats such as malware, phishing, and hacking attempts.</li>
-            <li>Respond to cyber incidents and develop incident response strategies.</li>
+            <li>Develop both client-side (front-end) and server-side (back-end) web applications</li>
+            <li>Collaborate with UX/UI designers to create seamless and responsive user interfaces</li>
+            <li>Write reusable, testable, and efficient code</li>
           </ul>
         </div>
       </div>
@@ -76,9 +72,9 @@
         <div class="timeline-content left">
           <h2>Qualifications</h2>
           <ul>
-            <li>Programming and Scripting: Proficiency in Python, Bash, or PowerShell.</li>
-            <li>Network Security: Understanding of TCP/IP, VPNs, and encryption methods.</li>
-            <li>Compliance Knowledge: Familiarity with GDPR, ISO 27001, NIST, and other security standards.</li>
+            <li>Experience with back-end technologies such as Node.js, Python, Ruby, or Java</li>
+            <li>Familiarity with relational and non-relational databases (e.g., MySQL, MongoDB)</li>
+            <li>Experience working with RESTful APIs and version control systems like Git</li>
           </ul>
         </div>
       </div>
@@ -89,9 +85,9 @@
         </div>
         <div class="timeline-content right">
           <h2>Preferable</h2>
-          <li>Cloud Security: Knowledge of AWS, Azure, or Google Cloud security practices.</li>
-          <li>Ethical Hacking & Penetration Testing: Experience with penetration testing tools like Metasploit and Kali Linux.</li>
-          <li>Incident Response & Forensics: Ability to investigate and respond to cyber incidents.</li>
+          <li>Experience with cloud services like AWS, Azure, or Google Cloud</li>
+          <li>Familiarity with DevOps practices and CI/CD pipelines</li>
+          <li>Strong problem-solving skills and ability to work in an Agile environment</li>
         </div>
       </div>
 
@@ -104,17 +100,17 @@
         <tr>
           <td>Monday</td>
           <td>9:00 AM - 13:00 PM</td>
-          <td>Security system updates and patching</td>
+          <td>Code a responsive web app</td>
         </tr>
         <tr>
           <td>Thursday</td>
           <td>14:00 PM - 16:00 PM</td>
-          <td>Conduct penetration testing</td>
+          <td>Integrate APIs</td>
         </tr>
         <tr>
           <td>Friday</td>
           <td>15:00 PM - 17:00 PM</td>
-          <td>Review security logs and incidents</td>
+          <td>Optimize performance</td>
         </tr>
       </table>
     </div>
