@@ -46,7 +46,7 @@ include_once("header.inc");
         <h2>Binh Phuong Vu</h2>
         <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
         <p class="description">Contribution: make the format for the website: homepage, about, enhancements, jobs page, tips, add CSS features, navigate hyperlinks on pages, search engine in homepage</p>
-        <button class="btn">Contact</button>
+        <button href="mailto:105710430@student.swin.edu.au" class="btn">Contact</button>
       </div>
     </div>
 
@@ -56,7 +56,7 @@ include_once("header.inc");
         <h2>Nguyen Huy Hoang Nguyen</h2>
         <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
         <p class="description">Contribution: Edit structure for form and feedback form, check for css style.</p>
-        <button class="btn">Contact</button>
+        <button href="mailto:105727702@student.swin.edu.au" class="btn">Contact</button>
       </div>
     </div>
 
@@ -66,7 +66,7 @@ include_once("header.inc");
         <h2>Hai Dang Nguyen</h2>
         <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
         <p class="description">Contribution: Find information for each jobs, take note for css, search data for extending occupations, check for html format, css style and structure.</p>
-        <button class="btn">Contact</button>
+        <button href="mailto:105680423@student.swin.edu.au" class="btn">Contact</button>
       </div>
     </div>
 
@@ -76,7 +76,7 @@ include_once("header.inc");
         <h2>Xuan Ny Le</h2>
         <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
         <p class="description">Contribution: Find information for each jobs, take note for css, search data for extending occupations, check for html format, css style and structure.</p>
-        <button class="btn">Contact</button>
+        <button href="mailto:105680151@student.swin.edu.au" class="btn">Contact</button>
       </div>
     </div>
 
