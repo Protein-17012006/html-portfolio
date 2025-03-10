@@ -18,7 +18,7 @@
   ?>
   <div class="about-middle" id="about-middle">
     <div class="top">
-      <h1>Computer Science</h1>
+      <h1>Media</h1>
 
       <p>A Media job involves creating, distributing, and managing content across various platforms to inform, entertain, and engage audiences. 
         It covers multiple roles such as journalism, broadcasting, digital marketing, public relations, content creation, and social media management.

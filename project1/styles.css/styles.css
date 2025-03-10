@@ -1093,9 +1093,11 @@ p {
   top: 7px;
 }
 
+
+/* The circle in about page */
 .gallery-circle {
   --g: 8px;
-  --s: 500px;
+  --s: 350px;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -1105,6 +1107,7 @@ p {
   display: grid;
   border-radius: 50%;
   float: left;
+  border: 2px solid #66fcf1;
 }
 
 .gallery-circle>img {
@@ -1118,7 +1121,7 @@ p {
   font-size: 0;
   z-index: 0;
   transition: .3s, z-index 0s .3s;
-  height: 500px;
+  height: 350px;
 }
 
 .gallery-circle img:hover {

@@ -52,11 +52,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span> 
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -72,11 +67,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -92,11 +82,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -113,11 +98,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -133,11 +113,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -153,11 +128,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -174,11 +144,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -194,11 +159,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -214,11 +174,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -235,11 +190,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -255,11 +205,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -275,11 +220,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -296,11 +236,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -316,11 +251,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -336,11 +266,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -357,11 +282,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -377,11 +297,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -397,11 +312,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -418,11 +328,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -438,11 +343,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -458,11 +358,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -479,11 +374,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -499,11 +389,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore More</button>
         </div>
@@ -519,11 +404,6 @@
               Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
               You can use this layout for your commercial work.
             </p>
-            <div class="frame-info">
-              <span>👤 8.66 Mil People</span>
-              <span>🌍 41.290 km²</span>
-              <span>🏠 $1.100.200</span>
-            </div>
           </div>
           <button class="frame-button">Explore Mor</button>
         </div>
