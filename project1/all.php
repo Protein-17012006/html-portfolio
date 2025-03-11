@@ -75,10 +75,10 @@
         <hr>
 
         <div class="frame">
-          <img src="job_description/CS/cs.img/cs3.jpg alt="Switzerland" class="frame-image">
+          <img src="job_description/CS/cs.img/cs3.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
             <h2>FRONT-END DEVELOPER</h2>
-            <p class="subtitle">Reference ID: ABC57</p>
+            <p class="subtitle">Reference ID: ABC58</p>
             <p class="description">
             A Front-End Developer designs and develops user interfaces for websites and applications,
              focusing on responsiveness, performance, and user experience.
