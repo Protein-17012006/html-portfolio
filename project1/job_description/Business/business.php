@@ -25,7 +25,7 @@
         Business professionals analyze market trends, develop business plans, and implement solutions to enhance organizational success.</p>
       <br><br><br><br><br><br><br><br>
 
-      <div class="container" >
+      <div class="container">
         <div class="card" onclick="navigateTo('business1.php')">
           <img src="./business.img/business1.png" alt="Destination">
           <div class="card-content">

@@ -21,7 +21,7 @@
   <div class="about-middle">
     <div class="content-container">
       <div class="text-content">
-        <h2>Back-End Developer</h2>
+        <h2>Data Engineering Manager</h2>
         <p>Design, build, and maintain scalable data pipelines and infrastructure to process large datasets efficiently. Implement data integration, transformation, and storage solutions using modern tools and frameworks. Ensure data quality, security, and accessibility for analytics and machine learning applications.</p> <br>
       </div>
       <div class="circle-image">

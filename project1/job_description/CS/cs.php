@@ -25,7 +25,7 @@
         artificial intelligence, networking, and IT support.</p>
       <br><br><br><br><br><br><br><br>
 
-      <div class="container">
+      <div class="container" >
         <div class="card" onclick="navigateTo('cs1.php')">
           <img src="./cs.img/cs1.jpg" alt="Destination">
           <div class="card-content">

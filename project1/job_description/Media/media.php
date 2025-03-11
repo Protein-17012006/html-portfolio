@@ -25,7 +25,7 @@
         Media professionals analyze trends, develop creative content, and use technology to enhance communication and storytelling.</p>
       <br><br><br><br><br><br><br><br>
 
-      <div class="container" >
+      <div class="container">
         <div class="card" onclick="navigateTo('media1.php')">
           <img src="media.img/media1.jpg" alt="Destination">
           <div class="card-content">
