@@ -47,11 +47,11 @@
         <div class="frame">
           <img src="job_description/CS/cs.img/cs1.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Reference ID: ...</p>
+            <h2>CYBERSECURITY</h2>
+            <p class="subtitle">Reference ID: ABC56 </p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            Cybersecurity is the practice of protecting systems, networks, 
+            and data from cyber threats through security measures and risk management.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -60,13 +60,13 @@
         <hr>
 
         <div class="frame">
-          <img src="job_description/Business/business.img/business1.png" alt="Switzerland" class="frame-image">
+          <img src="job_description/CS/cs.img/cs2.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>FULL STACK DEVELOPER</h2>
+            <p class="subtitle">Reference ID: ABC57 </p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            A Full Stack Developer builds and maintains both the front-end and back-end of web applications, 
+            handling databases, servers, and user interfaces.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -75,13 +75,13 @@
         <hr>
 
         <div class="frame">
-          <img src="./job_description/Media/media.img/media1.jpg" alt="Switzerland" class="frame-image">
+          <img src="job_description/CS/cs.img/cs3.jpg alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>FRONT-END DEVELOPER</h2>
+            <p class="subtitle">Reference ID: ABC57</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            A Front-End Developer designs and develops user interfaces for websites and applications,
+             focusing on responsiveness, performance, and user experience.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -91,7 +91,7 @@
 
       <div class="frame-wrap">
         <div class="frame">
-          <img src="job_description/CS/cs.img/cs1.jpg" alt="Switzerland" class="frame-image">
+          <img src="job_description/CS/cs.img/cs4.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
             <h2>Brazil</h2>
             <p class="subtitle">Europe</p>
@@ -106,7 +106,7 @@
         <hr>
 
         <div class="frame">
-          <img src="job_description/Business/business.img/business1.png" alt="Switzerland" class="frame-image">
+          <img src="job_description/CS/cs.img/cs5.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
             <h2>SWITZERLAND</h2>
             <p class="subtitle">Europe</p>
@@ -121,7 +121,7 @@
         <hr>
 
         <div class="frame">
-          <img src="./job_description/Media/media.img/media1.jpg" alt="Switzerland" class="frame-image">
+          <img src="job_description/CS/cs.img/cs6.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
             <h2>SWITZERLAND</h2>
             <p class="subtitle">Europe</p>
@@ -137,28 +137,13 @@
 
       <div class="frame-wrap">
         <div class="frame">
-          <img src="job_description/CS/cs.img/cs1.jpg" alt="Switzerland" class="frame-image">
-          <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
-            <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
-            </p>
-          </div>
-          <button class="frame-button">Explore More</button>
-        </div>
-
-        <hr>
-
-        <div class="frame">
           <img src="job_description/Business/business.img/business1.png" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>BUSINESS DEVELOPER MANAGER</h2>
+            <p class="subtitle">Reference ID: BUS56</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            A Business Development Manager identifies growth opportunities, builds client relationships, 
+            and develops strategies to drive sales and business expansion.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -167,13 +152,28 @@
         <hr>
 
         <div class="frame">
-          <img src="./job_description/Media/media.img/media1.jpg" alt="Switzerland" class="frame-image">
+          <img src="job_description/Business/business.img/business2.png" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>MARKERTING MANAGER</h2>
+            <p class="subtitle">Reference ID: BUS57</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            A Marketing Manager develops and executes strategies to promote a brand, drive sales, 
+            and engage customers through various marketing channels.
+            </p>
+          </div>
+          <button class="frame-button">Explore More</button>
+        </div>
+
+        <hr>
+
+        <div class="frame">
+          <img src="job_description/Business/business.img/business3.png" alt="Switzerland" class="frame-image">
+          <div class="frame-content">
+            <h2>FINANCIAL ANALYST</h2>
+            <p class="subtitle">Reference ID: BUS58</p>
+            <p class="description">
+            A Financial Analyst evaluates financial data, market trends, 
+            and investment opportunities to help businesses make informed financial decisions.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -183,13 +183,13 @@
 
       <div class="frame-wrap">
         <div class="frame">
-          <img src="job_description/CS/cs.img/cs1.jpg" alt="Switzerland" class="frame-image">
+          <img src="job_description/Business/business.img/business4.png" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>OPERATIONS MANAGER</h2>
+            <p class="subtitle">Reference ID: BUS59</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            An Operations Manager oversees daily business activities, optimizes processes, 
+            and ensures efficiency to meet organizational goals.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -198,13 +198,13 @@
         <hr>
 
         <div class="frame">
-          <img src="job_description/Business/business.img/business1.png" alt="Switzerland" class="frame-image">
+          <img src="job_description/Business/business.img/business5.png" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>HUMAN RESOURCES MANAGER</h2>
+            <p class="subtitle">Reference ID: BUS60</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            A Human Resources Manager oversees recruitment, employee relations, 
+            and workplace policies to ensure a productive and compliant work environment.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -213,13 +213,13 @@
         <hr>
 
         <div class="frame">
-          <img src="./job_description/Media/media.img/media1.jpg" alt="Switzerland" class="frame-image">
+          <img src="job_description/Business/business.img/business6.png" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>SALES MANAGER</h2>
+            <p class="subtitle">Reference ID: BUS60</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            A Sales Manager leads a sales team, develops strategies, and drives revenue growth by building 
+            client relationships and meeting sales targets.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
