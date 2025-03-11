@@ -30,7 +30,7 @@
           <img src="./cs.img/cs1.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Limited Offer Today</p>
-            <h2>Cyber Security</h2>
+            <h2>Cybersecurity</h2>
             <p class="details">🕒 10 Days &nbsp; 📍 Daily Places</p>
             <p class="description">Organizations protect applications, data, programs, networks, and systems from cyberattacks and unauthorized access.</p>
             <button class="btn">Make A Reservation</button>
@@ -52,9 +52,9 @@
           <img src="./cs.img/cs3.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*3 Days Remaining</p>
-            <h2>Front End Developer</h2>
+            <h2>Front-End Developer</h2>
             <p class="details">🕒 7 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">A front-end developer is a professional responsible for crafting the visual and interactive components of websites.</p>
+            <p class="description">A Front-End developer is a professional responsible for crafting the visual and interactive components of websites.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
@@ -63,9 +63,9 @@
           <img src="./cs.img/cs4.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 24th March</p>
-            <h2>Back End Developer</h2>
+            <h2>Back-End Developer</h2>
             <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description"> Handle data processing, database management, and business logic.</p>
+            <p class="description"> Handles data processing, database management, and business logic.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>

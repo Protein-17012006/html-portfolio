@@ -53,7 +53,7 @@
           <img src="./business.img/business3.png" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 29th April</p>
-            <h2>Financial Analysis</h2>
+            <h2>Financial Analyst</h2>
             <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
             <p class="description">Analyzing investment opportunities to determine potential return on investment. Providing guidance to maximize financial performance. Predicting the return on investment for different stocks and business ventures.</p>
             <button class="btn">Make A Reservation</button>
@@ -86,7 +86,7 @@
           <img src="./business.img/business6.png" alt="Destination">
           <div class="card-content">
             <p class="offer">*Offer Until 27th March</p>
-            <h2>Sale Manager</h2>
+            <h2>Sales Manager</h2>
             <p class="details">🕒 8 Days &nbsp; 📍 Daily Places</p>
             <p class="description">HR Managers play a crucial role in shaping company culture, and developing strategies to attract, retain, and support employees for long-term organizational success.</p>
             <button class="btn">Make A Reservation</button>

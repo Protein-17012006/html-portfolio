@@ -30,7 +30,7 @@
           <img src="media.img/media1.jpg" alt="Destination">
           <div class="card-content">
             <p class="offer">*Limited Offer Today</p>
-            <h2>Content Creators</h2>
+            <h2>Content Creator</h2>
             <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
             <p class="description"> Responsible for producing creative and engaging content across multiple
             platforms, including social media, blogs, and video, to enhance brand visibility and engage target audiences.</p>
