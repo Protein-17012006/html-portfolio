@@ -65,7 +65,7 @@
             <p class="offer">*Offer Until 24th March</p>
             <h2>Back End Developer</h2>
             <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description"> handle data processing, database management, and business logic</p>
+            <p class="description"> Handle data processing, database management, and business logic.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
@@ -87,7 +87,7 @@
             <p class="offer">*Offer Until 26th March</p>
             <h2>Automation Engineer</h2>
             <p class="details">🕒 8 Days &nbsp; 📍 Daily Places</p>
-            <p class="description"> improves various manufacturing processes and computer systems</p>
+            <p class="description"> Improves various manufacturing processes and computer systems.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>

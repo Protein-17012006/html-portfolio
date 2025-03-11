@@ -57,7 +57,6 @@ include_once("header.inc");
         <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
         <p class="description">Contribution: Edit structure for form and feedback form, check for css style.</p>
         <a href="mailto:105727702@student.swin.edu.au"><button class="btn">Contact</button></a>
-        105727702
       </div>
     </div>
 

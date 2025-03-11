@@ -33,7 +33,7 @@
             <h2>Business Development Manager</h2>
             <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
             <p class="description">A Business Development Manager is responsible for:
-              Driving business growth by identifying new opportunities. A Business Development Manager is responsible for: Driving business growth by identifying new opportunities</p>
+              Driving business growth by identifying new opportunities. A Business Development Manager is responsible for: Driving business growth by identifying new opportunities.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>
@@ -77,7 +77,7 @@
             <p class="offer">*Offer Until 24th March</p>
             <h2>Human Resources Manager</h2>
             <p class="details">🕒 5 Days &nbsp; 📍 Daily Places</p>
-            <p class="description">A Human Resources Manager is responsible for coordinating all administrative activities related to an organization’s personnel</p>
+            <p class="description">A Human Resources Manager is responsible for coordinating all administrative activities related to an organization’s personnal.</p>
             <button class="btn">Make A Reservation</button>
           </div>
         </div>

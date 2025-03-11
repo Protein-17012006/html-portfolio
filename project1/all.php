@@ -26,15 +26,15 @@
       <div class="info-bar">
         <div class="info-item">
           <div class="info-icon">👤</div>
-          <div class="info-text">Population: <strong>1.250</strong></div>
+          <div class="info-text">Occupations: <strong>18</strong></div>
         </div>
         <div class="info-item">
           <div class="info-icon">🌍</div>
-          <div class="info-text">Territory: <strong>500 KM²</strong></div>
+          <div class="info-text">Work Hours: <strong>More than 60 Hours</strong></div>
         </div>
         <div class="info-item">
           <div class="info-icon">🏠</div>
-          <div class="info-text">AVG Price: <strong>$80.000</strong></div>
+          <div class="info-text">Average Salary: <strong>60,000$ - 200,000$+</strong></div>
         </div>
         <button class="apply-btn" onclick="navigateTo('apply.php')">Apply Now</button>
       </div>
@@ -93,11 +93,10 @@
         <div class="frame">
           <img src="job_description/CS/cs.img/cs4.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>Brazil</h2>
-            <p class="subtitle">Europe</p>
+            <h2>BACK-END DEVELOPER</h2>
+            <p class="subtitle">Reference ID: ABC59</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            Handle data processing, database management, and business logic.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -108,11 +107,10 @@
         <div class="frame">
           <img src="job_description/CS/cs.img/cs5.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>DATA ENGINEERING MANAGER</h2>
+            <p class="subtitle">Reference ID: ABC60</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            Data Engineering Manager ensuring efficient data processing and integration pipelines.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -123,11 +121,10 @@
         <div class="frame">
           <img src="job_description/CS/cs.img/cs6.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>AUTOMATION ENGINEER</h2>
+            <p class="subtitle">Reference ID: ABC61</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            Improves various manufacturing processes and computer systems.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -231,11 +228,10 @@
         <div class="frame">
           <img src="job_description/CS/cs.img/cs1.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>CONTENT CREATORS</h2>
+            <p class="subtitle">Reference ID: MDA56</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+              Responsible for producing creative and engaging content across multiple platforms, including social media, blogs, and video, to enhance brand visibility and engage target audiences.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -246,11 +242,10 @@
         <div class="frame">
           <img src="job_description/Business/business.img/business1.png" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>SOCIAL MEDIA MANAGER</h2>
+            <p class="subtitle">Reference ID: MDA57</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            Responsible for developing, implementing, and managing the company’s social media strategy to increase brand awareness, drive traffic, and engage with the target audience across multiple platforms.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -261,11 +256,10 @@
         <div class="frame">
           <img src="./job_description/Media/media.img/media1.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>MEDIA BUYER</h2>
+            <p class="subtitle">Reference ID: MDA58</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            Responsible for planning, negotiating, and purchasing media space to ensure that advertising campaigns reach the target audience effectively and efficiently across multiple platforms.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -277,11 +271,10 @@
         <div class="frame">
           <img src="job_description/CS/cs.img/cs1.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>PUBLIC RELATIONS SPECIALIST</h2>
+            <p class="subtitle">Reference ID: MDA59</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            Responsible for managing and enhancing the company’s public image, including developing media relations, crafting press releases, and executing PR campaigns that strengthen brand reputation and foster positive relationships with stakeholders.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -292,11 +285,10 @@
         <div class="frame">
           <img src="job_description/Business/business.img/business1.png" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>VIDEO PRODUCTION SPECIALIST</h2>
+            <p class="subtitle">Reference ID: MDA60</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            Responsible for overseeing the creation, production, and editing of video content for various platforms, including marketing campaigns, social media, and internal communications.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
@@ -307,11 +299,10 @@
         <div class="frame">
           <img src="./job_description/Media/media.img/media1.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
+            <h2>DIGITAL MEDIA SPECIALIST</h2>
+            <p class="subtitle">Reference ID: MDA61</p>
             <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
+            Responsible for developing and executing digital marketing strategies to drive online visibility, engagement, and conversion.
             </p>
           </div>
           <button class="frame-button">Explore More</button>
