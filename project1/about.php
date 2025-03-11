@@ -19,10 +19,10 @@ include_once("header.inc");
 <div class="about-middle">
 
   <div class="gallery-circle">
-    <img src="img/about1.jpg" alt="a hot air balloon">
-    <img src="img/about2.jpg">
-    <img src="img/about3.jpg" alt="a small boat">
-    <img src="img/about4.jpg" alt="a forest">
+    <img src="img/about1.jpg" alt="xny">
+    <img src="img/about2.jpg" alt="bphuong">
+    <img src="img/about3.jpg" alt="hhoang">
+    <img src="img/about4.jpg" alt="hdang">
   </div>
 
   <div class="about-info">

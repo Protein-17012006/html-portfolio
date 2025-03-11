@@ -18,7 +18,7 @@
   ?>
   <div class="about-middle" id="about-middle">
     <div class="top">
-      <h1>Computer Science</h1>
+      <h1>Business</h1>
 
       <p>A Business job involves strategizing, managing, and optimizing operations to drive growth, efficiency, and profitability in various industries. 
         It covers multiple roles such as marketing, finance, sales, entrepreneurship, human resources, and project management. 
