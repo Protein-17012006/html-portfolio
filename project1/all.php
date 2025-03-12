@@ -54,7 +54,7 @@
             and data from cyber threats through security measures and risk management.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/CS/cs1.php')">Explore More</button>
         </div>
 
         <hr>
@@ -69,7 +69,7 @@
             handling databases, servers, and user interfaces.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/CS/cs2.php')">Explore More</button>
         </div>
 
         <hr>
@@ -84,7 +84,7 @@
              focusing on responsiveness, performance, and user experience.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/CS/cs3.php')">Explore More</button>
         </div>
 
       </div>
@@ -99,7 +99,7 @@
             Handle data processing, database management, and business logic.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/CS/cs4.php')">Explore More</button>
         </div>
 
         <hr>
@@ -113,7 +113,7 @@
             Data Engineering Manager ensuring efficient data processing and integration pipelines.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/CS/cs5.php')">Explore More</button>
         </div>
 
         <hr>
@@ -127,7 +127,7 @@
             Improves various manufacturing processes and computer systems.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/CS/cs6.php')">Explore More</button>
         </div>
 
       </div>
@@ -143,7 +143,7 @@
             and develops strategies to drive sales and business expansion.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/Business/business1.php')">Explore More</button>
         </div>
 
         <hr>
@@ -158,7 +158,7 @@
             and engage customers through various marketing channels.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/Business/business2.php')">Explore More</button>
         </div>
 
         <hr>
@@ -173,7 +173,7 @@
             and investment opportunities to help businesses make informed financial decisions.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/Business/business3.php')">Explore More</button>
         </div>
 
       </div>
@@ -189,7 +189,7 @@
             and ensures efficiency to meet organizational goals.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/Business/business4.php')">Explore More</button>
         </div>
 
         <hr>
@@ -204,7 +204,7 @@
             and workplace policies to ensure a productive and compliant work environment.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/Business/business5.php')">Explore More</button>
         </div>
 
         <hr>
@@ -219,14 +219,14 @@
             client relationships and meeting sales targets.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/Business/business6.php')">Explore More</button>
         </div>
 
       </div>
 
       <div class="frame-wrap">
         <div class="frame">
-          <img src="job_description/CS/cs.img/cs1.jpg" alt="Switzerland" class="frame-image">
+          <img src="job_description/Media/media.img/media1.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
             <h2>CONTENT CREATORS</h2>
             <p class="subtitle">Reference ID: MDA56</p>
@@ -234,13 +234,13 @@
               Responsible for producing creative and engaging content across multiple platforms, including social media, blogs, and video, to enhance brand visibility and engage target audiences.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/Media/media1.php')">Explore More</button>
         </div>
 
         <hr>
 
         <div class="frame">
-          <img src="job_description/Business/business.img/business1.png" alt="Switzerland" class="frame-image">
+          <img src="job_description/Media/media.img/media2.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
             <h2>SOCIAL MEDIA MANAGER</h2>
             <p class="subtitle">Reference ID: MDA57</p>
@@ -248,13 +248,13 @@
             Responsible for developing, implementing, and managing the company’s social media strategy to increase brand awareness, drive traffic, and engage with the target audience across multiple platforms.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/Media/media2.php')">Explore More</button>
         </div>
 
         <hr>
 
         <div class="frame">
-          <img src="./job_description/Media/media.img/media1.jpg" alt="Switzerland" class="frame-image">
+          <img src="job_description/Media/media.img/media3.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
             <h2>MEDIA BUYER</h2>
             <p class="subtitle">Reference ID: MDA58</p>
@@ -262,14 +262,14 @@
             Responsible for planning, negotiating, and purchasing media space to ensure that advertising campaigns reach the target audience effectively and efficiently across multiple platforms.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/Media/media3.php')">Explore More</button>
         </div>
 
       </div>
 
       <div class="frame-wrap">
         <div class="frame">
-          <img src="job_description/CS/cs.img/cs1.jpg" alt="Switzerland" class="frame-image">
+          <img src="job_description/Media/media.img/media4.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
             <h2>PUBLIC RELATIONS SPECIALIST</h2>
             <p class="subtitle">Reference ID: MDA59</p>
@@ -277,13 +277,13 @@
             Responsible for managing and enhancing the company’s public image, including developing media relations, crafting press releases, and executing PR campaigns that strengthen brand reputation and foster positive relationships with stakeholders.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/Media/media4.php')">Explore More</button>
         </div>
 
         <hr>
 
         <div class="frame">
-          <img src="job_description/Business/business.img/business1.png" alt="Switzerland" class="frame-image">
+          <img src="job_description/Media/media.img/media5.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
             <h2>VIDEO PRODUCTION SPECIALIST</h2>
             <p class="subtitle">Reference ID: MDA60</p>
@@ -291,13 +291,13 @@
             Responsible for overseeing the creation, production, and editing of video content for various platforms, including marketing campaigns, social media, and internal communications.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/Media/media5.php')">Explore More</button>
         </div>
 
         <hr>
 
         <div class="frame">
-          <img src="./job_description/Media/media.img/media1.jpg" alt="Switzerland" class="frame-image">
+          <img src="job_description/Media/media.img/media6.jpg" alt="Switzerland" class="frame-image">
           <div class="frame-content">
             <h2>DIGITAL MEDIA SPECIALIST</h2>
             <p class="subtitle">Reference ID: MDA61</p>
@@ -305,100 +305,9 @@
             Responsible for developing and executing digital marketing strategies to drive online visibility, engagement, and conversion.
             </p>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('job_description/Media/media6.php')">Explore More</button>
         </div>
 
-      </div>
-
-      <div class="frame-wrap">
-        <div class="frame">
-          <img src="job_description/CS/cs.img/cs1.jpg" alt="Switzerland" class="frame-image">
-          <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
-            <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
-            </p>
-          </div>
-          <button class="frame-button">Explore More</button>
-        </div>
-
-        <hr>
-
-        <div class="frame">
-          <img src="job_description/Business/business.img/business1.png" alt="Switzerland" class="frame-image">
-          <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
-            <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
-            </p>
-          </div>
-          <button class="frame-button">Explore More</button>
-        </div>
-
-        <hr>
-
-        <div class="frame">
-          <img src="./job_description/Media/media.img/media1.jpg" alt="Switzerland" class="frame-image">
-          <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
-            <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
-            </p>
-          </div>
-          <button class="frame-button">Explore More</button>
-        </div>
-
-      </div>
-
-      <div class="frame-wrap">
-        <div class="frame">
-          <img src="job_description/CS/cs.img/cs1.jpg" alt="Switzerland" class="frame-image">
-          <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
-            <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
-            </p>
-          </div>
-          <button class="frame-button">Explore More</button>
-        </div>
-
-        <hr>
-
-        <div class="frame">
-          <img src="job_description/Business/business.img/business1.png" alt="Switzerland" class="frame-image">
-          <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
-            <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
-            </p>
-          </div>
-          <button class="frame-button">Explore More</button>
-        </div>
-
-        <hr>
-
-        <div class="frame">
-          <img src="./job_description/Media/media.img/media1.jpg" alt="Switzerland" class="frame-image">
-          <div class="frame-content">
-            <h2>SWITZERLAND</h2>
-            <p class="subtitle">Europe</p>
-            <p class="description">
-              Woox Travel is a professional Bootstrap 5 theme HTML CSS layout for your website.
-              You can use this layout for your commercial work.
-            </p>
-          </div>
-          <button class="frame-button">Explore Mor</button>
-        </div>
 
       </div>
     </div>

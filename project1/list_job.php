@@ -46,7 +46,7 @@ if ($conn) {
           <img src= <?php  echo $row['img']   ?> alt="Switzerland" class="frame-image">
           <div class="frame-content">
             <h2><?php  echo $row['name']   ?></h2>
-            <p class="subtitle"><?php  echo $row['ID']   ?></p>
+            <p class="subtitle">Reference ID: <?php  echo $row['ID']   ?></p>
             <p class="description">
             <?php  echo $row['discription']   ?>
             </p>
