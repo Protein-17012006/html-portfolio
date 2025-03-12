@@ -1,0 +1,10 @@
+{
+    "name": "bphuong/test",
+    "description": "test JWT",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^6.11"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
