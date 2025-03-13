@@ -459,6 +459,12 @@ iframe{
     color: #1f2833;
 }
 
+.frame-container-14{
+    position: relative;
+    top: 100px; 
+}
 
-
+.frame-container-14 .frame{
+    width: 90%;
+}
 

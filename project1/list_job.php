@@ -33,7 +33,7 @@ if ($conn) {
   ?>
 
 
-    <div class="frame-container-12">
+    <div class="frame-container-14">
       
       <div class="frame-wrap active">
     <?php
@@ -56,7 +56,7 @@ if ($conn) {
               <span>🏠 $1.100.200</span>
             </div>
           </div>
-          <button class="frame-button">Explore More</button>
+          <button class="frame-button" onclick="navigateTo('<?php echo $row['explore'] ?>')">Explore More</button>
         </div>
         <?php
         }

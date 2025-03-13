@@ -46,47 +46,42 @@ $result = $conn->query($sql);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css/styles.css">
+    <link rel="stylesheet" href="./styles.css/style5.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Manage Applications</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
 </head>
 <body>
-    <h1>Submitted Applications</h1>
 
-    <!-- Search Form -->
-    <form method="GET">
-        <input type="text" name="search" placeholder="Search by Job Reference or Name">
+<?php
+  include_once("header.inc");
+?>
+    <h1 class="submit-form-16">Submitted Applications</h1>
+
+<div class="top-bar-16">
+    <form method="GET" class="searching-16">
+        <input type="text"  name="search" placeholder="Search by Job Reference or Name">
         <button type="submit">Search</button>
     </form>
 
-    <form method="GET">
+    <form method="GET" class="firstname">
         <input type="text" name="first_name" placeholder="Search by First Name">
         <input type="text" name="last_name" placeholder="Search by Last Name">
         <button type="submit" name="name_search_submit">Search by Name</button>
     </form>
 
-    <!-- Delete all EOIs for a given job reference -->
-    <form method="POST" action="delete_all_eois.php">
+    <form method="POST" class="delete" action="delete_all_eois.php">
         <input type="text" name="job_reference" placeholder="Enter Job Reference to Delete All">
         <button type="submit" onclick="return confirm('Are you sure you want to delete all EOIs for this job reference?');">Delete All</button>
     </form>
+</div>
+    
 
-
-    <table>
+    <table class="manage-table">
         <tr>
             <th>Job Reference</th>
             <th>Name</th>
@@ -105,45 +100,50 @@ $result = $conn->query($sql);
         </tr>
         <?php
         if ($result->num_rows > 0) {
-            while ($row = $result->fetch_assoc()) {
-                echo "<tr>
-                        <td>{$row['job_reference_number']}</td>
-                        <td>{$row['first_name']} {$row['last_name']}</td>
-                        <td>{$row['date_of_birth']}</td>
-                        <td>{$row['gender']}</td>
-                        <td>{$row['street_address']}</td>
-                        <td>{$row['suburb']}</td>
-                        <td>{$row['state']}</td>
-                        <td>{$row['postcode']}</td>
-                        <td>{$row['email_address']}</td>
-                        <td>{$row['phone_number']}</td>
-                        <td>{$row['skills']}</td>
-                        <td>{$row['other_skills']}</td>
+            while ($row = $result->fetch_assoc()) { ?>
+                    <tr>
+                        <td><?=$row['job_reference_number']?></td>
+                        <td><?=$row['first_name'].''. $row['last_name']?></td>
+                        <td><?=$row['date_of_birth']?></td>
+                        <td><?=$row['gender']?></td>
+                        <td><?=$row['street_address']?></td>
+                        <td><?=$row['suburb']?></td>
+                        <td><?=$row['state']?></td>
+                        <td><?=$row['postcode']?></td>
+                        <td><?=$row['email_address']?></td>
+                        <td><?=$row['phone_number']?></td>
+                        <td><?=$row['skills']?></td>
+                        <td><?=$row['other_skills']?></td>
                         <td>
-                            <form action='update_status.php' method='post'>
-                                <input type='hidden' name='id' value='{$row['id']}'>
+                            <form action='update_status.php' class="form-update" method='post'>
+                                <input type='hidden' name='id' value='<?= $row['id'] ?>'>
                                 <select name='status'>
-                                    <option value='New' " . ($row['status'] == 'New' ? 'selected' : '') . ">New</option>
-                                    <option value='Under Review' " . ($row['status'] == 'Under Review' ? 'selected' : '') . ">Under Review</option>
-                                    <option value='Finalized' " . ($row['status'] == 'Finalized' ? 'selected' : '') . ">Finalized</option>
-                                    <option value='Rejected' " . ($row['status'] == 'Rejected' ? 'selected' : '') . ">Rejected</option>
+                                    <option value='New'<?= $row['status'] == 'New' ? 'selected' : '' ?> >New</option>
+                                    <option value='Under Review' <?=  $row['status'] == 'Under Review' ? 'selected' : ''  ?> >Under Review</option>
+                                    <option value='Finalized' <?= $row['status'] == 'Finalized' ? 'selected' : '' ?> >Finalized</option>
+                                    <option value='Rejected' <?= $row['status'] == 'Rejected' ? 'selected' : '' ?> >Rejected</option>
                                 </select>
                                 <button type='submit'>Update</button>
                             </form>
                         </td>
                         <td>
-                            <form action='delete_eoi.php' method='post' onsubmit=\"return confirm('Are you sure you want to delete this EOI?');\">
-                                <input type='hidden' name='id' value='{$row['id']}'>
+                            <form action='delete_eoi.php' method='post' class="form-delete" onsubmit="return confirm('Are you sure you want to delete this EOI?');">
+                                <input type='hidden' name='id' value='<?= $row['id']?>' >
                                 <button type='submit'>Delete</button>
                             </form>
                         </td>
-                    </tr>";
+                    </tr>
+                    <?php
             }
         } else {
             echo "<tr><td colspan='14'>No applications found.</td></tr>";
         }
         ?>
     </table>
+
+
+    <script src="./script/script.js"></script>
+
 </body>
 </html>
 
