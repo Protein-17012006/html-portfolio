@@ -1,9 +1,7 @@
 <?php
-require_once "jobs_db_setting.php";
+require_once "setting.php";
 
 $conn = mysqli_connect($host, $username, $password, $database);
-
-
 
 if ($conn) {
     $query = "SELECT * FROM job_db";

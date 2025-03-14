@@ -1,6 +1,7 @@
 
 .manage-table {
     width: 95%;
+    margin-left: -10px;
     border-collapse: separate; /* Important for border-radius on cells */
     border-spacing: 0; /* Adjust if you want spacing between cells */
     position: absolute;

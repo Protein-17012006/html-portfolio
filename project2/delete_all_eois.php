@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
+header("Location: delete_all.html");
 
 $conn->close();
 ?>
-<a href="manage.php">Back to Manage Page</a>

@@ -3,9 +3,10 @@ session_start(); // Start session
 
 // Check if user is logged in
 if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
-    // Redirect to login page if not logged in
-    header("Location: login.php");
-    exit();
+    echo "<script>
+            alert('Please login your administrated account before accessing this page');
+            window.location.href = 'login.php';
+          </script>";
 }
 
 require_once 'setting.php';
@@ -83,6 +84,7 @@ $result = $conn->query($sql);
 
     <table class="manage-table">
         <tr>
+            <th>ID</th>
             <th>Job Reference</th>
             <th>Name</th>
             <th>Date of Birth</th>
@@ -102,6 +104,7 @@ $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) { ?>
                     <tr>
+                        <td><?=$row['id']?></td>
                         <td><?=$row['job_reference_number']?></td>
                         <td><?=$row['first_name'].''. $row['last_name']?></td>
                         <td><?=$row['date_of_birth']?></td>
@@ -119,9 +122,8 @@ $result = $conn->query($sql);
                                 <input type='hidden' name='id' value='<?= $row['id'] ?>'>
                                 <select name='status'>
                                     <option value='New'<?= $row['status'] == 'New' ? 'selected' : '' ?> >New</option>
-                                    <option value='Under Review' <?=  $row['status'] == 'Under Review' ? 'selected' : ''  ?> >Under Review</option>
-                                    <option value='Finalized' <?= $row['status'] == 'Finalized' ? 'selected' : '' ?> >Finalized</option>
-                                    <option value='Rejected' <?= $row['status'] == 'Rejected' ? 'selected' : '' ?> >Rejected</option>
+                                    <option value='Current' <?=  $row['status'] == 'Current' ? 'selected' : ''  ?> >Current</option>
+                                    <option value='Final' <?= $row['status'] == 'Final' ? 'selected' : '' ?> >Final</option>
                                 </select>
                                 <button type='submit'>Update</button>
                             </form>
@@ -141,7 +143,9 @@ $result = $conn->query($sql);
         ?>
     </table>
 
-
+    <div class="exit-sign" onclick="navigateTo('logout.php')">
+        <i class='bx bx-log-out link-icon'></i>
+    </div>
     <script src="./script/script.js"></script>
 
 </body>

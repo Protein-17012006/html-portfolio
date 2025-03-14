@@ -81,9 +81,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 '$suburb', '$state', '$postcode', '$email', '$phone', '$skills_string','$other_skills')";
 
         if ($conn->query($sql) === TRUE) {
-            echo "Application submitted successfully!"; 
-        } else {
-            echo "Error: " . $conn->error;
+            echo    "<script>
+                    alert('Application submitted successfully!');
+                    window.location.href = 'index.php';
+                    </script>";
+            } else {
+            echo    "<script>
+                    alert('Error: " . $conn->error . "');
+                    window.location.href = 'apply.php';
+                    </script>";
         }
     } else {
         echo "All required fields must be filled!";
