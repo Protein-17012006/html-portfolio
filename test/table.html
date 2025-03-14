@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style5.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-bar-16">
+        <form method="GET" class="searching-16">
+            <input type="text"  name="search" placeholder="Search by Job Reference or Name">
+            <button type="submit">Search</button>
+        </form>
+    
+        <form method="GET" class="firstname">
+            <input type="text" name="first_name" placeholder="Search by First Name">
+            <input type="text" name="last_name" placeholder="Search by Last Name">
+            <button type="submit" name="name_search_submit">Search by Name</button>
+        </form>
+    
+        <form method="POST" class="delete">
+            <input type="text" name="job_reference" placeholder="Enter Job Reference to Delete All">
+            <button type="submit" onclick="return confirm('Are you sure you want to delete all EOIs for this job reference?');">Delete All</button>
+        </form>
+    </div>
+
+    <table class="manage-table">
+        <tr>
+            <th class="center-text">Job Reference</th>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Gender</th>
+            <th>Address</th>
+            <th>Suburb</th>
+            <th>State</th>
+            <th>Postcode</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Skills</th>
+            <th>Other Skills</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+                    <tr>
+                        <td>Reference</td>
+                        <td>Name</td>
+                        <td>Date</td>
+                        <td>Gender</td>
+                        <td>Street</td>
+                        <td>Suburb</td>
+                        <td>State</td>
+                        <td>Postcode</td>
+                        <td>Email</td>
+                        <td>Phone Number</td>
+                        <td>Skills</td>
+                        <td>Other Skills</td>
+                        <td>
+                            <form action='update_status.php' class="form-update" method='post'>
+                                <input type='hidden' name='id' value='<?= $row['id'] ?>
+                                <select name='status'>
+                                    <option value='New'>New</option>
+                                    <option value='Under Review'> >Under Review</option>
+                                    <option value='Finalized'> >Finalized</option>
+                                    <option value='Rejected'> >Rejected</option>
+                                </select>
+                                <button type='submit'>Update</button>
+                            </form>
+                        </td>
+                        <td>
+                            <form action='delete_eoi.php' method='post' class="form-delete">
+                                <input type='hidden' name='id'>
+                                <button type='submit'>Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                
+    </table>
+</body>
+</html>

@@ -62,7 +62,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (isset($_POST["communication"]))
             $skills[] = "communication";
 
-        // Format as "A, B, C and D"
         if (count($skills) > 1) {
             $last_skill = array_pop($skills);
             $skills_string = implode(", ", $skills) . " and " . $last_skill;
