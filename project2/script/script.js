@@ -79,6 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 50);
 });
 
+
 window.addEventListener("load", function () {
     document.querySelector(".login-box").classList.add("show");
     document.querySelector("form").classList.add("show");

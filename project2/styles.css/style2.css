@@ -194,6 +194,10 @@ h1 {
     font-size: 16px;
 }
 
+.refselect{
+    width: 250px !important;
+  }
+
 /* Container for label and select */
 .state-row {
     display: flex;            /* Lay out label and select side by side */
@@ -220,7 +224,6 @@ h1 {
     outline: none;
   }
   
-
 
 
 textarea {

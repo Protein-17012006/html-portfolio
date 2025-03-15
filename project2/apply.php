@@ -24,10 +24,31 @@
       <form action="process_eoi.php" method="POST">
         <h1>Application Form</h1>
 
-        <div class="input-box">
-          <input type="name" maxlength="5" required id="jobnumber" name="jobnumber">
-          <label for="jobnumber">Job reference number</label>
+        <div class="state-row">
+          <label for="jobnumber" class="state-label" id="stateLabel">Job reference number</label>
+          <select name="jobnumber" id="jobnumber" class="refselect" requireREFd>
+            <option value="" disabled selected>Choose Job reference number</option>
+            <option value="BUS56">BUS56</option>
+            <option value="ABC56">ABC56</option>
+            <option value="MDA56">MDA56</option>
+            <option value="BUS57">BUS57</option>
+            <option value="ABC57">ABC57</option>
+            <option value="MDA57">MDA57</option>
+            <option value="BUS58">BUS58</option>
+            <option value="ABC58">ABC58</option>
+            <option value="MDA58">MDA58</option>
+            <option value="BUS59">BUS59</option>
+            <option value="ABC59">ABC59</option>
+            <option value="MDA59">MDA59</option>
+            <option value="BUS60">BUS60</option>
+            <option value="ABC60">ABC60</option>
+            <option value="MDA60">MDA60</option>
+            <option value="BUS61">BUS61</option>
+            <option value="ABC61">ABC61</option>
+            <option value="MDA61">MDA61</option>
+          </select>
         </div>
+
         <div class="input-box">
           <input type="text" pattern="[A-Za-zÀ-ỹ\s]+" maxlength="20" required id="firstname" name="firstname">
           <label for="firstname">First name</label>
