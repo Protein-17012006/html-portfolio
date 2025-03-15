@@ -76,7 +76,7 @@ $result = $conn->query($sql);
     </form>
 
     <form method="POST" class="delete" action="delete_all_eois.php">
-        <input type="text" name="job_reference" placeholder="Enter Job Reference to Delete All">
+        <input type="text" name="job_reference_number" placeholder="Enter Job Reference to Delete All">
         <button type="submit" onclick="return confirm('Are you sure you want to delete all EOIs for this job reference?');">Delete All</button>
     </form>
 </div>
