@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Insert into database
         $sql = "INSERT INTO EOI (job_reference_number, first_name, last_name, date_of_birth, gender, 
-                street_address, suburb, state, postcode, email_address, phone_number, skills,other_skills) 
+                street_address, suburb, state, postcode, email_address, phone_number, skills, other_skils)
                 VALUES ('$jobnumber', '$firstname', '$lastname', '$date_of_birth', '$gender', '$street_address', 
                 '$suburb', '$state', '$postcode', '$email', '$phone', '$skills_string','$other_skills')";
 

@@ -61,7 +61,6 @@ $result = $conn->query($sql);
 <?php
   include_once("header.inc");
 ?>
-    <h1 class="submit-form-16">Submitted Applications</h1>
 
 <div class="top-bar-16">
     <form method="GET" class="searching-16">
@@ -120,9 +119,9 @@ $result = $conn->query($sql);
                         <td>
                             <form action='update_status.php' class="form-update" method='post'>
                                 <input type='hidden' name='id' value='<?= $row['id'] ?>'>
-                                <select name='status'>
-                                    <option value='New'<?= $row['status'] == 'New' ? 'selected' : '' ?> >New</option>
-                                    <option value='Current' <?=  $row['status'] == 'Current' ? 'selected' : ''  ?> >Current</option>
+                                <select name='status'> 
+                                    <option value='New' <?= $row['status'] == 'New' ? 'selected' : '' ?>>New</option>
+                                    <option value='Current' <?= $row['status'] == 'Current' ? 'selected' : '' ?> >Current</option>
                                     <option value='Final' <?= $row['status'] == 'Final' ? 'selected' : '' ?> >Final</option>
                                 </select>
                                 <button type='submit'>Update</button>

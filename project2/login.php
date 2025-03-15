@@ -71,7 +71,7 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="./styles.css/styles.css">
+
     <link rel="stylesheet" href="./styles.css/style5.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,19 +82,23 @@ $conn->close();
 <?php
   include_once("header.inc");
 ?>
-<div class="middle">
-<div class="login-container">
-    <h2>Login</h2>
-    <form method="POST">
-        <label>Username:</label>
-        <input type="text" name="username" required>
-        <label>Password:</label>
-        <input type="password" name="password" required>
-        <button type="submit" <?php if (time() < $_SESSION['lockout_time']) echo "disabled"; ?>>Login</button>
-    </form>
-    <?php if ($error) echo "<p style='color:red;'>$error</p>"; ?>
-</div>
-</div>
+
+
+    <div class="login-container">
+        <form method="POST">
+            <h2>Login</h2>
+            <div class="input-group">
+                <input type="text" name="username" required>
+                <label>Username</label>
+            </div>
+            <div class="input-group">
+                <input type="password" name="password" required>
+                <label>Password</label>
+            </div>
+            <button class="button-login" type="submit" <?php if (time() < $_SESSION['lockout_time']) echo "disabled"; ?>>Login</button>
+        </form>
+        <?php if ($error) echo "<p style='color:red;'>$error</p>"; ?>
+    </div>
     <script src="./script/script.js"></script>
 </body>
 </html>
