@@ -3,190 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education Carousel</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style5.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
         body {
-            background: #111;
-            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url(./images/background4.png) no-repeat center center fixed;
+            background-size: cover;
+        }
+        .login-container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
             text-align: center;
+            width: 300px;
         }
-
-        .hero-section {
-            padding: 50px 20px;
+        .login-container h2 {
+            color: #66fcf1;
         }
-
-        .hero-section h2 {
-            font-size: 36px;
-            font-weight: bold;
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
         }
-
-        .hero-section p {
-            margin-top: 10px;
-            font-size: 16px;
-            color: #bbb;
-        }
-
-        .hero-section .join-btn {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 16px;
-            background: #b71c1c;
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #45a29e;
             color: white;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            transition: 0.3s;
         }
-
-        .hero-section .join-btn:hover {
-            background: #d32f2f;
+        .login-container button:hover {
+            background-color: #66fcf1;
+            color: black;
         }
-
-        .carousel-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            max-width: 1000px;
-            margin: 20px auto;
-            position: relative;
-            overflow: hidden;
-            padding-bottom: 20px;
-        }
-
-        .carousel-wrapper {
-            overflow: hidden;
-            width: 960px; /* 3 cards * (300px + 20px margin) */
-        }
-
-        .carousel {
-            display: flex;
-            transition: transform 0.5s ease-in-out;
-        }
-
-        .card {
-            width: 300px;
-            height: 200px;
-            background: #b71c1c;
-            color: white;
-            border-radius: 12px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            margin: 0 10px;
-            flex-shrink: 0;
-        }
-
-        .card h3 {
-            margin-top: 10px;
-        }
-
-        .arrow {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background: white;
-            color: #b71c1c;
-            border: none;
-            font-size: 20px;
-            padding: 10px;
-            cursor: pointer;
-            border-radius: 50%;
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-            transition: 0.3s;
-        }
-
-        .arrow-left {
-            left: 10px;
-        }
-
-        .arrow-right {
-            right: 10px;
-        }
-
-        .arrow:hover {
-            background: #b71c1c;
-            color: white;
-        }
-
-        .arrow:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
     </style>
 </head>
 <body>
-
-<!-- Hero Section -->
-<div class="hero-section">
-    <h4>HELLO STUDENTS</h4>
-    <h2>WELCOME TO EDUCATION</h2>
-    <p>
-        This is an edu meeting HTML CSS template provided by TemplateMo website. 
-        This is a Bootstrap v5.1.3 layout. The video background is taken from 
-        Pexels website, a group of young people by Pressmaster.
-    </p>
-    <button class="join-btn">JOIN US NOW!</button>
-</div>
-
-<!-- Carousel Section -->
-<div class="carousel-container">
-    <button class="arrow arrow-left" onclick="moveSlide(-1)" disabled>&#9665;</button>
-    <div class="carousel-wrapper">
-        <div class="carousel">
-            <div class="card"><h3>Best Education</h3><p>Description here</p></div>
-            <div class="card"><h3>Best Teachers</h3><p>Description here</p></div>
-            <div class="card"><h3>Best Students</h3><p>Description here</p></div>
-            <div class="card"><h3>Best Courses</h3><p>Description here</p></div>
-            <div class="card"><h3>Best Facilities</h3><p>Description here</p></div>
-            <div class="card"><h3>Best Community</h3><p>Description here</p></div>
-        </div>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login.php" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
     </div>
-    <button class="arrow arrow-right" onclick="moveSlide(1)">&#9655;</button>
-</div>
-
-<script>
-    let currentIndex = 0;
-    const carousel = document.querySelector(".carousel");
-    const cards = document.querySelectorAll(".card");
-    const totalCards = cards.length;
-    const visibleCards = 3;
-    const cardWidth = 320; // 300px width + 10px margin each side
-    const leftArrow = document.querySelector(".arrow-left");
-    const rightArrow = document.querySelector(".arrow-right");
-
-    function updateButtons() {
-        leftArrow.disabled = currentIndex === 0;
-        rightArrow.disabled = currentIndex >= totalCards - visibleCards;
-    }
-
-    function moveSlide(direction) {
-        currentIndex += direction;
-
-        // Prevent out-of-bounds movement
-        if (currentIndex < 0) {
-            currentIndex = 0;
-        } else if (currentIndex > totalCards - visibleCards) {
-            currentIndex = totalCards - visibleCards;
-        }
-
-        const newTransformValue = -currentIndex * cardWidth + "px";
-        carousel.style.transform = `translateX(${newTransformValue})`;
-
-        updateButtons();
-    }
-
-    updateButtons();
-</script>
-
 </body>
 </html>
