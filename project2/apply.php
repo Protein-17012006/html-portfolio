@@ -21,7 +21,7 @@
   ?>
   <div class="form-middle">
     <div class="login-box">
-      <form action="process_eoi.php" method="post">
+      <form action="process_eoi.php" method="POST">
         <h1>Application Form</h1>
 
         <div class="input-box">

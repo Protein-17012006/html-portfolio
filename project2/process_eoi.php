@@ -1,9 +1,9 @@
 <?php
 
-
 require_once 'setting.php';
 
 $conn = mysqli_connect($host, $username, $password, $database);
+
 
 // Check if form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -76,9 +76,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Insert into database
         $sql = "INSERT INTO EOI (job_reference_number, first_name, last_name, date_of_birth, gender, 
-                street_address, suburb, state, postcode, email_address, phone_number, skills, other_skils)
+                street_address, suburb, state, postcode, email_address, phone_number, skills, other_skills)
                 VALUES ('$jobnumber', '$firstname', '$lastname', '$date_of_birth', '$gender', '$street_address', 
                 '$suburb', '$state', '$postcode', '$email', '$phone', '$skills_string','$other_skills')";
+
+
 
         if ($conn->query($sql) === TRUE) {
             echo    "<script>
