@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
-header("Location: delete_all.html");
-
 $conn->close();
+header("Location: delete_all.html");
+exit();
 ?>
