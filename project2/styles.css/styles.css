@@ -1337,6 +1337,14 @@ footer {
   height: 20px;
 }
 
+.enhancement-footer{
+  position: absolute;
+  width: 97%;
+  left: -5%;
+  top: 1050px;
+  height: 20px;
+}
+
 .everyjob-footer footer{
   position: absolute;
   width: 110%;

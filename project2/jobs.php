@@ -47,7 +47,7 @@
     <div class="navicon-1">
       <div></div>
     </div>
-    <a href="tips.html">General Information</a>
+    <a href="https://jobsblog.danaher.com/blog/how-to-make-application-stand-out/">General Information</a>
     <a href="">1. Include a Cover Letter</a>
     <a href="">2. Keep Your Resume Concise & Clear</a>
     <a href="">3. Highlight What Makes You Unique</a>

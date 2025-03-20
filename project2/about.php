@@ -44,8 +44,14 @@ include_once("header.inc");
       <div class="card-content">
         <p class="offer">Leader</p>
         <h2>Binh Phuong Vu</h2>
-        <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
-        <p class="description">Contribution: make the format for the website: homepage, about, enhancements, jobs page, tips, add CSS features, navigate hyperlinks on pages, search engine in homepage</p>
+        <p class="description"><strong>Contribution (project 1):</strong> make the format for the website: homepage,
+          about, enhancements, jobs page, tips, add CSS features, navigate hyperlinks on pages, search engine in
+          homepage.</p>
+        <br>
+        <p class="description"><strong>Contribution (project 2):</strong> remake all of styles of the website, turn
+          pages to php, connect to database with EOI table, create manage table with listing functions, create login
+          system.</p>
+
         <a href="mailto:105710430@student.swin.edu.au"><button class="btn">Contact</button></a>
       </div>
     </div>
@@ -54,8 +60,10 @@ include_once("header.inc");
       <div class="card-content">
         <p class="offer">Member</p>
         <h2>Nguyen Huy Hoang Nguyen</h2>
-        <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
-        <p class="description">Contribution: Edit structure for form and feedback form, check for css style.</p>
+        <p class="description"><strong>Contribution (project 1):</strong> Edit structure for form and feedback form,
+          check for css style.</p>
+        <p class="description"><strong>Contribution (project 2):</strong> Format the list of job, list them from table
+          to webpage, making style for login page, fix error related to php, initiate the connection to database.</p>
         <a href="mailto:105727702@student.swin.edu.au"><button class="btn">Contact</button></a>
       </div>
     </div>
@@ -64,8 +72,9 @@ include_once("header.inc");
       <div class="card-content">
         <p class="offer">Member</p>
         <h2>Hai Dang Nguyen</h2>
-        <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
-        <p class="description">Contribution: Find information for each jobs, take note for css, search data for extending occupations, check for html format, css style and structure.</p>
+        <p class="description"><strong>Contribution (project 1):</strong> Find information for each jobs, take note for css, search data for
+          extending occupations, check for html format, css style and structure.</p>
+        <p class="description"><strong>Contribution (project 2):</strong>Fill in required information of jobs, find info for jobs, design css for login page.</p>
         <a href="mailto:105680423@student.swin.edu.au"><button class="btn">Contact</button></a>
       </div>
     </div>
@@ -74,15 +83,16 @@ include_once("header.inc");
       <div class="card-content">
         <p class="offer">Member</p>
         <h2>Xuan Ny Le</h2>
-        <p class="details">Nothingness &nbsp; Tristan Nguyen</p>
-        <p class="description">Contribution: Find information for each jobs, take note for css, search data for extending occupations, check for html format, css style and structure.</p>
+        <p class="description"><strong>Contribution (project 1):</strong> Find information for each jobs, take note for css, search data for
+          extending occupations, check for html format, css style and structure.</p>
+        <p class="description"><strong>Contribution (project 2):</strong>Fill in required information of jobs, find info for jobs, make slides of presentation.</p>
         <a href="mailto:105680151@student.swin.edu.au"><button class="btn">Contact</button></a>
       </div>
     </div>
 
 
   </div>
-  
+
 
 
   <div class="about-footer">
