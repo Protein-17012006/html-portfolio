@@ -42,7 +42,8 @@
 
 
     <div class="frame-container" id="frame-container">
-    <button id="showMoreOptions" class="frame-button" onclick="navigateTo('list_job.php')">Show More Options</button>
+    <button id="showMoreOptions" class="frame-button" onclick="navigateTo('list_job.php')">Show as List</button>
+    <button id="showMoreOptions" class="frame-button" onclick="navigateTo('all.php')">Show as Tab</button>
       <div class="frame-wrap active">
         <div class="frame">
           <img src="job_description/CS/cs.img/cs1.jpg" alt="Switzerland" class="frame-image">

@@ -32,6 +32,8 @@ if ($conn) {
 
 
     <div class="frame-container-14">
+    <button id="showMoreOptions" class="frame-button" onclick="navigateTo('list_job.php')">Show as List</button>
+    <button id="showMoreOptions" class="frame-button" onclick="navigateTo('all.php')">Show as Tab</button>
       
       <div class="frame-wrap active">
     <?php
