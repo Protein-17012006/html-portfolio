@@ -2,6 +2,7 @@
 session_start(); // Start session
 
 // Check if user is logged in
+
 if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
     echo "<script>
             alert('Please login your administrated account before accessing this page');
